@@ -4,17 +4,11 @@ source "https://rubygems.org"
 # Jekyll version
 gem "jekyll", "~> 4.3.3"
 
-# Default theme
-gem "jekyll-theme-primer", "~> 0.6.0"
-
-# Essential plugins
+# Essential plugins only
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
   gem "jekyll-sitemap"
   gem "jekyll-seo-tag"
-  gem "jekyll-responsive-image"
-  gem "jekyll-minifier"
-  gem "jekyll-compress-images"
 end
 
 # Windows and JRuby does not include zoneinfo files

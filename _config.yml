@@ -29,7 +29,6 @@ plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-responsive-image
 
 # Social Media
 github_username: TheBlackRobotsFoundation
@@ -40,25 +39,17 @@ navigation:
   - title: "Inicio"
     url: "/"
   - title: "Proyectos"
-    url: "/projects/"
-  - title: "Contribuir"
-    url: "/contribute/"
-  - title: "Comunidad"
-    url: "/community/"
-  - title: "Foro"
-    url: "/forum/"
+    url: "#projects"
 
 # Featured Projects
 featured_projects:
   - drone
   - plotter
 
-# Theme Configuration
-theme:
-  primary_color: "#00E5FF"
-  secondary_color: "#0A0A0A"
-  accent_color: "#00FF88"
-  dark_mode: true
+# Theme Colors (for SCSS variables)
+primary_color: "#00E5FF"
+secondary_color: "#0A0A0A"
+accent_color: "#00FF88"
 
 # Exclude from processing
 exclude:

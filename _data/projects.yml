@@ -1,71 +1,17 @@
-# BlackRobots Foundation - Projects Data
-# Define all projects and their information
+# BlackRobots Foundation - Mis Proyectos
 
 drone:
   title: "Drone Project"
   slug: "drone"
-  description: "Desarrollo de drone autónomo open source con capacidades de navegación avanzada y visión artificial."
-  status: "En desarrollo"
-  icon: "fas fa-drone"
-  technologies:
-    - "ROS 2"
-    - "Python"
-    - "OpenCV"
-    - "ArduPilot"
-    - "Gazebo"
-  repository: "https://github.com/TheBlackRobotsFoundation/drone-project"
-  documentation: "/docs/drone/"
+  description: "Coming Soon"
+  status: "Coming Soon"
+  icon: "🚁"
   featured: true
-  progress: 60
-  contributors: 5
-  stars: 23
-  last_update: "2024-10-07"
   
 plotter:
   title: "CNC Plotter"
   slug: "plotter"
-  description: "Plotter CNC de bajo costo para dibujo y grabado con firmware personalizado y interfaz web."
-  status: "Beta"
-  icon: "fas fa-draw-polygon"
-  technologies:
-    - "Arduino"
-    - "G-code"
-    - "Vue.js"
-    - "WebSocket"
-    - "3D Printing"
-  repository: "https://github.com/TheBlackRobotsFoundation/cnc-plotter"
-  documentation: "/docs/plotter/"
+  description: "Coming Soon"
+  status: "Coming Soon"
+  icon: "✏️"
   featured: true
-  progress: 85
-  contributors: 3
-  stars: 41
-  last_update: "2024-10-05"
-
-# Future projects (not yet active)
-robot_arm:
-  title: "Robot Arm"
-  slug: "robot-arm"
-  description: "Brazo robótico de 6 DOF para aplicaciones industriales y educativas."
-  status: "Planificado"
-  icon: "fas fa-robot"
-  technologies:
-    - "ROS 2"
-    - "MoveIt"
-    - "Gazebo"
-    - "Python"
-  featured: false
-  progress: 5
-
-autonomous_car:
-  title: "Autonomous Car"
-  slug: "autonomous-car"
-  description: "Vehículo autónomo a escala con SLAM y navegación autónoma."
-  status: "Investigación"
-  icon: "fas fa-car"
-  technologies:
-    - "ROS 2"
-    - "LIDAR"
-    - "Raspberry Pi"
-    - "OpenCV"
-  featured: false
-  progress: 15
