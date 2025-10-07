@@ -3,34 +3,390 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BlackRobots</title>
+  <title>The Black Robots Foundation - Innovación Robótica Open Source</title>
+  <meta name="description" content="Líder en desarrollo de tecnología robótica open source. Aprende, crea y comparte proyectos de robótica, electrónica, IA y automatización.">
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <header>
-    <h1>The Black Robots Foundation</h1>
-    <p>Aprende, crea y comparte tecnología open source</p>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-brand">
+        <div class="brand-icon">
+          <i class="fas fa-robot"></i>
+        </div>
+        <span class="brand-text">Black Robots</span>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#inicio" class="nav-link">Inicio</a>
+        <a href="#proyectos" class="nav-link">Proyectos</a>
+        <a href="#tutoriales" class="nav-link">Tutoriales</a>
+        <a href="#comunidad" class="nav-link">Comunidad</a>
+        <a href="#contacto" class="nav-link">Contacto</a>
+        <a href="https://github.com/theblackrobotsfoundation" class="nav-link cta-button" target="_blank">
+          <i class="fab fa-github"></i> GitHub
+        </a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
 
-  <main>
-    <section>
-      <h2>Proyectos</h2>
-      <ul>
-        <li><a href="https://github.com/theblackrobotsfoundation/robotica">Robótica</a></li>
-        <li><a href="https://github.com/theblackrobotsfoundation/electronica">Electrónica</a></li>
-        <li><a href="https://github.com/theblackrobotsfoundation/IA">IA</a></li>
-        <li><a href="https://github.com/theblackrobotsfoundation/automatizacion">Automatización</a></li>
-      </ul>
-    </section>
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-background">
+      <div class="grid-pattern"></div>
+      <div class="floating-elements">
+        <div class="floating-element" style="--delay: 0s; --duration: 20s;"></div>
+        <div class="floating-element" style="--delay: -10s; --duration: 15s;"></div>
+        <div class="floating-element" style="--delay: -5s; --duration: 25s;"></div>
+      </div>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge">
+        <i class="fas fa-star"></i>
+        <span>Open Source Innovation</span>
+      </div>
+      <h1 class="hero-title">
+        <span class="gradient-text">The Black Robots</span><br>
+        Foundation
+      </h1>
+      <p class="hero-subtitle">
+        Revolucionando el futuro con tecnología robótica open source.<br>
+        Aprende, crea y comparte proyectos que transforman el mundo.
+      </p>
+      <div class="hero-buttons">
+        <a href="#proyectos" class="btn btn-primary">
+          <i class="fas fa-rocket"></i>
+          Explorar Proyectos
+        </a>
+        <a href="#tutoriales" class="btn btn-secondary">
+          <i class="fas fa-play"></i>
+          Ver Tutoriales
+        </a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">Proyectos</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">1K+</div>
+          <div class="stat-label">Desarrolladores</div>
+        </div>
+        <div class="stat">
+          <div class="stat-number">24/7</div>
+          <div class="stat-label">Soporte</div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section>
-      <h2>Tutoriales</h2>
-      <p>Aprende paso a paso a crear tus propios proyectos.</p>
-    </section>
-  </main>
+  <!-- Projects Section -->
+  <section id="proyectos" class="projects">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Nuestros Proyectos</h2>
+        <p class="section-subtitle">Explora nuestra colección de proyectos open source que están definiendo el futuro de la robótica</p>
+      </div>
+      
+      <div class="projects-grid">
+        <div class="project-card" data-category="robotica">
+          <div class="card-header">
+            <div class="card-icon robotica">
+              <i class="fas fa-robot"></i>
+            </div>
+            <div class="card-badge">Popular</div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Robótica</h3>
+            <p class="card-description">Sistemas robóticos avanzados, desde brazos mecánicos hasta robots autónomos completos.</p>
+            <div class="card-stats">
+              <span><i class="fas fa-star"></i> 4.9</span>
+              <span><i class="fas fa-download"></i> 2.5k</span>
+              <span><i class="fas fa-code-branch"></i> 156</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/theblackrobotsfoundation/robotica" class="card-link" target="_blank">
+              <i class="fab fa-github"></i>
+              Ver Repositorio
+            </a>
+          </div>
+        </div>
 
-  <footer>
-    <p>&copy; 2025 The Black Robots Foundation</p>
+        <div class="project-card" data-category="electronica">
+          <div class="card-header">
+            <div class="card-icon electronica">
+              <i class="fas fa-microchip"></i>
+            </div>
+            <div class="card-badge">Nuevo</div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Electrónica</h3>
+            <p class="card-description">Circuitos, PCBs y sistemas electrónicos para proyectos de robótica y automatización.</p>
+            <div class="card-stats">
+              <span><i class="fas fa-star"></i> 4.7</span>
+              <span><i class="fas fa-download"></i> 1.8k</span>
+              <span><i class="fas fa-code-branch"></i> 89</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/theblackrobotsfoundation/electronica" class="card-link" target="_blank">
+              <i class="fab fa-github"></i>
+              Ver Repositorio
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="ia">
+          <div class="card-header">
+            <div class="card-icon ia">
+              <i class="fas fa-brain"></i>
+            </div>
+            <div class="card-badge">Trending</div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Inteligencia Artificial</h3>
+            <p class="card-description">Algoritmos de ML, visión por computadora y sistemas inteligentes para robots.</p>
+            <div class="card-stats">
+              <span><i class="fas fa-star"></i> 4.8</span>
+              <span><i class="fas fa-download"></i> 3.2k</span>
+              <span><i class="fas fa-code-branch"></i> 203</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/theblackrobotsfoundation/IA" class="card-link" target="_blank">
+              <i class="fab fa-github"></i>
+              Ver Repositorio
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-category="automatizacion">
+          <div class="card-header">
+            <div class="card-icon automatizacion">
+              <i class="fas fa-cogs"></i>
+            </div>
+            <div class="card-badge">Estable</div>
+          </div>
+          <div class="card-content">
+            <h3 class="card-title">Automatización</h3>
+            <p class="card-description">Sistemas de control, IoT y soluciones de automatización industrial y doméstica.</p>
+            <div class="card-stats">
+              <span><i class="fas fa-star"></i> 4.6</span>
+              <span><i class="fas fa-download"></i> 1.5k</span>
+              <span><i class="fas fa-code-branch"></i> 72</span>
+            </div>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/theblackrobotsfoundation/automatizacion" class="card-link" target="_blank">
+              <i class="fab fa-github"></i>
+              Ver Repositorio
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tutorials Section -->
+  <section id="tutoriales" class="tutorials">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Tutoriales Premium</h2>
+        <p class="section-subtitle">Aprende paso a paso con nuestros tutoriales detallados y ejemplos prácticos</p>
+      </div>
+      
+      <div class="tutorials-content">
+        <div class="tutorials-left">
+          <div class="tutorial-item active" data-tutorial="beginner">
+            <div class="tutorial-icon">
+              <i class="fas fa-play-circle"></i>
+            </div>
+            <div class="tutorial-info">
+              <h3>Principiantes</h3>
+              <p>Fundamentos de robótica</p>
+              <span class="tutorial-duration">2-4 horas</span>
+            </div>
+          </div>
+          
+          <div class="tutorial-item" data-tutorial="intermediate">
+            <div class="tutorial-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <div class="tutorial-info">
+              <h3>Intermedio</h3>
+              <p>Programación y control</p>
+              <span class="tutorial-duration">6-8 horas</span>
+            </div>
+          </div>
+          
+          <div class="tutorial-item" data-tutorial="advanced">
+            <div class="tutorial-icon">
+              <i class="fas fa-rocket"></i>
+            </div>
+            <div class="tutorial-info">
+              <h3>Avanzado</h3>
+              <p>IA y sistemas complejos</p>
+              <span class="tutorial-duration">12+ horas</span>
+            </div>
+          </div>
+        </div>
+        
+        <div class="tutorials-right">
+          <div class="tutorial-content active" id="beginner">
+            <h3>Curso para Principiantes</h3>
+            <p>¡Perfecto para empezar tu viaje en la robótica! Aprende los conceptos básicos, componentes esenciales y crea tu primer robot.</p>
+            <ul class="tutorial-features">
+              <li><i class="fas fa-check"></i> Introducción a la robótica</li>
+              <li><i class="fas fa-check"></i> Componentes básicos</li>
+              <li><i class="fas fa-check"></i> Tu primer proyecto</li>
+              <li><i class="fas fa-check"></i> Certificado de completación</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Comenzar Ahora</a>
+          </div>
+          
+          <div class="tutorial-content" id="intermediate">
+            <h3>Programación y Control</h3>
+            <p>Domina la programación de robots, sensores avanzados y sistemas de control para proyectos más sofisticados.</p>
+            <ul class="tutorial-features">
+              <li><i class="fas fa-check"></i> Arduino y Raspberry Pi</li>
+              <li><i class="fas fa-check"></i> Sensores y actuadores</li>
+              <li><i class="fas fa-check"></i> Comunicación inalámbrica</li>
+              <li><i class="fas fa-check"></i> Proyectos prácticos</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Explorar Curso</a>
+          </div>
+          
+          <div class="tutorial-content" id="advanced">
+            <h3>IA y Sistemas Complejos</h3>
+            <p>Implementa inteligencia artificial, visión por computadora y sistemas robóticos autónomos de nivel profesional.</p>
+            <ul class="tutorial-features">
+              <li><i class="fas fa-check"></i> Machine Learning</li>
+              <li><i class="fas fa-check"></i> Computer Vision</li>
+              <li><i class="fas fa-check"></i> Navegación autónoma</li>
+              <li><i class="fas fa-check"></i> Proyectos comerciales</li>
+            </ul>
+            <a href="#" class="btn btn-primary">Nivel Experto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Community Section -->
+  <section id="comunidad" class="community">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Únete a Nuestra Comunidad</h2>
+        <p class="section-subtitle">Conecta con desarrolladores, makers y entusiastas de la robótica de todo el mundo</p>
+      </div>
+      
+      <div class="community-grid">
+        <div class="community-card">
+          <div class="community-icon">
+            <i class="fab fa-discord"></i>
+          </div>
+          <h3>Discord</h3>
+          <p>Chat en tiempo real, ayuda técnica y networking con la comunidad</p>
+          <a href="#" class="community-link">Únete al Discord</a>
+        </div>
+        
+        <div class="community-card">
+          <div class="community-icon">
+            <i class="fab fa-youtube"></i>
+          </div>
+          <h3>YouTube</h3>
+          <p>Tutoriales en video, demostraciones y live streams de proyectos</p>
+          <a href="#" class="community-link">Ver Canal</a>
+        </div>
+        
+        <div class="community-card">
+          <div class="community-icon">
+            <i class="fab fa-reddit"></i>
+          </div>
+          <h3>Reddit</h3>
+          <p>Discusiones, Q&A y showcase de proyectos de la comunidad</p>
+          <a href="#" class="community-link">Visitar Subreddit</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contacto" class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-section">
+          <div class="footer-brand">
+            <div class="brand-icon">
+              <i class="fas fa-robot"></i>
+            </div>
+            <span class="brand-text">Black Robots Foundation</span>
+          </div>
+          <p class="footer-description">
+            Impulsando la innovación robótica a través del desarrollo open source y la educación colaborativa.
+          </p>
+          <div class="social-links">
+            <a href="https://github.com/theblackrobotsfoundation" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Proyectos</h4>
+          <ul class="footer-links">
+            <li><a href="https://github.com/theblackrobotsfoundation/robotica">Robótica</a></li>
+            <li><a href="https://github.com/theblackrobotsfoundation/electronica">Electrónica</a></li>
+            <li><a href="https://github.com/theblackrobotsfoundation/IA">Inteligencia Artificial</a></li>
+            <li><a href="https://github.com/theblackrobotsfoundation/automatizacion">Automatización</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Recursos</h4>
+          <ul class="footer-links">
+            <li><a href="#">Documentación</a></li>
+            <li><a href="#">API Reference</a></li>
+            <li><a href="#">Tutoriales</a></li>
+            <li><a href="#">Ejemplos</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer-section">
+          <h4>Comunidad</h4>
+          <ul class="footer-links">
+            <li><a href="#">Discord</a></li>
+            <li><a href="#">Contribuir</a></li>
+            <li><a href="#">Código de Conducta</a></li>
+            <li><a href="#">Soporte</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <div class="footer-copyright">
+          <p>&copy; 2025 The Black Robots Foundation. Licencia MIT.</p>
+        </div>
+        <div class="footer-legal">
+          <a href="#">Privacidad</a>
+          <a href="#">Términos</a>
+          <a href="#">Cookies</a>
+        </div>
+      </div>
+    </div>
   </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
