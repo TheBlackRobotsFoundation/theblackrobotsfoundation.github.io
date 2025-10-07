@@ -1,0 +1,231 @@
+// BLACKROBOTS FOUNDATION - LAYOUT
+// Main layout components
+
+// Layout Container
+.layout {
+  display: flex;
+  min-height: 100vh;
+  padding-top: $header-height;
+}
+
+// Header
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: $header-height;
+  background: rgba(10, 10, 10, 0.95);
+  backdrop-filter: blur(20px);
+  border-bottom: $border-width solid $border-color;
+  z-index: $z-fixed;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $space-lg;
+}
+
+// Brand
+.brand {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  text-decoration: none;
+  color: $text-primary;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xl;
+  transition: $transition;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.brand-icon {
+  width: 28px;
+  height: 28px;
+  background: $accent;
+  border-radius: $radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $bg-primary;
+  font-size: $font-size-sm;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.1;
+}
+
+.brand-name {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+}
+
+.brand-tagline {
+  font-size: $font-size-xs;
+  color: $text-secondary;
+  font-weight: $font-weight-normal;
+}
+
+// Navigation
+.main-nav {
+  display: flex;
+  align-items: center;
+  gap: $space-xl;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  padding: $space-sm $space-md;
+  border-radius: $radius;
+  text-decoration: none;
+  color: $text-secondary;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-sm;
+  transition: $transition;
+  border: $border-width solid transparent;
+
+  &:hover {
+    color: $accent;
+    background: rgba(0, 229, 255, 0.1);
+    border-color: rgba(0, 229, 255, 0.2);
+  }
+
+  &.github-link {
+    background: $accent;
+    color: $bg-primary;
+    font-weight: $font-weight-semibold;
+
+    &:hover {
+      background: $accent-dark;
+      color: $bg-primary;
+    }
+  }
+}
+
+// Mobile Toggle
+.mobile-toggle {
+  display: none;
+  flex-direction: column;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: $space-sm;
+  border-radius: $radius;
+  transition: $transition;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+  }
+
+  span {
+    width: 18px;
+    height: 2px;
+    background: $text-primary;
+    margin: 2px 0;
+    transition: $transition;
+    border-radius: $radius-full;
+  }
+}
+
+// Sidebar
+.sidebar {
+  width: $sidebar-width;
+  background: $bg-secondary;
+  border-right: $border-width solid $border-color;
+  height: calc(100vh - #{$header-height});
+  position: sticky;
+  top: $header-height;
+  overflow-y: auto;
+  z-index: $z-sticky;
+}
+
+.sidebar-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: $space-lg;
+  border-bottom: $border-width solid $border-color;
+}
+
+.sidebar-header h3 {
+  font-size: $font-size-sm;
+  font-weight: $font-weight-semibold;
+  color: $text-primary;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0;
+}
+
+.sidebar-toggle {
+  display: none;
+  background: none;
+  border: none;
+  color: $text-secondary;
+  cursor: pointer;
+  padding: $space-sm;
+  border-radius: $radius;
+  transition: $transition;
+
+  &:hover {
+    color: $text-primary;
+    background: rgba(255, 255, 255, 0.05);
+  }
+}
+
+.sidebar-nav {
+  padding: $space-lg;
+}
+
+// Main Content
+.main-content {
+  flex: 1;
+  background: $bg-primary;
+  min-height: calc(100vh - #{$header-height});
+}
+
+// Container
+.container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $space-lg;
+}
+
+// Content Sections
+.content-section {
+  padding: $space-2xl 0;
+
+  &:not(:last-child) {
+    border-bottom: $border-width solid $border-color;
+  }
+}
+
+.section-header {
+  text-align: center;
+  margin-bottom: $space-2xl;
+
+  h2 {
+    font-size: $font-size-3xl;
+    font-weight: $font-weight-bold;
+    margin-bottom: $space-md;
+    color: $text-primary;
+  }
+
+  p {
+    font-size: $font-size-lg;
+    color: $text-secondary;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+}

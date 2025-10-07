@@ -1,0 +1,320 @@
+// BLACKROBOTS FOUNDATION - RESPONSIVE
+// Responsive design utilities and overrides
+
+// Breakpoints
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// Large Desktop
+@media (max-width: $breakpoint-xl) {
+  .hero {
+    gap: $space-xl;
+    padding: $space-xl;
+  }
+  
+  .nav-container {
+    padding: 0 $space-md;
+  }
+}
+
+// Tablet
+@media (max-width: $breakpoint-lg) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: $space-xl;
+    padding: $space-xl $space-md;
+  }
+  
+  .hero-visual {
+    order: -1;
+  }
+  
+  .tech-grid {
+    grid-template-columns: repeat(4, 1fr);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .projects-grid {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+  
+  .footer-main {
+    flex-direction: column;
+    gap: $space-lg;
+    text-align: center;
+  }
+  
+  .footer-links {
+    justify-content: center;
+  }
+}
+
+// Mobile
+@media (max-width: $breakpoint-md) {
+  // Hide desktop navigation
+  .main-nav {
+    display: none;
+  }
+  
+  // Show mobile toggle
+  .mobile-toggle {
+    display: flex;
+  }
+  
+  // Sidebar adjustments
+  .sidebar {
+    position: fixed;
+    top: $header-height;
+    left: -100%;
+    z-index: $z-modal;
+    transition: left 0.3s ease;
+    width: 280px;
+    
+    &.open {
+      left: 0;
+    }
+  }
+  
+  .sidebar-toggle {
+    display: block;
+  }
+  
+  // Main content full width on mobile
+  .main-content {
+    width: 100%;
+  }
+  
+  // Hero adjustments
+  .hero {
+    padding: $space-lg $space-md;
+    min-height: 60vh;
+  }
+  
+  .hero-title {
+    font-size: clamp(2rem, 8vw, 3rem);
+  }
+  
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+  
+  // Tech grid mobile
+  .tech-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: $space-md;
+  }
+  
+  .tech-item {
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+  }
+  
+  // Project cards
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: $space-lg;
+  }
+  
+  .project-card {
+    padding: $space-lg;
+  }
+  
+  // Content sections
+  .content-section {
+    padding: $space-xl 0;
+  }
+  
+  .section-header {
+    margin-bottom: $space-xl;
+    
+    h2 {
+      font-size: $font-size-2xl;
+    }
+  }
+  
+  // Footer
+  .footer {
+    padding: $space-xl 0;
+  }
+  
+  .footer-links {
+    flex-direction: column;
+    gap: $space-sm;
+  }
+  
+  .footer-social {
+    justify-content: center;
+    margin-top: $space-lg;
+  }
+  
+  // Navigation adjustments
+  .nav-container {
+    padding: 0 $space-md;
+  }
+  
+  .brand-tagline {
+    display: none;
+  }
+}
+
+// Small Mobile
+@media (max-width: $breakpoint-sm) {
+  // Even more compact spacing
+  .hero {
+    padding: $space-md;
+  }
+  
+  .hero-title {
+    font-size: clamp(1.75rem, 10vw, 2.5rem);
+    margin-bottom: $space-md;
+  }
+  
+  .hero-description {
+    font-size: $font-size-base;
+  }
+  
+  // Hide brand text on very small screens
+  .brand-text {
+    display: none;
+  }
+  
+  .brand {
+    font-size: $font-size-lg;
+  }
+  
+  // Adjust card padding
+  .card {
+    padding: $space-lg;
+  }
+  
+  .project-card {
+    padding: $space-md;
+  }
+  
+  // Tech grid very small
+  .tech-item {
+    width: 50px;
+    height: 50px;
+    font-size: 1.25rem;
+  }
+  
+  // Content sections
+  .content-section {
+    padding: $space-lg 0;
+  }
+  
+  .container {
+    padding: 0 $space-md;
+  }
+  
+  // Typography adjustments
+  .section-header h2 {
+    font-size: $font-size-xl;
+  }
+  
+  .card-title {
+    font-size: $font-size-lg;
+  }
+  
+  // Button adjustments
+  .btn {
+    padding: $space-sm $space-lg;
+    font-size: $font-size-sm;
+  }
+  
+  .btn-large {
+    padding: $space-md $space-xl;
+  }
+}
+
+// Sidebar Overlay
+.sidebar-overlay {
+  display: none;
+  position: fixed;
+  top: $header-height;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: $z-modal-backdrop;
+  cursor: pointer;
+  
+  &.show {
+    display: block;
+  }
+}
+
+// Responsive utilities
+@media (max-width: $breakpoint-sm) {
+  .hidden-sm { display: none !important; }
+}
+
+@media (max-width: $breakpoint-md) {
+  .hidden-md { display: none !important; }
+}
+
+@media (max-width: $breakpoint-lg) {
+  .hidden-lg { display: none !important; }
+}
+
+@media (max-width: $breakpoint-xl) {
+  .hidden-xl { display: none !important; }
+}
+
+@media (min-width: $breakpoint-sm) {
+  .visible-sm { display: block !important; }
+}
+
+@media (min-width: $breakpoint-md) {
+  .visible-md { display: block !important; }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .visible-lg { display: block !important; }
+}
+
+@media (min-width: $breakpoint-xl) {
+  .visible-xl { display: block !important; }
+}
+
+// Print styles
+@media print {
+  .header,
+  .sidebar,
+  .footer,
+  .btn,
+  .mobile-toggle,
+  .sidebar-toggle {
+    display: none !important;
+  }
+  
+  .layout {
+    padding-top: 0;
+  }
+  
+  .main-content {
+    width: 100%;
+  }
+  
+  body {
+    color: #000;
+    background: #fff;
+  }
+  
+  .card {
+    border: 1px solid #ccc;
+    background: #fff;
+  }
+}

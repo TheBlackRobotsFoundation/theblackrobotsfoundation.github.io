@@ -1,4 +1,110 @@
-# The Black Robots Foundation - Estructura del Proyecto
+# BlackRobots Foundation Website
+
+🤖 Sitio web oficial de la BlackRobots Foundation - Una comunidad open source dedicada al desarrollo de tecnología robótica accesible.
+
+## 🚀 Desarrollo con Jekyll
+
+Este sitio está construido con [Jekyll](https://jekyllrb.com/), un generador de sitios estáticos que permite crear sitios web profesionales y fáciles de mantener.
+
+### Prerrequisitos
+
+- Ruby (versión 2.7 o superior)
+- Bundler gem
+- Git
+
+### Instalación Local
+
+1. **Clona el repositorio:**
+   ```bash
+   git clone https://github.com/TheBlackRobotsFoundation/theblackrobotsfoundation.github.io.git
+   cd theblackrobotsfoundation.github.io
+   ```
+
+2. **Instala las dependencias:**
+   ```bash
+   bundle install
+   ```
+
+3. **Ejecuta el servidor de desarrollo:**
+   ```bash
+   bundle exec jekyll serve
+   ```
+
+4. **Abre tu navegador en:**
+   ```
+   http://localhost:4000
+   ```
+
+### Comandos Útiles
+
+- **Desarrollo con recarga automática:**
+  ```bash
+  bundle exec jekyll serve --livereload
+  ```
+
+- **Construir para producción:**
+  ```bash
+  bundle exec jekyll build
+  ```
+
+- **Limpiar archivos generados:**
+  ```bash
+  bundle exec jekyll clean
+  ```
+
+## 📁 Estructura del Proyecto
+
+```
+├── _config.yml          # Configuración principal de Jekyll
+├── _layouts/            # Plantillas HTML base
+├── _includes/           # Componentes reutilizables
+├── _sass/              # Archivos SCSS modulares
+├── _data/              # Datos del sitio (YAML)
+├── _projects/          # Colección de proyectos
+├── assets/             # CSS, JS e imágenes
+├── index.html          # Página principal
+├── Gemfile            # Dependencias Ruby
+└── README.md          # Este archivo
+```
+
+## 🎨 Personalización
+
+### Colores y Tema
+
+Los colores se definen en `_sass/_variables.scss`:
+
+```scss
+$bg-primary: #0A0A0A;     // Fondo principal (negro)
+$bg-secondary: #111111;    // Fondo secundario
+$accent: #00E5FF;         // Color de acento (cyan)
+```
+
+### Contenido
+
+1. **Proyectos:** Edita `_data/projects.yml` para añadir/modificar proyectos
+2. **Navegación:** Modifica `_config.yml` en la sección `navigation`
+3. **Páginas:** Crea archivos `.md` o `.html` en el directorio raíz
+
+## 🚀 Despliegue
+
+Este sitio se despliega automáticamente en GitHub Pages cuando se hace push a la rama `main`.
+
+## 🤝 Contribuir
+
+1. Fork este repositorio
+2. Crea una rama para tu feature
+3. Haz commit de tus cambios
+4. Crea un Pull Request
+
+## 📝 Licencia
+
+MIT License - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+---
+
+<div align="center">
+  Hecho con ❤️ por la <strong>BlackRobots Foundation</strong>
+</div>
 
 ## 📁 Estructura de Carpetas
 

@@ -1,0 +1,73 @@
+# BlackRobots Foundation Jekyll Configuration
+title: "BlackRobots Foundation"
+description: "Open Source Robotics & Automation Projects"
+url: "https://theblackrobotsfoundation.github.io"
+baseurl: ""
+
+# Site Settings
+author: "BlackRobots Foundation"
+email: "contact@blackrobots.org"
+lang: "es"
+timezone: "Europe/Madrid"
+
+# Build Settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-responsive-image
+
+# Social Media
+github_username: TheBlackRobotsFoundation
+youtube_username: blackrobotsfoundation
+
+# Navigation
+navigation:
+  - title: "Inicio"
+    url: "/"
+  - title: "Proyectos"
+    url: "/projects/"
+  - title: "Contribuir"
+    url: "/contribute/"
+  - title: "Comunidad"
+    url: "/community/"
+  - title: "Foro"
+    url: "/forum/"
+
+# Featured Projects
+featured_projects:
+  - drone
+  - plotter
+
+# Theme Configuration
+theme:
+  primary_color: "#00E5FF"
+  secondary_color: "#0A0A0A"
+  accent_color: "#00FF88"
+  dark_mode: true
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE

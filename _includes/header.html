@@ -1,0 +1,42 @@
+<header class="header">
+  <div class="nav-container">
+    <!-- Brand -->
+    <a href="{{ '/' | relative_url }}" class="brand">
+      <div class="brand-icon">
+        <i class="fas fa-robot"></i>
+      </div>
+      <div class="brand-text">
+        <span class="brand-name">{{ site.title }}</span>
+        <span class="brand-tagline">Open Source Robotics</span>
+      </div>
+    </a>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+      {% for item in site.navigation %}
+        <a href="{{ item.url | relative_url }}" class="nav-item {% if page.url == item.url %}active{% endif %}">
+          {% if item.icon %}
+            <i class="{{ item.icon }}"></i>
+          {% endif %}
+          {{ item.title }}
+        </a>
+      {% endfor %}
+      
+      <!-- GitHub Link -->
+      <a href="https://github.com/{{ site.github_username }}" 
+         target="_blank" 
+         rel="noopener noreferrer" 
+         class="nav-item github-link">
+        <i class="fab fa-github"></i>
+        GitHub
+      </a>
+    </nav>
+
+    <!-- Mobile Toggle -->
+    <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </div>
+</header>

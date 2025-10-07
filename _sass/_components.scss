@@ -1,0 +1,449 @@
+// BLACKROBOTS FOUNDATION - COMPONENTS
+// Reusable UI components
+
+// Buttons
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: $space-sm;
+  padding: $space-md $space-xl;
+  border: $border-width solid transparent;
+  border-radius: $radius;
+  font-family: inherit;
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-sm;
+  text-decoration: none;
+  cursor: pointer;
+  transition: $transition;
+  white-space: nowrap;
+
+  &:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 229, 255, 0.5);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+}
+
+.btn-primary {
+  background: $accent;
+  color: $bg-primary;
+  border-color: $accent;
+
+  &:hover {
+    background: $accent-dark;
+    border-color: $accent-dark;
+    color: $bg-primary;
+    transform: translateY(-1px);
+    box-shadow: $shadow;
+  }
+}
+
+.btn-outline {
+  background: transparent;
+  color: $text-primary;
+  border-color: $border-color-hover;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    border-color: $accent;
+    color: $accent;
+  }
+}
+
+.btn-ghost {
+  background: transparent;
+  color: $text-secondary;
+  border-color: transparent;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.05);
+    color: $text-primary;
+  }
+}
+
+.btn-small {
+  padding: $space-sm $space-lg;
+  font-size: $font-size-xs;
+}
+
+.btn-large {
+  padding: $space-lg $space-2xl;
+  font-size: $font-size-base;
+}
+
+// Cards
+.card {
+  background: $bg-secondary;
+  border: $border-width solid $border-color;
+  border-radius: $radius;
+  padding: $space-xl;
+  transition: $transition;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow;
+    border-color: $accent;
+  }
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $space-lg;
+}
+
+.card-title {
+  font-size: $font-size-xl;
+  font-weight: $font-weight-bold;
+  margin-bottom: $space-sm;
+  color: $text-primary;
+}
+
+.card-subtitle {
+  font-size: $font-size-sm;
+  color: $text-muted;
+  margin-bottom: 0;
+}
+
+.card-content {
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: $space-lg;
+  padding-top: $space-lg;
+  border-top: $border-width solid $border-color;
+}
+
+// Badges and Tags
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-xs;
+  padding: $space-xs $space-sm;
+  border-radius: $radius-full;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.badge-primary {
+  background: rgba(0, 229, 255, 0.2);
+  color: $accent;
+  border: $border-width solid rgba(0, 229, 255, 0.3);
+}
+
+.badge-success {
+  background: rgba(0, 255, 136, 0.2);
+  color: $success;
+  border: $border-width solid rgba(0, 255, 136, 0.3);
+}
+
+.badge-warning {
+  background: rgba(255, 184, 0, 0.2);
+  color: $warning;
+  border: $border-width solid rgba(255, 184, 0, 0.3);
+}
+
+.badge-error {
+  background: rgba(255, 68, 68, 0.2);
+  color: $error;
+  border: $border-width solid rgba(255, 68, 68, 0.3);
+}
+
+.tag {
+  display: inline-block;
+  padding: $space-xs $space-sm;
+  background: $bg-tertiary;
+  color: $text-secondary;
+  border-radius: $radius;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-medium;
+  margin-right: $space-sm;
+  margin-bottom: $space-sm;
+  transition: $transition;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.1);
+    color: $text-primary;
+  }
+}
+
+// Project Components
+.project-link {
+  display: flex;
+  align-items: center;
+  gap: $space-md;
+  padding: $space-md;
+  margin-bottom: $space-sm;
+  border-radius: $radius;
+  text-decoration: none;
+  color: $text-secondary;
+  transition: $transition;
+  border: $border-width solid transparent;
+
+  &:hover {
+    background: $bg-tertiary;
+    border-color: $border-color-hover;
+    color: $text-primary;
+  }
+
+  &.active {
+    background: $bg-tertiary;
+    border-color: $accent;
+    color: $accent;
+
+    .project-icon {
+      background: $accent;
+      color: $bg-primary;
+    }
+  }
+}
+
+.project-icon {
+  width: 32px;
+  height: 32px;
+  background: $bg-tertiary;
+  border-radius: $radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: $font-size-base;
+  color: $text-secondary;
+  transition: $transition;
+}
+
+.project-info {
+  flex: 1;
+}
+
+.project-name {
+  font-weight: $font-weight-semibold;
+  font-size: $font-size-sm;
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+
+.project-status {
+  font-size: $font-size-xs;
+  color: $text-muted;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.project-badge {
+  width: 6px;
+  height: 6px;
+  border-radius: $radius-full;
+  background: $success;
+  flex-shrink: 0;
+
+  &.warning {
+    background: $warning;
+  }
+
+  &.error {
+    background: $error;
+  }
+}
+
+// Hero Section
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: $space-2xl;
+  align-items: center;
+  min-height: 70vh;
+  padding: $space-2xl;
+  max-width: $max-width;
+  margin: 0 auto;
+}
+
+.hero-content {
+  max-width: 500px;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: $space-sm;
+  padding: $space-sm $space-md;
+  background: rgba(0, 229, 255, 0.1);
+  border: $border-width solid rgba(0, 229, 255, 0.2);
+  color: $accent;
+  border-radius: $radius;
+  font-size: $font-size-xs;
+  font-weight: $font-weight-semibold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: $space-xl;
+}
+
+.hero-title {
+  font-size: clamp(2.5rem, 5vw, 4.5rem);
+  font-weight: $font-weight-extrabold;
+  line-height: 1;
+  margin-bottom: $space-lg;
+  color: $text-primary;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, $accent 0%, $text-primary 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-description {
+  font-size: $font-size-lg;
+  line-height: 1.6;
+  color: $text-secondary;
+  margin-bottom: $space-xl;
+}
+
+.hero-actions {
+  display: flex;
+  gap: $space-md;
+  flex-wrap: wrap;
+}
+
+.hero-visual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+// Tech Grid
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: $space-lg;
+}
+
+.tech-item {
+  width: 70px;
+  height: 70px;
+  background: $bg-secondary;
+  border: $border-width solid $border-color;
+  border-radius: $radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.75rem;
+  color: $text-secondary;
+  transition: $transition;
+
+  &:hover {
+    background: $bg-tertiary;
+    border-color: $border-color-hover;
+    transform: translateY(-2px);
+  }
+
+  &:nth-child(1) { color: $accent; }
+  &:nth-child(2) { color: $success; }
+  &:nth-child(3) { color: $warning; }
+  &:nth-child(4) { color: $text-primary; }
+}
+
+// Footer
+.footer {
+  background: $bg-primary;
+  border-top: $border-width solid $border-color;
+  padding: $space-2xl 0;
+  margin-top: auto;
+}
+
+.footer-content {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: 0 $space-lg;
+}
+
+.footer-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: $space-lg;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: $space-sm;
+  font-weight: $font-weight-semibold;
+  color: $text-primary;
+}
+
+.footer-links {
+  display: flex;
+  gap: $space-xl;
+}
+
+.footer-links a {
+  color: $text-secondary;
+  text-decoration: none;
+  font-weight: $font-weight-medium;
+  font-size: $font-size-sm;
+  transition: $transition;
+
+  &:hover {
+    color: $accent;
+  }
+}
+
+.footer-social {
+  display: flex;
+  gap: $space-md;
+}
+
+.footer-social a {
+  width: 32px;
+  height: 32px;
+  background: $bg-secondary;
+  border: $border-width solid $border-color;
+  border-radius: $radius;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $text-secondary;
+  text-decoration: none;
+  transition: $transition;
+
+  &:hover {
+    background: $accent;
+    border-color: $accent;
+    color: $bg-primary;
+    transform: translateY(-2px);
+  }
+}
+
+.footer-bottom {
+  padding-top: $space-lg;
+  border-top: $border-width solid $border-color;
+  text-align: center;
+  color: $text-muted;
+  font-size: $font-size-xs;
+}
+
+.license-link {
+  color: $accent;
+  text-decoration: none;
+  transition: $transition;
+
+  &:hover {
+    color: $accent-dark;
+  }
+}

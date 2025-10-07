@@ -1,0 +1,59 @@
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+    <h3>Proyectos</h3>
+    <button class="sidebar-toggle" id="sidebar-toggle" aria-label="Close sidebar">
+      <i class="fas fa-times"></i>
+    </button>
+  </div>
+  
+  <nav class="sidebar-nav">
+    {% for project_id in site.featured_projects %}
+      {% assign project = site.projects | where: "slug", project_id | first %}
+      {% if project %}
+        <a href="{{ project.url | relative_url }}" 
+           class="project-link {% if page.url == project.url %}active{% endif %}"
+           data-project="{{ project.slug }}">
+          
+          <div class="project-icon">
+            <i class="{{ project.icon | default: 'fas fa-cog' }}"></i>
+          </div>
+          
+          <div class="project-info">
+            <div class="project-name">{{ project.title }}</div>
+            <div class="project-status">{{ project.status | default: 'En desarrollo' }}</div>
+          </div>
+          
+          <div class="project-badge {% if project.status == 'Activo' %}success{% elsif project.status == 'En desarrollo' %}warning{% else %}default{% endif %}"></div>
+        </a>
+      {% endif %}
+    {% endfor %}
+    
+    <!-- Fallback if no projects found -->
+    {% unless site.projects.size > 0 %}
+      <a href="/projects/drone/" class="project-link" data-project="drone">
+        <div class="project-icon">
+          <i class="fas fa-drone"></i>
+        </div>
+        <div class="project-info">
+          <div class="project-name">Drone Project</div>
+          <div class="project-status">En desarrollo</div>
+        </div>
+        <div class="project-badge warning"></div>
+      </a>
+      
+      <a href="/projects/plotter/" class="project-link" data-project="plotter">
+        <div class="project-icon">
+          <i class="fas fa-draw-polygon"></i>
+        </div>
+        <div class="project-info">
+          <div class="project-name">Plotter Project</div>
+          <div class="project-status">Beta</div>
+        </div>
+        <div class="project-badge success"></div>
+      </a>
+    {% endunless %}
+  </nav>
+</aside>
+
+<!-- Mobile Sidebar Overlay -->
+<div class="sidebar-overlay" id="sidebar-overlay"></div>

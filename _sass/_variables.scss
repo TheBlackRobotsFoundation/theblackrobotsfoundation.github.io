@@ -1,0 +1,78 @@
+// BLACKROBOTS FOUNDATION - VARIABLES
+// Dark theme colors and configuration
+
+// Colors
+$bg-primary: #0A0A0A;
+$bg-secondary: #111111;
+$bg-tertiary: #1A1A1A;
+$text-primary: #FFFFFF;
+$text-secondary: #A0A0A0;
+$text-muted: #606060;
+$accent: #00E5FF;
+$accent-dark: #00B2CC;
+$success: #00FF88;
+$warning: #FFB800;
+$error: #FF4444;
+
+// Layout
+$header-height: 60px;
+$sidebar-width: 240px;
+$max-width: 1200px;
+
+// Typography
+$font-primary: 'Inter', system-ui, sans-serif;
+$font-mono: 'JetBrains Mono', monospace;
+
+$font-size-xs: 0.75rem;
+$font-size-sm: 0.875rem;
+$font-size-base: 1rem;
+$font-size-lg: 1.125rem;
+$font-size-xl: 1.25rem;
+$font-size-2xl: 1.5rem;
+$font-size-3xl: 1.875rem;
+$font-size-4xl: 2.25rem;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+
+// Spacing
+$space-xs: 0.25rem;
+$space-sm: 0.5rem;
+$space-md: 1rem;
+$space-lg: 1.5rem;
+$space-xl: 2rem;
+$space-2xl: 3rem;
+$space-3xl: 4rem;
+
+// Borders
+$radius-sm: 0.25rem;
+$radius: 0.5rem;
+$radius-lg: 0.75rem;
+$radius-xl: 1rem;
+$radius-full: 9999px;
+
+$border-width: 1px;
+$border-color: rgba(255, 255, 255, 0.1);
+$border-color-hover: rgba(255, 255, 255, 0.2);
+
+// Shadows
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.05);
+$shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+$shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.4);
+
+// Transitions
+$transition-fast: all 0.15s ease;
+$transition: all 0.2s ease;
+$transition-slow: all 0.3s ease-in-out;
+
+// Z-index
+$z-dropdown: 100;
+$z-sticky: 200;
+$z-fixed: 300;
+$z-modal-backdrop: 400;
+$z-modal: 500;
+$z-tooltip: 600;

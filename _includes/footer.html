@@ -1,0 +1,70 @@
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-main">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <div class="brand-icon">
+          <i class="fas fa-robot"></i>
+        </div>
+        <span>{{ site.title }}</span>
+      </div>
+
+      <!-- Links -->
+      <div class="footer-links">
+        {% for item in site.navigation %}
+          <a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+        {% endfor %}
+      </div>
+
+      <!-- Social Links -->
+      <div class="footer-social">
+        {% if site.github_username %}
+          <a href="https://github.com/{{ site.github_username }}" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="GitHub">
+            <i class="fab fa-github"></i>
+          </a>
+        {% endif %}
+        
+        {% if site.youtube_username %}
+          <a href="https://youtube.com/@{{ site.youtube_username }}" 
+             target="_blank" 
+             rel="noopener noreferrer"
+             aria-label="YouTube">
+            <i class="fab fa-youtube"></i>
+          </a>
+        {% endif %}
+        
+        {% if site.email %}
+          <a href="mailto:{{ site.email }}" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+        {% endif %}
+        
+        <!-- Discord (example) -->
+        <a href="#" aria-label="Discord">
+          <i class="fab fa-discord"></i>
+        </a>
+        
+        <!-- Twitter/X (example) -->
+        <a href="#" aria-label="Twitter">
+          <i class="fab fa-x-twitter"></i>
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>
+        © {{ 'now' | date: "%Y" }} {{ site.title }}. 
+        Creado con ❤️ para la comunidad open source.
+        <br>
+        Licenciado bajo 
+        <a href="https://github.com/{{ site.github_username }}/{{ site.github_username }}.github.io/blob/main/LICENSE" 
+           class="license-link" 
+           target="_blank" 
+           rel="noopener noreferrer">MIT License</a>.
+      </p>
+    </div>
+  </div>
+</footer>

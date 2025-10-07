@@ -1,0 +1,203 @@
+// BLACKROBOTS FOUNDATION - BASE STYLES
+// Reset and global styles
+
+// CSS Reset
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// HTML & Body
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: $font-primary;
+  background: $bg-primary;
+  color: $text-primary;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Typography
+h1, h2, h3, h4, h5, h6 {
+  font-weight: $font-weight-bold;
+  line-height: 1.2;
+  margin-bottom: $space-md;
+  color: $text-primary;
+}
+
+h1 {
+  font-size: $font-size-4xl;
+  font-weight: $font-weight-extrabold;
+}
+
+h2 {
+  font-size: $font-size-3xl;
+}
+
+h3 {
+  font-size: $font-size-2xl;
+}
+
+h4 {
+  font-size: $font-size-xl;
+}
+
+h5 {
+  font-size: $font-size-lg;
+}
+
+h6 {
+  font-size: $font-size-base;
+}
+
+p {
+  margin-bottom: $space-md;
+  color: $text-secondary;
+}
+
+// Links
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: $transition;
+
+  &:hover {
+    color: $accent-dark;
+  }
+}
+
+// Lists
+ul, ol {
+  margin-bottom: $space-md;
+  padding-left: $space-xl;
+}
+
+li {
+  margin-bottom: $space-xs;
+  color: $text-secondary;
+}
+
+// Code
+code {
+  font-family: $font-mono;
+  font-size: $font-size-sm;
+  background: $bg-tertiary;
+  color: $accent;
+  padding: $space-xs $space-sm;
+  border-radius: $radius-sm;
+}
+
+pre {
+  background: $bg-secondary;
+  color: $text-primary;
+  padding: $space-lg;
+  border-radius: $radius;
+  overflow-x: auto;
+  margin-bottom: $space-md;
+  border: $border-width solid $border-color;
+
+  code {
+    background: transparent;
+    padding: 0;
+    color: inherit;
+  }
+}
+
+// Images
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: $radius;
+}
+
+// Forms
+input,
+textarea,
+select {
+  font-family: inherit;
+  font-size: $font-size-base;
+  background: $bg-secondary;
+  color: $text-primary;
+  border: $border-width solid $border-color;
+  border-radius: $radius;
+  padding: $space-md;
+  transition: $transition;
+
+  &:focus {
+    outline: none;
+    border-color: $accent;
+    box-shadow: 0 0 0 2px rgba(0, 229, 255, 0.2);
+  }
+
+  &::placeholder {
+    color: $text-muted;
+  }
+}
+
+// Tables
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: $space-md;
+  background: $bg-secondary;
+  border-radius: $radius;
+  overflow: hidden;
+}
+
+th,
+td {
+  padding: $space-md;
+  text-align: left;
+  border-bottom: $border-width solid $border-color;
+}
+
+th {
+  background: $bg-tertiary;
+  color: $text-primary;
+  font-weight: $font-weight-semibold;
+}
+
+td {
+  color: $text-secondary;
+}
+
+// Selection
+::selection {
+  background: rgba(0, 229, 255, 0.3);
+  color: $text-primary;
+}
+
+::-moz-selection {
+  background: rgba(0, 229, 255, 0.3);
+  color: $text-primary;
+}
+
+// Scrollbar (Webkit)
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: $bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+  background: $bg-tertiary;
+  border-radius: $radius-full;
+
+  &:hover {
+    background: rgba(255, 255, 255, 0.2);
+  }
+}

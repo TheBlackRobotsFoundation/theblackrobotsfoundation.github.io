@@ -1,0 +1,67 @@
+# BlackRobots Foundation - Site Statistics and Data
+
+# Community Stats
+community:
+  contributors: 12
+  projects: 4
+  commits: 847
+  countries: 8
+
+# Tech Stack
+technologies:
+  - name: "ROS 2"
+    icon: "fas fa-cog"
+    color: "#0078D4"
+    description: "Robot Operating System"
+  - name: "Python"
+    icon: "fab fa-python"
+    color: "#3776AB"
+    description: "Programming Language"
+  - name: "Arduino"
+    icon: "fas fa-microchip"
+    color: "#00979D"
+    description: "Microcontroller Platform"
+  - name: "OpenCV"
+    icon: "fas fa-eye"
+    color: "#5C3EE8"
+    description: "Computer Vision"
+
+# Social Links
+social:
+  github:
+    name: "GitHub"
+    url: "https://github.com/TheBlackRobotsFoundation"
+    icon: "fab fa-github"
+  youtube:
+    name: "YouTube"
+    url: "https://youtube.com/@blackrobotsfoundation"
+    icon: "fab fa-youtube"
+  discord:
+    name: "Discord"
+    url: "#"
+    icon: "fab fa-discord"
+  twitter:
+    name: "Twitter"
+    url: "#"
+    icon: "fab fa-x-twitter"
+
+# Contact Information
+contact:
+  email: "contact@blackrobots.org"
+  location: "Madrid, España"
+  timezone: "CET (UTC+1)"
+
+# Hero Section Content
+hero:
+  badge: "Open Source"
+  title: "Black<span class='gradient-text'>Robots</span>"
+  subtitle: "Construyendo el futuro de la robótica"
+  description: "Desarrollamos proyectos de robótica open source accesibles para toda la comunidad. Únete a nosotros en la revolución tecnológica."
+  primary_button:
+    text: "Ver Proyectos"
+    url: "/projects/"
+    icon: "fas fa-rocket"
+  secondary_button:
+    text: "Contribuir"
+    url: "/contribute/"
+    icon: "fas fa-code-branch"
