@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Plotter - The Black Robots Foundation</title>
+  <meta name="description" content="Plotter CNC de precisión open source para dibujo técnico, arte generativo y prototipado. Hardware modular y software intuitivo.">
+  
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/fonts/fonts.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="top-nav">
+      <div class="nav-container">
+        <a href="../index.html" class="brand">
+          <div class="brand-icon">
+            <i class="fas fa-robot"></i>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">Black Robots</span>
+            <span class="brand-tagline">Foundation</span>
+          </div>
+        </a>
+        
+        <div class="main-nav">
+          <a href="../pages/forum.html" class="nav-item">
+            <i class="fas fa-comments"></i>
+            <span>Foro</span>
+          </a>
+          <a href="../pages/contribute.html" class="nav-item">
+            <i class="fas fa-code-branch"></i>
+            <span>Contribute</span>
+          </a>
+          <a href="../pages/about.html" class="nav-item">
+            <i class="fas fa-users"></i>
+            <span>Quiénes Somos</span>
+          </a>
+          <a href="https://github.com/theblackrobotsfoundation" class="nav-item github-link" target="_blank">
+            <i class="fab fa-github"></i>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main style="padding-top: 96px; max-width: 1200px; margin: 0 auto; padding-left: 1.5rem; padding-right: 1.5rem;">
+    <!-- Hero Section -->
+    <section style="display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: center; margin-bottom: 4rem;">
+      <div>
+        <div style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem; background: var(--color-primary); color: white; border-radius: 9999px; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1.5rem;">
+          <i class="fas fa-circle" style="font-size: 0.5rem;"></i>
+          <span>V1.0 Disponible</span>
+        </div>
+        
+        <h1 style="font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem; color: var(--color-text);">
+          <span style="background: linear-gradient(135deg, var(--color-primary) 0%, #10B981 100%); background-clip: text; -webkit-background-clip: text; -webkit-text-fill-color: transparent;">The Plotter</span>
+        </h1>
+        
+        <p style="font-size: 1.125rem; line-height: 1.7; color: var(--color-text-secondary); margin-bottom: 2rem;">
+          Plotter CNC de alta precisión completamente open source. Ideal para dibujo técnico, arte generativo, PCB prototyping y proyectos educativos.
+        </p>
+        
+        <div style="display: flex; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap;">
+          <a href="https://github.com/theblackrobotsfoundation/the-plotter" class="btn btn-primary" target="_blank">
+            <i class="fab fa-github"></i>
+            Ver en GitHub
+          </a>
+          <a href="#build-guide" class="btn btn-outline">
+            <i class="fas fa-tools"></i>
+            Guía de Construcción
+          </a>
+        </div>
+        
+        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+          <span style="padding: 0.25rem 0.75rem; background: var(--color-gray-100); color: var(--color-text-secondary); border-radius: 9999px; font-size: 0.75rem; font-weight: 500;">Arduino</span>
+          <span style="padding: 0.25rem 0.75rem; background: var(--color-gray-100); color: var(--color-text-secondary); border-radius: 9999px; font-size: 0.75rem; font-weight: 500;">Python</span>
+          <span style="padding: 0.25rem 0.75rem; background: var(--color-gray-100); color: var(--color-text-secondary); border-radius: 9999px; font-size: 0.75rem; font-weight: 500;">G-Code</span>
+          <span style="padding: 0.25rem 0.75rem; background: var(--color-gray-100); color: var(--color-text-secondary); border-radius: 9999px; font-size: 0.75rem; font-weight: 500;">3D Print</span>
+        </div>
+      </div>
+      
+      <div style="display: flex; align-items: center; justify-content: center; background: var(--color-bg-secondary); border-radius: var(--border-radius-lg); padding: 3rem; border: 1px solid var(--border-color);">
+        <div style="text-align: center;">
+          <i class="fas fa-draw-polygon" style="font-size: 6rem; color: var(--color-success); margin-bottom: 1rem;"></i>
+          <p style="color: var(--color-text-muted); font-style: italic;">Versión estable disponible</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Video/Galería Placeholder -->
+    <section style="background: var(--color-bg-secondary); border-radius: var(--border-radius-lg); padding: 2rem; margin-bottom: 4rem; text-align: center; border: 1px solid var(--border-color);">
+      <div style="aspect-ratio: 16/9; background: var(--color-gray-100); border-radius: var(--border-radius); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+        <div>
+          <i class="fas fa-play-circle" style="font-size: 4rem; color: var(--color-primary); margin-bottom: 1rem;"></i>
+          <p style="color: var(--color-text-muted);">Video Demo - The Plotter en Acción</p>
+        </div>
+      </div>
+      <p style="color: var(--color-text-secondary);">Observa la precisión y velocidad del plotter dibujando desde diseños simples hasta arte generativo complejo.</p>
+    </section>
+
+    <!-- Características -->
+    <section style="margin-bottom: 4rem;">
+      <h2 style="font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 3rem; color: var(--color-text);">Características Principales</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;">
+        <div style="background: var(--color-bg-secondary); border: 1px solid var(--border-color); border-radius: var(--border-radius-lg); padding: 2rem;">
+          <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #10B981, #059669); border-radius: var(--border-radius-lg); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+            <i class="fas fa-crosshairs" style="font-size: 1.25rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">Alta Precisión</h3>
+          <p style="color: var(--color-text-secondary); line-height: 1.6;">Precisión de 0.1mm con motores paso a paso y correas dentadas. Ideal para trabajo técnico y artístico de detalle.</p>
+        </div>
+
+        <div style="background: var(--color-bg-secondary); border: 1px solid var(--border-color); border-radius: var(--border-radius-lg); padding: 2rem;">
+          <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #3B82F6, #1D4ED8); border-radius: var(--border-radius-lg); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+            <i class="fas fa-expand-arrows-alt" style="font-size: 1.25rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">Área de Trabajo A3</h3>
+          <p style="color: var(--color-text-secondary); line-height: 1.6;">Superficie útil de 420x297mm (A3). Configurable para diferentes tamaños según necesidades del proyecto.</p>
+        </div>
+
+        <div style="background: var(--color-bg-secondary); border: 1px solid var(--border-color); border-radius: var(--border-radius-lg); padding: 2rem;">
+          <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #8B5CF6, #7C3AED); border-radius: var(--border-radius-lg); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+            <i class="fas fa-palette" style="font-size: 1.25rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">Multi-herramienta</h3>
+          <p style="color: var(--color-text-secondary); line-height: 1.6;">Soporte para bolígrafos, marcadores, lápices e incluso herramientas de corte ligero para vinilo y papel.</p>
+        </div>
+
+        <div style="background: var(--color-bg-secondary); border: 1px solid var(--border-color); border-radius: var(--border-radius-lg); padding: 2rem;">
+          <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #F59E0B, #D97706); border-radius: var(--border-radius-lg); display: flex; align-items: center; justify-content: center; margin-bottom: 1rem;">
+            <i class="fas fa-code" style="font-size: 1.25rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: var(--color-text);">Software Intuitivo</h3>
+          <p style="color: var(--color-text-secondary); line-height: 1.6;">Interfaz gráfica amigable, soporte G-Code estándar, y generación automática desde SVG y DXF.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Especificaciones Técnicas -->
+    <section id="build-guide" style="background: var(--color-bg-secondary); border-radius: var(--border-radius-lg); padding: 3rem; margin-bottom: 4rem;">
+      <h2 style="font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 3rem; color: var(--color-text);">Especificaciones y Lista de Materiales</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div>
+          <h3 style="margin-bottom: 1rem; color: var(--color-text); font-weight: 600;">Electrónica Principal</h3>
+          <ul style="list-style: none; padding: 0; color: var(--color-text-secondary); line-height: 1.8;">
+            <li><strong>Control:</strong> Arduino UNO R3 + CNC Shield V3</li>
+            <li><strong>Drivers:</strong> 2x A4988 (X,Y) + Disipadores</li>
+            <li><strong>Motores:</strong> 2x NEMA17 (1.8°, 1.7A)</li>
+            <li><strong>Servo:</strong> SG90 (Levantamiento pluma)</li>
+            <li><strong>Alimentación:</strong> 12V 3A + Conector DC</li>
+            <li><strong>Conexiones:</strong> Cables Dupont + Borneras</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 style="margin-bottom: 1rem; color: var(--color-text); font-weight: 600;">Estructura Mecánica</h3>
+          <ul style="list-style: none; padding: 0; color: var(--color-text-secondary); line-height: 1.8;">
+            <li><strong>Marco:</strong> Perfiles 2020 (4x 500mm + 2x 400mm)</li>
+            <li><strong>Guías Lineales:</strong> 2x SBR16 (16mm diámetro)</li>
+            <li><strong>Correas:</strong> GT2 (6mm ancho) + Poleas 20T</li>
+            <li><strong>Rodamientos:</strong> 8x SBR16UU</li>
+            <li><strong>Tornillería:</strong> M3, M4, M5 (Diversos largos)</li>
+            <li><strong>Piezas 3D:</strong> PLA/PETG (STL incluidos)</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 style="margin-bottom: 1rem; color: var(--color-text); font-weight: 600;">Software y Firmware</h3>
+          <ul style="list-style: none; padding: 0; color: var(--color-text-secondary); line-height: 1.8;">
+            <li><strong>Firmware:</strong> GRBL 1.1h (CNC Control)</li>
+            <li><strong>GUI:</strong> PlotterControl (Python/Qt)</li>
+            <li><strong>Conversores:</strong> Inkscape + Extensions</li>
+            <li><strong>G-Code:</strong> Generación automática SVG→G-Code</li>
+            <li><strong>Plataformas:</strong> Windows, Linux, macOS</li>
+            <li><strong>API:</strong> Control via serial/USB</li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 style="margin-bottom: 1rem; color: var(--color-text); font-weight: 600;">Características Físicas</h3>
+          <ul style="list-style: none; padding: 0; color: var(--color-text-secondary); line-height: 1.8;">
+            <li><strong>Dimensiones:</strong> 600x500x150mm</li>
+            <li><strong>Área Útil:</strong> 420x297mm (A3)</li>
+            <li><strong>Peso:</strong> ~8kg (Completo)</li>
+            <li><strong>Velocidad Max:</strong> 3000mm/min</li>
+            <li><strong>Precisión:</strong> ±0.1mm</li>
+            <li><strong>Costo Total:</strong> ~$180 USD</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Aplicaciones -->
+    <section style="margin-bottom: 4rem;">
+      <h2 style="font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 3rem; color: var(--color-text);">Casos de Uso y Aplicaciones</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem;">
+        <div style="text-align: center; padding: 1.5rem;">
+          <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #8B5CF6, #7C3AED); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+            <i class="fas fa-pencil-ruler" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Dibujo Técnico</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Planos, esquemas, diagramas de ingeniería con precisión profesional.</p>
+        </div>
+
+        <div style="text-align: center; padding: 1.5rem;">
+          <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #10B981, #059669); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+            <i class="fas fa-magic" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Arte Generativo</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Patrones matemáticos, fractales, arte algorítmico único.</p>
+        </div>
+
+        <div style="text-align: center; padding: 1.5rem;">
+          <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #F59E0B, #D97706); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+            <i class="fas fa-microchip" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Prototyping PCB</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Trazado de circuitos, máscaras de soldadura, serigrafía.</p>
+        </div>
+
+        <div style="text-align: center; padding: 1.5rem;">
+          <div style="width: 80px; height: 80px; background: linear-gradient(135deg, #3B82F6, #1D4ED8); border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem;">
+            <i class="fas fa-graduation-cap" style="font-size: 2rem; color: white;"></i>
+          </div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Educación STEM</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Enseñanza de robótica, programación y manufactura digital.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galería de Resultados -->
+    <section style="margin-bottom: 4rem;">
+      <h2 style="font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 3rem; color: var(--color-text);">Galería de Trabajos</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+        <div style="aspect-ratio: 1; background: var(--color-gray-100); border-radius: var(--border-radius); display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color);">
+          <div style="text-align: center;">
+            <i class="fas fa-image" style="font-size: 2rem; color: var(--color-text-muted); margin-bottom: 0.5rem;"></i>
+            <p style="color: var(--color-text-muted); font-size: 0.875rem;">Mandala Generativo</p>
+          </div>
+        </div>
+
+        <div style="aspect-ratio: 1; background: var(--color-gray-100); border-radius: var(--border-radius); display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color);">
+          <div style="text-align: center;">
+            <i class="fas fa-image" style="font-size: 2rem; color: var(--color-text-muted); margin-bottom: 0.5rem;"></i>
+            <p style="color: var(--color-text-muted); font-size: 0.875rem;">Plano Arquitectónico</p>
+          </div>
+        </div>
+
+        <div style="aspect-ratio: 1; background: var(--color-gray-100); border-radius: var(--border-radius); display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color);">
+          <div style="text-align: center;">
+            <i class="fas fa-image" style="font-size: 2rem; color: var(--color-text-muted); margin-bottom: 0.5rem;"></i>
+            <p style="color: var(--color-text-muted); font-size: 0.875rem;">PCB Layout</p>
+          </div>
+        </div>
+
+        <div style="aspect-ratio: 1; background: var(--color-gray-100); border-radius: var(--border-radius); display: flex; align-items: center; justify-content: center; border: 1px solid var(--border-color);">
+          <div style="text-align: center;">
+            <i class="fas fa-image" style="font-size: 2rem; color: var(--color-text-muted); margin-bottom: 0.5rem;"></i>
+            <p style="color: var(--color-text-muted); font-size: 0.875rem;">Arte Algorítmico</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proceso de Construcción -->
+    <section style="background: var(--color-bg-secondary); border-radius: var(--border-radius-lg); padding: 3rem; margin-bottom: 4rem;">
+      <h2 style="font-size: 2rem; font-weight: 700; text-align: center; margin-bottom: 3rem; color: var(--color-text);">Proceso de Construcción</h2>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+        <div style="text-align: center;">
+          <div style="width: 60px; height: 60px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: 700;">1</div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Descarga</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Archivos STL, código fuente y documentación desde GitHub.</p>
+        </div>
+
+        <div style="text-align: center;">
+          <div style="width: 60px; height: 60px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: 700;">2</div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Impresión 3D</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">15 piezas en PLA, ~200g de filamento, 12 horas total.</p>
+        </div>
+
+        <div style="text-align: center;">
+          <div style="width: 60px; height: 60px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: 700;">3</div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Ensamblaje</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Montaje mecánico con herramientas básicas, 4-6 horas.</p>
+        </div>
+
+        <div style="text-align: center;">
+          <div style="width: 60px; height: 60px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: 700;">4</div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Electrónica</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Conexionado según esquema, carga de firmware GRBL.</p>
+        </div>
+
+        <div style="text-align: center;">
+          <div style="width: 60px; height: 60px; background: var(--color-primary); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem; font-weight: 700;">5</div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">Calibración</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Ajuste de pasos, velocidades y configuración G-Code.</p>
+        </div>
+
+        <div style="text-align: center;">
+          <div style="width: 60px; height: 60px; background: var(--color-success); color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 1rem; font-size: 1.5rem;">✓</div>
+          <h3 style="font-size: 1.125rem; font-weight: 600; margin-bottom: 0.5rem; color: var(--color-text);">¡Listo!</h3>
+          <p style="color: var(--color-text-secondary); font-size: 0.875rem;">Primer dibujo de prueba y puesta en producción.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Final -->
+    <section style="background: linear-gradient(135deg, var(--color-primary) 0%, #10B981 100%); border-radius: var(--border-radius-lg); padding: 3rem; text-align: center; color: white;">
+      <h2 style="font-size: 2rem; font-weight: 700; margin-bottom: 1rem;">Construye tu Propio Plotter</h2>
+      <p style="font-size: 1.125rem; margin-bottom: 2rem; opacity: 0.9;">
+        Todo el código, diseños 3D y documentación están disponibles gratuitamente. ¡Únete a la comunidad maker!
+      </p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="https://github.com/theblackrobotsfoundation/the-plotter" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: white; color: var(--color-primary); border-radius: var(--border-radius); font-weight: 600; text-decoration: none;" target="_blank">
+          <i class="fab fa-github"></i>
+          Descargar Todo
+        </a>
+        <a href="../pages/forum.html" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.75rem 1.5rem; background: transparent; color: white; border: 1px solid white; border-radius: var(--border-radius); font-weight: 600; text-decoration: none;">
+          <i class="fas fa-comments"></i>
+          Unirse al Foro
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <footer style="margin-top: 4rem; padding: 2rem 0; border-top: 1px solid var(--border-color); text-align: center; color: var(--color-text-muted);">
+    <p>&copy; 2025 The Black Robots Foundation. <a href="#" style="color: var(--color-primary); text-decoration: none;">MIT License</a></p>
+  </footer>
+
+  <script src="../assets/js/script.js"></script>
+</body>
+</html>
