@@ -1,0 +1,17 @@
+# BlackRobots Foundation - Mis Proyectos
+
+drone:
+  title: "Drone Project"
+  slug: "drone"
+  description: "Coming Soon"
+  status: "Coming Soon"
+  icon: "🚁"
+  featured: true
+  
+plotter:
+  title: "CNC Plotter"
+  slug: "plotter"
+  description: "Coming Soon"
+  status: "Coming Soon"
+  icon: "✏️"
+  featured: true

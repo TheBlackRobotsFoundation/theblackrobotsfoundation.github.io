@@ -1,0 +1,19 @@
+robotica:
+  label: Robótica
+  permalink: /robotica
+  description: Tutoriales sobre robótica
+
+arduino:
+  label: Arduino
+  permalink: /arduino
+  description: Proyectos con Arduino
+
+python:
+  label: Python
+  permalink: /python
+  description: Programación en Python
+
+electronica:
+  label: Electrónica
+  permalink: /electronica
+  description: Circuitos y componentes electrónicos
