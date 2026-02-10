@@ -1,41 +1,41 @@
-# Website
+# The Black Robots Foundation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+**make it simple, make it black**
 
-## Installation
+Sitio web oficial de The Black Robots Foundation - Proyectos de robótica open source.
 
-```bash
-yarn
-```
+🌐 **Sitio web**: [blackrobots.org](https://blackrobots.org)
 
-## Local Development
+## Proyectos
 
-```bash
-yarn start
-```
+- **Rover**: Vehículo explorador autónomo
+- Y más proyectos en desarrollo...
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+## Desarrollo
 
-## Build
+Este sitio está construido con [Docusaurus](https://docusaurus.io/).
 
-```bash
-yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-Using SSH:
+### Instalación
 
 ```bash
-USE_SSH=true yarn deploy
+npm install
 ```
 
-Not using SSH:
+### Servidor de desarrollo
 
 ```bash
-GIT_USER=<Your GitHub username> yarn deploy
+npm start
 ```
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+### Build
+
+```bash
+npm run build
+```
+
+### Deploy a GitHub Pages
+
+```bash
+npm run deploy
+```
+
