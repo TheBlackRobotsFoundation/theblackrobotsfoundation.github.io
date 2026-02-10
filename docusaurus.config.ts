@@ -24,6 +24,8 @@ const config: Config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'TheBlackRobotsFoundation', // Usually your GitHub org/user name.
   projectName: 'theblackrobotsfoundation.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
 
@@ -44,19 +46,7 @@ const config: Config = {
           routeBasePath: 'proyectos',
           path: 'docs',
         },
-        blog: {
-          showReadingTime: true,
-          routeBasePath: 'tutoriales',
-          blogTitle: 'Tutoriales',
-          blogDescription: 'Tutoriales cortos y guías para aprender robótica',
-          postsPerPage: 'ALL',
-          blogSidebarTitle: 'Todos los tutoriales',
-          blogSidebarCount: 'ALL',
-          // Useful options to enforce blogging best practices
-          onInlineTags: 'warn',
-          onInlineAuthors: 'warn',
-          onUntruncatedBlogPosts: 'warn',
-        },
+        blog: false,
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -84,7 +74,6 @@ const config: Config = {
           to: '/proyectos/rover/intro',
           position: 'left',
         },
-        {to: '/tutoriales', label: 'Tutoriales', position: 'left'},
         {to: '/quienes-somos', label: 'Quiénes Somos', position: 'right'},
         {to: '/foro', label: 'Foro', position: 'right'},
         {
@@ -111,10 +100,6 @@ const config: Config = {
             {
               label: 'Foro',
               to: '/foro',
-            },
-            {
-              label: 'Tutoriales',
-              to: '/tutoriales',
             },
           ],
         },

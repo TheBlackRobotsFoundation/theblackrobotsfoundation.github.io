@@ -23,12 +23,6 @@ function HomepageHeader() {
             to="/proyectos/rover/intro">
             Ver Rover
           </Link>
-          <Link
-            className="button button--secondary button--lg"
-            to="/tutoriales"
-            style={{marginLeft: '1rem'}}>
-            Tutoriales
-          </Link>
         </div>
       </div>
     </header>
