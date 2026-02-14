@@ -1,0 +1,3 @@
+[submodule "docs/rover"]
+	path = docs/rover
+	url = https://github.com/TheBlackRobotsFoundation/Rover.git
