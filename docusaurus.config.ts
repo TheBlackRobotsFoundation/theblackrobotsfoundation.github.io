@@ -45,6 +45,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           routeBasePath: 'proyectos',
           path: 'docs',
+          exclude: ['**/rover/**', '**/rover'],
         },
         blog: false,
         theme: {

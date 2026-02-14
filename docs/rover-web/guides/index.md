@@ -11,27 +11,6 @@ Bienvenido a la documentación del Rover, una plataforma robótica modular basad
 ## Arquitectura
 
 - [Visión General](architecture/overview.md)
-- [Workspaces](architecture/workspaces.md)
-- [Diagramas](architecture/diagrams/)
-
-## Guías
-
-- [Teleoperación](./teleop.md)
-- [Navegación](./navigation.md)
-- [Calibración](./calibration.md)
-- [Simulación](./simulation.md)
-
-## API
-
-- [Mensajes](api/messages.md)
-- [Servicios](api/services.md)
-- [Topics](api/topics.md)
-
-## Troubleshooting
-
-- [Hardware](troubleshooting/hardware.md)
-- [Software](troubleshooting/software.md)
-- [FAQ](troubleshooting/faq.md)
 
 ## Especificaciones
 

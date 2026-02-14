@@ -73,5 +73,3 @@ source install/setup.bash
 
 ## Hardware Setup
 
-Ver [hardware-setup.md](../docs/getting-started/hardware-setup.md) para conexiones.
-

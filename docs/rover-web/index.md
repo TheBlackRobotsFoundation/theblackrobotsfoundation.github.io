@@ -30,10 +30,20 @@ Este proyecto está diseñado con fines **educativos** y de **investigación**, 
 
 ## Características del Sistema
 
-- **Arquitectura**: Componentes independientes y reutilizables
-- **Hardware**: Jetson Orin, RoboClaw 2x15A, PX4, RPLiDAR
+- **Arquitectura modular**: Componentes independientes adaptables a tu hardware
+- **Hardware configurable**: No requiere componentes específicos
 - **Navegación autónoma**: Integración con Nav2
-- **Simulación**: Modelo en Gazebo para desarrollo sin hardware
+- **Simulación**: Modelo en Gazebo
+
+### Hardware de Esta Implementación
+
+Desarrollado y probado con:
+- **Computadora**: Jetson Orin
+- **Motores**: RoboClaw 2x15A
+- **Sensores**: PX4, RPLiDAR
+- **Control**: Teclado, PS4, FrSky
+
+El sistema es modular: cambia componentes en `rover_bringup/rover_config/`
 
 ## Arquitectura del Sistema
 
@@ -71,12 +81,15 @@ El rover está organizado en **capas funcionales** que se comunican mediante ROS
 
 1. **Entrada de control**: Usuario o Nav2 publica comandos en `/cmd_vel`
 2. **Control**: Base controller convierte velocidades lineales/angulares a velocidades de ruedas
-3. **Actuación**: Drivers RoboClaw envían comandos PWM a los motores
-4. **Sensado**: Encoders, IMU y sensores publican datos constantemente
+3. **Actuación**: Drivers de motor envían comandos a los controladores
+4. **Sensado**: Encoders y sensores publican datos constantemente
 5. **Odometría**: Los datos se fusionan para estimar posición en `/odom`
 6. **Localización**: Nav2 usa `/odom` y `/scan` para navegación
 
-## Especificaciones del Robot
+## Especificaciones del Robot (Ejemplo)
+
+**Nota**: Estos valores son del ejemplo de implementación. 
+Configura los tuyos en `rover_bringup/rover_config/config/rover_params.yaml`
 
 | Parámetro | Valor |
 |-----------|-------|
@@ -161,7 +174,10 @@ ros2 run rover_diagnostics check_hardware.py
 # 3. Lanzar drivers y control
 ros2 launch rover_bringup rover.launch.py
 
-# 4. En otra terminal: teleop con joystick
+# 4. En otra terminal: teleop (elige tu método)
+# Con teclado:
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
+# Con joystick (ejemplo PS4, ver docs para otros):
 ros2 launch rover_control ps4_teleop.launch.py
 ```
 
@@ -368,11 +384,15 @@ ros2 launch rover_tools diagnostics.launch.py
 
 Ver documentación detallada en [docs/getting-started/hardware-setup.md](guides/getting-started/hardware-setup.md)
 
-### Conexiones
-- **RoboClaw Left**: /dev/ttyACM1 (Motores izquierdos)
-- **RoboClaw Right**: /dev/ttyACM0 (Motores derechos)
-- **PX4**: /dev/ttyACM2 (IMU, GPS)
-- **LIDAR**: /dev/ttyUSB0 (RPLiDAR)
+### Ejemplo de Configuración
+**Controladores de motor**: Depende de tu hardware (RoboClaw, ODrive, etc.)
+**Sensores**: LIDAR, IMU, GPS (opcionales según tu setup)
+**Control**: Teclado, joystick, radio RC (configurable)
+
+**¿Dónde configurar?**
+- Puertos y dispositivos: `rover_bringup/rover_config/config/rover_params.yaml`
+- Parámetros del robot: mismo archivo
+- Launch files: `rover_bringup/rover_launch/launch/`
 
 ## Contribuir
 

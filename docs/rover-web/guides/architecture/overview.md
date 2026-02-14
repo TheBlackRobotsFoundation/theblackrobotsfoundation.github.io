@@ -266,8 +266,3 @@ El diseño modular permite agregar fácilmente:
 - Algoritmos de navegación alternativos
 - Modos de operación custom
 - Data logging avanzado
-
-## Próximos Pasos
-
-- [Workspaces Detallados](workspaces.md)
-- [Diagramas](diagrams/)

@@ -110,8 +110,6 @@ ros2 launch rover_launch teleop.launch.py
 
 ## Troubleshooting
 
-Ver [diagnostics](../rover_tools/README.md) para herramientas de diagnóstico.
-
 ```bash
 # Verificar conexiones
 ros2 launch rover_tools diagnostics.launch.py

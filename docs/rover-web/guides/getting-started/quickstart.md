@@ -256,9 +256,3 @@ ros2 node list
 # Si quedan procesos colgados
 killall -9 roboclaw_driver ibus_driver
 ```
-
-## Próximos Pasos
-
-- [Teleoperación Avanzada](./teleop.md)
-- [Configurar Navegación](./navigation.md)
-- [Calibración de Sensores](./calibration.md)
