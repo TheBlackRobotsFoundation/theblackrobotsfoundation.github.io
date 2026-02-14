@@ -259,6 +259,11 @@ killall -9 roboclaw_driver ibus_driver
 
 ## Próximos Pasos
 
-- [Teleoperación Avanzada](../guides/teleop.md)
-- [Configurar Navegación](../guides/navigation.md)
-- [Calibración de Sensores](../guides/calibration.md)
+Documentación completa en el repositorio:  
+[github.com/TheBlackRobotsFoundation/Rover](https://github.com/TheBlackRobotsFoundation/Rover)
+
+<!-- Próximamente:
+- Teleoperación Avanzada
+- Configurar Navegación
+- Calibración de Sensores
+-->

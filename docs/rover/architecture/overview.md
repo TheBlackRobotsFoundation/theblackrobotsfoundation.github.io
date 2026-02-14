@@ -269,5 +269,7 @@ El diseño modular permite agregar fácilmente:
 
 ## Próximos Pasos
 
-- [Workspaces Detallados](workspaces.md)
-- [Diagramas](diagrams/)
+<!-- Próximamente:
+- Workspaces Detallados
+- Diagramas
+-->

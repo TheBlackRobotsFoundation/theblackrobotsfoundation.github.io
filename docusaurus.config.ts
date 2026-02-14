@@ -71,7 +71,7 @@ const config: Config = {
       items: [
         {
           label: 'Rover',
-          to: '/proyectos/rover/intro',
+          to: '/proyectos/rover/',
           position: 'left',
         },
         {to: '/quienes-somos', label: 'Quiénes Somos', position: 'right'},
@@ -90,7 +90,7 @@ const config: Config = {
           items: [
             {
               label: 'Rover',
-              to: '/proyectos/rover/intro',
+              to: '/proyectos/rover/',
             },
           ],
         },
