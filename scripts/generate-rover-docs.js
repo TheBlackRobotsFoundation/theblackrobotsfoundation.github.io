@@ -38,7 +38,7 @@ const fixedReadme = mainReadme
 
 const indexContent = `---
 sidebar_position: 1
-slug: /proyectos/rover-web
+id: rover-intro
 title: Rover
 ---
 
