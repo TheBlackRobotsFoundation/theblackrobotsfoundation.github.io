@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-slug: /proyectos/rover
+slug: /proyectos/rover-web
 title: Rover
 ---
 

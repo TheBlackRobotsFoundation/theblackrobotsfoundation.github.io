@@ -33,5 +33,4 @@ Bienvenido a la documentación del Rover, una plataforma robótica modular basad
 ## Enlaces
 
 - [GitHub](https://github.com/TheBlackRobotsFoundation/Rover)
-- [Web](https://theblackrobotsfoundation.github.io)
-- [Proyecto](https://theblackrobotsfoundation.github.io/proyectos/rover/)
+- [Web](https://blackrobots.org/proyectos/rover-web/)
