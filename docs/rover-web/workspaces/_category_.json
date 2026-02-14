@@ -1,0 +1,8 @@
+{
+  "label": "Workspaces",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Documentación de cada workspace del proyecto Rover."
+  }
+}
