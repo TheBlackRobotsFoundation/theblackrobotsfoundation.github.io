@@ -16,10 +16,10 @@ Bienvenido a la documentación del Rover, una plataforma robótica modular basad
 
 ## Guías
 
-- [Teleoperación](guides/teleop.md)
-- [Navegación](guides/navigation.md)
-- [Calibración](guides/calibration.md)
-- [Simulación](guides/simulation.md)
+- [Teleoperación](./teleop.md)
+- [Navegación](./navigation.md)
+- [Calibración](./calibration.md)
+- [Simulación](./simulation.md)
 
 ## API
 

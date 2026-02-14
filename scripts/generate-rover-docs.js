@@ -80,7 +80,14 @@ function copyRecursive(src, dest) {
       if (fs.lstatSync(srcPath).isDirectory()) {
         copyRecursive(srcPath, destPath);
       } else if (item.endsWith('.md')) {
-        fs.copyFileSync(srcPath, destPath);
+        // Leer contenido y arreglar enlaces
+        let content = fs.readFileSync(srcPath, 'utf8');
+        content = content
+          .replace(/\(\.\.\/guides\//g, '(./')
+          .replace(/\(\.\.\/docs\//g, '(./')
+          .replace(/\(guides\//g, '(./')
+          .replace(/\(docs\//g, '(./');
+        fs.writeFileSync(destPath, content);
       }
     });
   }

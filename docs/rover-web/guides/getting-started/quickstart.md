@@ -259,6 +259,6 @@ killall -9 roboclaw_driver ibus_driver
 
 ## Próximos Pasos
 
-- [Teleoperación Avanzada](../guides/teleop.md)
-- [Configurar Navegación](../guides/navigation.md)
-- [Calibración de Sensores](../guides/calibration.md)
+- [Teleoperación Avanzada](./teleop.md)
+- [Configurar Navegación](./navigation.md)
+- [Calibración de Sensores](./calibration.md)
