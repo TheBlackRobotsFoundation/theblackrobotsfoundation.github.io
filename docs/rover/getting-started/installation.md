@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Instalación
 
 Guía completa para instalar el Rover desde cero.

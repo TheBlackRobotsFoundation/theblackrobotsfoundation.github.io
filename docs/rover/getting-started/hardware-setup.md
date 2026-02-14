@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Hardware Setup
 
 Guía para conectar y configurar el hardware del Rover.

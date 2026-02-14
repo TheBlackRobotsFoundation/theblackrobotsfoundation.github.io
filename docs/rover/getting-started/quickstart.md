@@ -1,3 +1,6 @@
+---
+sidebar_position: 3
+---
 # Quick Start
 
 Guía rápida para empezar a usar el Rover.

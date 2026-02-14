@@ -1,3 +1,7 @@
+---
+sidebar_position: 1
+---
+
 # Arquitectura del Sistema
 
 Visión general de la arquitectura del Rover.
