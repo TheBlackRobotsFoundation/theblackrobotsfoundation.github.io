@@ -1,0 +1,32 @@
+---
+id: guias-intro
+title: Guías
+sidebar_label: Inicio
+slug: /
+sidebar_position: 0
+---
+
+import DocCardList from '@theme/DocCardList';
+import Heading from '@theme/Heading';
+import {useDocsSidebar} from '@docusaurus/plugin-content-docs/client';
+
+export const GuideSections = () => {
+  const sidebar = useDocsSidebar();
+  const categories = sidebar.items.filter((item) => item.type === 'category');
+  return (
+    <>
+      {categories.map((category) => (
+        <div key={category.label} style={{marginTop: '2rem'}}>
+          <Heading as="h2">{category.label}</Heading>
+          <DocCardList items={category.items} />
+        </div>
+      ))}
+    </>
+  );
+};
+
+# Guías
+
+Bienvenido a las guías de Black Robots. Aquí tienes todo organizado por temas: elige uno para empezar.
+
+<GuideSections />

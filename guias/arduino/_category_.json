@@ -1,0 +1,12 @@
+{
+  "label": "Arduino",
+  "position": 1,
+  "customProps": {
+    "icon": "/img/guias/iconos/documentacion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Guía de Arduino",
+    "description": "Aprende Arduino desde cero: qué es, cómo instalarlo y tus primeros programas."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "LED",
+  "position": 1,
+  "customProps": {
+    "icon": "/img/guias/iconos/conceptos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "LED",
+    "description": "El componente más sencillo para empezar: qué es un LED, cómo funciona, cómo se conecta y cómo controlarlo con Arduino."
+  }
+}

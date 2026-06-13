@@ -33,7 +33,12 @@ const mainReadme = fs.readFileSync(path.join(ROVER_PATH, 'README.md'), 'utf8');
 
 // Reemplazar enlaces rotos
 const fixedReadme = mainReadme
-  .replace(/\(docs\//g, '(guides/')
+  // Enlaces a docs/ del README -> rutas absolutas a docs reales de rover-web
+  .replace(/\]\(docs\/getting-started\/hardware-setup\.md\)/g, '](/proyectos/rover-web/guides/getting-started/hardware-setup)')
+  .replace(/\]\(docs\/getting-started\/?\)/g, '](/proyectos/rover-web/guides/getting-started/installation)')
+  .replace(/\]\(docs\/architecture\/?\)/g, '](/proyectos/rover-web/guides/architecture/overview)')
+  .replace(/\]\(docs\/?\)/g, '](/proyectos/rover-web/guides)')
+  .replace(/\(docs\//g, '(/proyectos/rover-web/guides/')
   .replace(/\(LICENSE\)/g, '(https://github.com/TheBlackRobotsFoundation/Rover/blob/main/LICENSE)');
 
 const indexContent = `---

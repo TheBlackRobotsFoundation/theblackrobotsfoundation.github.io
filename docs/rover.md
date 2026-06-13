@@ -3,27 +3,18 @@ id: rover
 title: Rover
 sidebar_label: Rover
 slug: /rover
+sidebar_custom_props:
+  icon: /img/proyectos/iconos/rover.svg
 ---
 
-# Rover ROS2 Platform
+# Rover
 
-Plataforma robótica móvil de tracción diferencial basada en ROS2.
+:::info[Próximamente]
+La documentación del **Rover** está en preparación. ¡Vuelve pronto!
+:::
 
-## Secciones
+## Coming soon
 
-- **[Guías](rover-web/guides)** - Instalación, configuración y uso
-- **[Workspaces](rover-web/workspaces/core)** - Arquitectura del proyecto
-
-## Enlaces Rápidos
+Estamos trabajando en esta sección. Mientras tanto, puedes seguir el avance del proyecto en GitHub:
 
 - [GitHub del Proyecto](https://github.com/TheBlackRobotsFoundation/Rover)
-- [Getting Started](rover-web/guides/getting-started/installation)
-
-## Características
-
-- ✅ ROS2 Humble
-- ✅ Navegación autónoma (Nav2)
-- ✅ Fusión de sensores (EKF)
-- ✅ Control por joystick
-- ✅ Simulación Gazebo
-

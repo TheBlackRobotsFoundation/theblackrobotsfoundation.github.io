@@ -336,10 +336,10 @@ Rover/
 
 ## Documentación Completa
 
-Toda la documentación está en este repositorio, en la carpeta [docs/](guides/):
+Toda la documentación está en este repositorio, en la carpeta [docs/](/proyectos/rover-web/guides):
 
-- **[Getting Started](guides/getting-started/)**: Instalación, configuración y primeros pasos
-- **[Arquitectura](guides/architecture/)**: Diseño del sistema
+- **[Getting Started](/proyectos/rover-web/guides/getting-started/installation)**: Instalación, configuración y primeros pasos
+- **[Arquitectura](/proyectos/rover-web/guides/architecture/overview)**: Diseño del sistema
 
 ## Componentes del Proyecto
 
@@ -382,7 +382,7 @@ ros2 launch rover_tools diagnostics.launch.py
 
 ## Hardware Setup
 
-Ver documentación detallada en [docs/getting-started/hardware-setup.md](guides/getting-started/hardware-setup.md)
+Ver documentación detallada en [docs/getting-started/hardware-setup.md](/proyectos/rover-web/guides/getting-started/hardware-setup)
 
 ### Ejemplo de Configuración
 **Controladores de motor**: Depende de tu hardware (RoboClaw, ODrive, etc.)

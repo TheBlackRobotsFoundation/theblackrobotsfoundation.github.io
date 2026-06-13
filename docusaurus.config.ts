@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'The Black Robots Foundation',
+  title: 'Black Robots',
   tagline: 'make it simple, make it black',
   favicon: 'img/favicon.ico',
 
@@ -47,11 +47,33 @@ const config: Config = {
           path: 'docs',
           exclude: ['**/rover/**', '**/rover'],
         },
-        blog: false,
+        blog: {
+          path: 'blog-posts',
+          routeBasePath: 'noticias',
+          blogTitle: 'Noticias y curiosidades',
+          blogDescription: 'Novedades, curiosidades y noticias del mundo de la robótica',
+          blogSidebarTitle: 'Entradas recientes',
+          showReadingTime: true,
+          feedOptions: {
+            type: ['rss', 'atom'],
+          },
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'guias',
+        path: 'guias',
+        routeBasePath: 'guias',
+        sidebarPath: './sidebarsGuias.ts',
+      },
     ],
   ],
 
@@ -64,15 +86,26 @@ const config: Config = {
       respectPrefersColorScheme: false,
     },
     navbar: {
-      title: 'The Black Robots Foundation',
+      title: 'Black Robots',
       logo: {
         alt: 'Black Robots Foundation Logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          label: 'Rover',
-          to: '/proyectos/rover/',
+          type: 'docSidebar',
+          sidebarId: 'proyectosSidebar',
+          label: 'Proyectos',
+          position: 'left',
+        },
+        {
+          label: 'Guías',
+          to: '/guias/',
+          position: 'left',
+        },
+        {
+          label: 'Noticias',
+          to: '/noticias',
           position: 'left',
         },
         {to: '/quienes-somos', label: 'Quiénes Somos', position: 'right'},
@@ -92,6 +125,14 @@ const config: Config = {
             {
               label: 'Rover',
               to: '/proyectos/rover/',
+            },
+            {
+              label: 'Drone',
+              to: '/proyectos/drone/',
+            },
+            {
+              label: 'Plotter',
+              to: '/proyectos/plotter/',
             },
           ],
         },
@@ -122,19 +163,15 @@ const config: Config = {
           items: [
             {
               label: 'Instagram',
-              href: '#', // TODO: Agregar enlace de Instagram
-            },
-            {
-              label: 'TikTok',
-              href: '#', // TODO: Agregar enlace de TikTok
+              href: 'https://instagram.com/black.robots',
             },
             {
               label: 'YouTube',
-              href: '#', // TODO: Agregar enlace de YouTube
+              href: 'https://youtube.com/@black.robots',
             },
             {
-              label: 'LinkedIn',
-              href: '#', // TODO: Agregar enlace de LinkedIn
+              label: 'TikTok',
+              href: 'https://tiktok.com/@blackrobots',
             },
           ],
         },
