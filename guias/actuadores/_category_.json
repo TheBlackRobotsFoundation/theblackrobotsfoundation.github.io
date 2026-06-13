@@ -1,0 +1,12 @@
+{
+  "label": "Actuadores",
+  "position": 2,
+  "customProps": {
+    "icon": "/img/guias/iconos/configuracion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Actuadores",
+    "description": "Todo sobre los componentes que hacen que un robot se mueva: motores, servos y más."
+  }
+}

@@ -1,0 +1,9 @@
+blackrobots:
+  name: Black Robots Foundation
+  title: Equipo de robótica
+  url: https://github.com/TheBlackRobotsFoundation
+  image_url: https://github.com/TheBlackRobotsFoundation.png
+  page: true
+  socials:
+    github: TheBlackRobotsFoundation
+

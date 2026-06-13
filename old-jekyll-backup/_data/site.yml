@@ -1,0 +1,23 @@
+# BlackRobots Foundation - Mis Datos
+
+# Mis Stats
+community:
+  contributors: 1
+  projects: 2
+  commits: 0
+  countries: 1
+
+# Hero Section Content
+hero:
+  badge: "Developer"
+  title: "Black<span class='gradient-text'>Robots</span>"
+  subtitle: "Compartiendo mis proyectos"
+  description: "Aquí comparto mis proyectos de robótica. Actualmente tengo 2 en desarrollo."
+  primary_button:
+    text: "Ver Proyectos"
+    url: "#projects"
+    icon: "🚀"
+  secondary_button:
+    text: "Coming Soon"
+    url: "#"
+    icon: "⏰"

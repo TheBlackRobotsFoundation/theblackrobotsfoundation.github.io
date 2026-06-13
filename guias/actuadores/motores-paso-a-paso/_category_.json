@@ -1,0 +1,12 @@
+{
+  "label": "Motores paso a paso",
+  "position": 2,
+  "customProps": {
+    "icon": "/img/guias/iconos/inicio.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Motores paso a paso",
+    "description": "Qué son, cómo funcionan, cómo se conectan y cómo mover uno con Arduino."
+  }
+}

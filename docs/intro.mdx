@@ -1,0 +1,16 @@
+---
+id: intro
+title: Proyectos
+sidebar_label: Intro
+sidebar_position: 1
+slug: /
+---
+
+import DocCardList from '@theme/DocCardList';
+import {useDocsSidebar} from '@docusaurus/plugin-content-docs/client';
+
+# Proyectos
+
+Aquí están los proyectos de robótica de Black Robots Foundation. Cada uno se construye desde cero y se documenta paso a paso.
+
+<DocCardList items={useDocsSidebar().items.filter((item) => item.docId !== 'intro')} />
