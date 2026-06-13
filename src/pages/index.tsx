@@ -31,7 +31,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--secondary button--lg"
-            to="/guias/arduino/que-es-arduino">
+            to="/guias/">
             Ver Guías
           </Link>
         </div>
