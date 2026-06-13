@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_temp=self.webpackChunkdocusaurus_temp||[]).push([["3220"],{1912(s){s.exports=JSON.parse('{"blogBasePath":"/noticias","blogTitle":"Noticias y curiosidades","authorsListPath":"/noticias/authors"}')}}]);

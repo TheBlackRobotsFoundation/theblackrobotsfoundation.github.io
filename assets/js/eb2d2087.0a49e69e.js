@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocusaurus_temp=self.webpackChunkdocusaurus_temp||[]).push([["1266"],{868(e){e.exports=JSON.parse('{"metadata":{"permalink":"/noticias","page":1,"postsPerPage":10,"totalPages":1,"totalCount":0,"blogDescription":"Novedades, curiosidades y noticias del mundo de la rob\xf3tica","blogTitle":"Noticias y curiosidades"}}')}}]);
