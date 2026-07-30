@@ -1,0 +1,12 @@
+{
+  "label": "Simulación y RL",
+  "position": 4,
+  "customProps": {
+    "icon": "/img/guias/iconos/conceptos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Simulación y aprendizaje por refuerzo",
+    "description": "Enseña a un robot a moverse dentro de un ordenador: simula su física con MuJoCo, envuélvelo como un entorno con Gymnasium y entrénalo con aprendizaje por refuerzo. El hilo conductor es un humanoide que aprende a andar."
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "label": "Gymnasium",
+  "position": 2,
+  "customProps": {
+    "icon": "/img/guias/iconos/documentacion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Gymnasium: el entorno estándar",
+    "description": "Gymnasium es el lenguaje común entre un robot y un agente que aprende: define cómo se observa el mundo, qué acciones caben y qué recompensa se gana. Es la interfaz reset / step que usan casi todos los algoritmos de RL."
+  }
+}

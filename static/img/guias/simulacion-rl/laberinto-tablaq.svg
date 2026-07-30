@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 320" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="q" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <text x="120" y="34" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="600">el laberinto</text>
+
+  <!-- rejilla 5x5 -->
+  <g transform="translate(30 52)">
+    <g fill="#0f0f0f" stroke="#333" stroke-width="1">
+      <rect x="0" y="0" width="180" height="180"/>
+    </g>
+    <!-- paredes -->
+    <g fill="#2a2a2a">
+      <rect x="36" y="36" width="36" height="36"/>
+      <rect x="72" y="36" width="36" height="36"/>
+      <rect x="108" y="108" width="36" height="36"/>
+      <rect x="72" y="144" width="36" height="36"/>
+    </g>
+    <!-- líneas de rejilla -->
+    <g stroke="#333" stroke-width="1">
+      <line x1="36" y1="0" x2="36" y2="180"/><line x1="72" y1="0" x2="72" y2="180"/>
+      <line x1="108" y1="0" x2="108" y2="180"/><line x1="144" y1="0" x2="144" y2="180"/>
+      <line x1="0" y1="36" x2="180" y2="36"/><line x1="0" y1="72" x2="180" y2="72"/>
+      <line x1="0" y1="108" x2="180" y2="108"/><line x1="0" y1="144" x2="180" y2="144"/>
+    </g>
+    <!-- inicio y meta -->
+    <text x="18" y="24" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="700">S</text>
+    <rect x="146" y="146" width="32" height="32" fill="#ffffff"/>
+    <text x="162" y="169" text-anchor="middle" fill="#000000" font-size="16" font-weight="700">G</text>
+    <!-- ruta -->
+    <path d="M18 18 L18 90 L54 90 L54 126 L126 126 L126 162 L156 162"
+          fill="none" stroke="#d0d0d0" stroke-width="2" stroke-dasharray="4 4" marker-end="url(#q)"/>
+  </g>
+
+  <!-- tabla Q -->
+  <text x="470" y="34" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="600">la tabla Q</text>
+  <g transform="translate(300 52)" font-size="14">
+    <!-- cabecera -->
+    <g fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1">
+      <rect x="0" y="0" width="80" height="34"/>
+      <rect x="80" y="0" width="55" height="34"/>
+      <rect x="135" y="0" width="55" height="34"/>
+      <rect x="190" y="0" width="55" height="34"/>
+      <rect x="245" y="0" width="55" height="34"/>
+    </g>
+    <g fill="#c8c8c8" text-anchor="middle">
+      <text x="40" y="22" font-size="12">estado</text>
+      <text x="107" y="23">↑</text><text x="162" y="23">↓</text>
+      <text x="217" y="23">←</text><text x="272" y="23">→</text>
+    </g>
+    <!-- filas -->
+    <g stroke="#2a2a2a" stroke-width="1" fill="#0f0f0f">
+      <rect x="0" y="34" width="80" height="32"/><rect x="80" y="34" width="55" height="32"/><rect x="135" y="34" width="55" height="32"/><rect x="190" y="34" width="55" height="32"/><rect x="245" y="34" width="55" height="32"/>
+      <rect x="0" y="66" width="80" height="32"/><rect x="80" y="66" width="55" height="32"/><rect x="135" y="66" width="55" height="32"/><rect x="190" y="66" width="55" height="32"/><rect x="245" y="66" width="55" height="32"/>
+      <rect x="0" y="98" width="80" height="32"/><rect x="80" y="98" width="55" height="32"/><rect x="135" y="98" width="55" height="32"/><rect x="190" y="98" width="55" height="32"/><rect x="245" y="98" width="55" height="32"/>
+      <rect x="0" y="130" width="80" height="32"/><rect x="80" y="130" width="55" height="32"/><rect x="135" y="130" width="55" height="32"/><rect x="190" y="130" width="55" height="32"/><rect x="245" y="130" width="55" height="32"/>
+    </g>
+    <g text-anchor="middle" font-size="13">
+      <g fill="#9a9a9a"><text x="40" y="55">s0</text><text x="40" y="87">s1</text><text x="40" y="119">s2</text><text x="40" y="151">s3</text></g>
+      <g fill="#e0e0e0">
+        <text x="107" y="55">0.1</text><text x="162" y="55">0.4</text><text x="217" y="55">0.0</text><text x="272" y="55" fill="#ffffff" font-weight="700">0.8</text>
+        <text x="107" y="87">0.2</text><text x="162" y="87" fill="#ffffff" font-weight="700">0.9</text><text x="217" y="87">0.1</text><text x="272" y="87">0.3</text>
+        <text x="107" y="119">0.0</text><text x="162" y="119">0.2</text><text x="217" y="119">0.1</text><text x="272" y="119" fill="#ffffff" font-weight="700">0.7</text>
+        <text x="107" y="151">0.3</text><text x="162" y="151">0.1</text><text x="217" y="151">0.0</text><text x="272" y="151" fill="#ffffff" font-weight="700">1.0</text>
+      </g>
+    </g>
+  </g>
+  <text x="470" y="248" text-anchor="middle" fill="#8a8a8a" font-size="12">en negrita, la mejor acción de cada estado</text>
+</svg>

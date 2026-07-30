@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 400" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="rs" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <g stroke="#8a8a8a" stroke-width="1.5" fill="none" marker-end="url(#rs)">
+    <path d="M230 62 L230 92"/>
+    <path d="M230 152 L230 182"/>
+    <path d="M230 242 L230 268"/>
+    <!-- bucle de vuelta: no -> elegir acción -->
+    <path d="M150 300 L60 300 L60 127 L150 127"/>
+  </g>
+
+  <!-- reset -->
+  <rect x="130" y="20" width="200" height="42" rx="2" fill="#141414" stroke="#5a5a5a" stroke-width="1.5"/>
+  <text x="230" y="46" text-anchor="middle" fill="#ffffff" font-size="15"><tspan font-family="monospace">reset()</tspan> · nuevo episodio</text>
+
+  <!-- elegir acción -->
+  <rect x="150" y="92" width="160" height="42" rx="2" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+  <text x="230" y="118" text-anchor="middle" fill="#ffffff" font-size="14">elegir acción</text>
+
+  <!-- step -->
+  <rect x="150" y="182" width="160" height="42" rx="2" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+  <text x="230" y="208" text-anchor="middle" fill="#ffffff" font-size="14"><tspan font-family="monospace">step(action)</tspan></text>
+
+  <!-- decisión ¿done? -->
+  <path d="M230 268 L300 300 L230 332 L160 300 Z" fill="#141414" stroke="#5a5a5a" stroke-width="1.5"/>
+  <text x="230" y="305" text-anchor="middle" fill="#ffffff" font-size="14">¿done?</text>
+
+  <!-- etiquetas del bucle -->
+  <text x="105" y="118" text-anchor="middle" fill="#9a9a9a" font-size="12">no</text>
+  <text x="345" y="322" text-anchor="middle" fill="#9a9a9a" font-size="12">sí</text>
+
+  <!-- salida sí -->
+  <path d="M300 300 L390 300 L390 340" fill="none" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#rs)"/>
+  <rect x="310" y="340" width="160" height="42" rx="2" fill="#1a1a1a" stroke="#5a5a5a" stroke-width="1.5"/>
+  <text x="390" y="366" text-anchor="middle" fill="#ffffff" font-size="14">fin del episodio</text>
+</svg>
