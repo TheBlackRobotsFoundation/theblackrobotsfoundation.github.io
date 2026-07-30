@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 390" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="big" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#d8d8d8"/>
+    </marker>
+    <marker id="sm" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- ===== AGENTE ===== -->
+  <rect x="45" y="60" width="250" height="200" rx="3" fill="#101010" stroke="#5f5f5f" stroke-width="1.5"/>
+  <text x="170" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">Agente</text>
+  <text x="170" y="104" text-anchor="middle" fill="#909090" font-size="12">el que aprende y decide</text>
+
+  <rect x="68" y="116" width="204" height="56" rx="2" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1.5"/>
+  <text x="170" y="140" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Política π</text>
+  <text x="170" y="159" text-anchor="middle" fill="#9a9a9a" font-size="11.5">estado → mejor acción</text>
+
+  <rect x="68" y="192" width="204" height="56" rx="2" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1.5"/>
+  <text x="170" y="216" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Aprendizaje</text>
+  <text x="170" y="235" text-anchor="middle" fill="#9a9a9a" font-size="11.5">ajusta π con la recompensa</text>
+
+  <!-- feedback interno: aprendizaje mejora la política -->
+  <path d="M110 192 L110 172" fill="none" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#sm)"/>
+  <text x="200" y="186" text-anchor="middle" fill="#9a9a9a" font-size="11" font-style="italic">actualiza π</text>
+
+  <!-- ===== ENTORNO ===== -->
+  <rect x="425" y="60" width="250" height="200" rx="3" fill="#101010" stroke="#5f5f5f" stroke-width="1.5"/>
+  <text x="550" y="86" text-anchor="middle" fill="#ffffff" font-size="17" font-weight="600">Entorno</text>
+  <text x="550" y="104" text-anchor="middle" fill="#909090" font-size="12">el robot y su mundo (MuJoCo)</text>
+
+  <rect x="448" y="116" width="204" height="56" rx="2" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1.5"/>
+  <text x="550" y="140" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Física</text>
+  <text x="550" y="159" text-anchor="middle" fill="#9a9a9a" font-size="11.5">aplica la acción, avanza el tiempo</text>
+
+  <rect x="448" y="192" width="204" height="56" rx="2" fill="#1a1a1a" stroke="#3c3c3c" stroke-width="1.5"/>
+  <text x="550" y="216" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">Recompensa</text>
+  <text x="550" y="235" text-anchor="middle" fill="#9a9a9a" font-size="11.5">mide si lo hizo bien</text>
+
+  <!-- ===== SEÑALES ENTRE AGENTE Y ENTORNO ===== -->
+  <!-- acción (arriba, agente -> entorno) -->
+  <line x1="295" y1="140" x2="425" y2="140" stroke="#d8d8d8" stroke-width="1.8" marker-end="url(#big)"/>
+  <text x="360" y="128" text-anchor="middle" fill="#ffffff" font-size="13.5" font-weight="600">acción</text>
+  <text x="360" y="112" text-anchor="middle" fill="#8a8a8a" font-size="11">a<tspan baseline-shift="sub" font-size="8">t</tspan></text>
+
+  <!-- observación + recompensa (abajo, entorno -> agente) -->
+  <line x1="425" y1="220" x2="295" y2="220" stroke="#d8d8d8" stroke-width="1.8" marker-end="url(#big)"/>
+  <text x="360" y="238" text-anchor="middle" fill="#ffffff" font-size="13" font-weight="600">observación + recompensa</text>
+  <text x="360" y="254" text-anchor="middle" fill="#8a8a8a" font-size="11">s<tspan baseline-shift="sub" font-size="8">t+1</tspan> , r<tspan baseline-shift="sub" font-size="8">t+1</tspan></text>
+
+  <!-- ===== TIRA: UN PASO DEL CICLO ===== -->
+  <text x="360" y="300" text-anchor="middle" fill="#909090" font-size="12">Un paso del ciclo, en orden:</text>
+  <g font-size="12.5">
+    <g fill="#141414" stroke="#3c3c3c" stroke-width="1.2">
+      <rect x="18" y="312" width="116" height="40" rx="2"/>
+      <rect x="164" y="312" width="116" height="40" rx="2"/>
+      <rect x="310" y="312" width="116" height="40" rx="2"/>
+      <rect x="456" y="312" width="116" height="40" rx="2"/>
+      <rect x="602" y="312" width="100" height="40" rx="2"/>
+    </g>
+    <g fill="#e6e6e6" text-anchor="middle">
+      <text x="76" y="337">observar</text>
+      <text x="222" y="337">decidir</text>
+      <text x="368" y="337">actuar</text>
+      <text x="514" y="337">recompensa</text>
+      <text x="652" y="337">aprender</text>
+    </g>
+    <g stroke="#8a8a8a" stroke-width="1.5" fill="none" marker-end="url(#sm)">
+      <line x1="136" y1="332" x2="162" y2="332"/>
+      <line x1="282" y1="332" x2="308" y2="332"/>
+      <line x1="428" y1="332" x2="454" y2="332"/>
+      <line x1="574" y1="332" x2="600" y2="332"/>
+    </g>
+  </g>
+</svg>

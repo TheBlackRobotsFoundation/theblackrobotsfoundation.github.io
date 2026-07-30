@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 380" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#8a8a8a"/>
+    </marker>
+  </defs>
+
+  <!-- joints (líneas) -->
+  <g stroke="#8a8a8a" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <path d="M330 74 L140 128"/>
+    <path d="M330 74 L330 128"/>
+    <path d="M330 74 L520 128"/>
+    <path d="M330 186 L330 240"/>
+    <path d="M520 186 L520 240"/>
+  </g>
+  <!-- etiquetas joint -->
+  <g fill="#9a9a9a" font-size="12" font-style="italic" text-anchor="middle">
+    <text x="205" y="104">joint · fixed</text>
+    <text x="366" y="106">joint · revolute</text>
+    <text x="455" y="104">joint · revolute</text>
+    <text x="392" y="216">joint · revolute</text>
+    <text x="582" y="216">joint · revolute</text>
+  </g>
+
+  <!-- links (cajas) -->
+  <g>
+    <!-- torso -->
+    <rect x="262" y="26" width="136" height="48" rx="2" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+    <text x="330" y="48" text-anchor="middle" fill="#ffffff" font-size="16" font-weight="600">torso</text>
+    <text x="330" y="65" text-anchor="middle" fill="#909090" font-size="11">link raíz</text>
+    <!-- fila 1 -->
+    <g fill="#141414" stroke="#4a4a4a" stroke-width="1.5">
+      <rect x="82" y="128" width="116" height="44" rx="2"/>
+      <rect x="272" y="128" width="116" height="44" rx="2"/>
+      <rect x="462" y="128" width="116" height="44" rx="2"/>
+    </g>
+    <g text-anchor="middle" fill="#ffffff" font-size="15">
+      <text x="140" y="155">cabeza</text>
+      <text x="330" y="155">brazo</text>
+      <text x="520" y="155">pierna</text>
+    </g>
+    <!-- fila 2 -->
+    <g fill="#141414" stroke="#4a4a4a" stroke-width="1.5">
+      <rect x="272" y="240" width="116" height="44" rx="2"/>
+      <rect x="462" y="240" width="116" height="44" rx="2"/>
+    </g>
+    <g text-anchor="middle" fill="#ffffff" font-size="15">
+      <text x="330" y="267">antebrazo</text>
+      <text x="520" y="267">mano</text>
+    </g>
+  </g>
+
+  <!-- leyenda -->
+  <g transform="translate(82 330)">
+    <rect x="0" y="-13" width="26" height="18" rx="2" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+    <text x="36" y="0" fill="#b0b0b0" font-size="13">= link (una pieza rígida)</text>
+    <line x1="270" y1="-4" x2="316" y2="-4" stroke="#8a8a8a" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="326" y="0" fill="#b0b0b0" font-size="13">= joint (una unión)</text>
+  </g>
+</svg>
