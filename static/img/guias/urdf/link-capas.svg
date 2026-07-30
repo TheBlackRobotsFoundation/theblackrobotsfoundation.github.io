@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <!-- VISUAL -->
+  <g transform="translate(30 40)">
+    <text x="85" y="0" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="600">visual</text>
+    <text x="85" y="20" text-anchor="middle" fill="#909090" font-size="12">cómo se ve</text>
+    <rect x="25" y="45" width="120" height="90" rx="2" fill="#2a2a2a" stroke="#6a6a6a" stroke-width="1.5"/>
+    <text x="85" y="165" text-anchor="middle" fill="#8a8a8a" font-size="12">forma + color</text>
+  </g>
+
+  <!-- COLISIÓN -->
+  <g transform="translate(250 40)">
+    <text x="85" y="0" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="600">colisión</text>
+    <text x="85" y="20" text-anchor="middle" fill="#909090" font-size="12">cómo choca</text>
+    <rect x="25" y="45" width="120" height="90" rx="2" fill="none" stroke="#6a6a6a" stroke-width="1.5" stroke-dasharray="6 5"/>
+    <text x="85" y="165" text-anchor="middle" fill="#8a8a8a" font-size="12">contorno de contacto</text>
+  </g>
+
+  <!-- INERCIAL -->
+  <g transform="translate(470 40)">
+    <text x="85" y="0" text-anchor="middle" fill="#ffffff" font-size="15" font-weight="600">inercial</text>
+    <text x="85" y="20" text-anchor="middle" fill="#909090" font-size="12">cómo pesa</text>
+    <rect x="25" y="45" width="120" height="90" rx="2" fill="none" stroke="#3a3a3a" stroke-width="1.5"/>
+    <!-- centro de masa -->
+    <g transform="translate(85 90)" stroke="#d0d0d0" stroke-width="1.5">
+      <line x1="-16" y1="0" x2="16" y2="0"/>
+      <line x1="0" y1="-16" x2="0" y2="16"/>
+      <circle cx="0" cy="0" r="6" fill="#d0d0d0" stroke="none"/>
+    </g>
+    <text x="85" y="165" text-anchor="middle" fill="#8a8a8a" font-size="12">masa + centro de masa</text>
+  </g>
+</svg>

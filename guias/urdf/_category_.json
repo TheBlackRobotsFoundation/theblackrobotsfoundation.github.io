@@ -1,0 +1,12 @@
+{
+  "label": "URDF",
+  "position": 3,
+  "customProps": {
+    "icon": "/img/guias/iconos/documentacion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "URDF: describe cualquier robot",
+    "description": "URDF es el formato estándar para describir un robot con un archivo de texto: sus piezas, cómo se conectan y cómo se mueven. Sirve para ROS, RViz, Gazebo y casi cualquier simulador."
+  }
+}

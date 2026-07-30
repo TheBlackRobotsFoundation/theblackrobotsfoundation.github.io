@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <defs>
+    <marker id="s1" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#d8d8d8"/>
+    </marker>
+  </defs>
+
+  <!-- Agente -->
+  <rect x="55" y="85" width="185" height="80" rx="3" fill="#141414" stroke="#5f5f5f" stroke-width="1.5"/>
+  <text x="147" y="120" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="600">Agente</text>
+  <text x="147" y="142" text-anchor="middle" fill="#909090" font-size="12">aprende y decide</text>
+
+  <!-- Entorno -->
+  <rect x="400" y="85" width="185" height="80" rx="3" fill="#141414" stroke="#5f5f5f" stroke-width="1.5"/>
+  <text x="492" y="120" text-anchor="middle" fill="#ffffff" font-size="18" font-weight="600">Entorno</text>
+  <text x="492" y="142" text-anchor="middle" fill="#909090" font-size="12">el robot y su mundo</text>
+
+  <!-- acción (arriba) -->
+  <path d="M240 108 C 300 66, 340 66, 400 108" fill="none" stroke="#d8d8d8" stroke-width="1.8" marker-end="url(#s1)"/>
+  <text x="320" y="52" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">acción</text>
+
+  <!-- observación + recompensa (abajo) -->
+  <path d="M400 142 C 340 184, 300 184, 240 142" fill="none" stroke="#d8d8d8" stroke-width="1.8" marker-end="url(#s1)"/>
+  <text x="320" y="208" text-anchor="middle" fill="#ffffff" font-size="14" font-weight="600">observación + recompensa</text>
+</svg>
