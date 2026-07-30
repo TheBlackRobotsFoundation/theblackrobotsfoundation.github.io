@@ -9,6 +9,17 @@ const config: Config = {
   tagline: 'make it simple, make it black',
   favicon: 'img/favicon.ico',
 
+  // Icono para iOS y accesos directos a la pantalla de inicio
+  headTags: [
+    {
+      tagName: 'link',
+      attributes: {
+        rel: 'apple-touch-icon',
+        href: '/img/apple-touch-icon.png',
+      },
+    },
+  ],
+
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -78,8 +89,8 @@ const config: Config = {
   ],
 
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // Imagen que aparece al compartir el enlace (Open Graph / Twitter)
+    image: 'img/social-card.png',
     colorMode: {
       defaultMode: 'dark',
       disableSwitch: true,
