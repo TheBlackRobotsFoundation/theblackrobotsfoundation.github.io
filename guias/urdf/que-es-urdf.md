@@ -13,9 +13,9 @@ Es la forma estándar de decirle a un ordenador "así es mi robot" sin que el ro
 
 ## ¿Para qué sirve?
 
-- **Visualizarlo** en herramientas como RViz antes de construirlo
+- **Visualizarlo** en herramientas como [RViz](/guias/ros2/launch-y-herramientas#rviz-el-robot-en-3d) antes de construirlo
 - **Simularlo** en Gazebo, MuJoCo o Isaac para probar sin arriesgar hardware
-- **Controlarlo** con ROS, que usa el URDF para saber dónde está cada articulación
+- **Controlarlo** con [ROS 2](/guias/ros2), que usa el URDF para saber dónde está cada articulación
 - **Compartirlo**: al ser un archivo de texto, cualquiera puede leerlo y reutilizarlo
 
 ## Las dos piezas de todo URDF

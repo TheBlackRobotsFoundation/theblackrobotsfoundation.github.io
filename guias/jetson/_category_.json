@@ -1,0 +1,13 @@
+{
+  "label": "NVIDIA Jetson",
+  "position": 6,
+  "customProps": {
+    "icon": "/img/guias/iconos/documentacion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Guía de NVIDIA Jetson",
+    "description": "Ordenadores con GPU para que el robot vea y piense: qué es una Jetson, cómo instalar JetPack, tus primeros programas en la GPU y lo básico para trabajar con ella.",
+    "slug": "/jetson"
+  }
+}

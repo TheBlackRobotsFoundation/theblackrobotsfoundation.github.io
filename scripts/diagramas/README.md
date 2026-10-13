@@ -1,9 +1,10 @@
 # Diagramas de las guías
 
-Scripts en Python que generan los SVG de `static/img/guias/` (electrónica, sensores, actuadores y el proyecto esquiva-obstáculos).
+Scripts en Python que generan los SVG de `static/img/guias/` (electrónica, sensores, actuadores, Raspberry Pi, Jetson y ROS 2).
 
 - `lib.py`: paleta, figura, cables y el Arduino UNO
 - `parts.py`: componentes (sensores, módulos, motores...)
+- `placas.py`: Raspberry Pi, su cabecera de 40 pines y Jetson
 - `fig_*.py`: un script por guía
 
 Para regenerar una guía:
