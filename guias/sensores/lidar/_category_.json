@@ -1,0 +1,13 @@
+{
+  "label": "LiDAR",
+  "position": 10,
+  "customProps": {
+    "icon": "/img/guias/iconos/ejemplos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "LiDAR",
+    "description": "Un láser que gira y dibuja el contorno de todo lo que rodea al robot. El sensor con el que los robots móviles hacen mapas y navegan, como el Rover.",
+    "slug": "/sensores/lidar"
+  }
+}

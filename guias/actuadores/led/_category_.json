@@ -7,6 +7,7 @@
   "link": {
     "type": "generated-index",
     "title": "LED",
-    "description": "El componente más sencillo para empezar: qué es un LED, cómo funciona, cómo se conecta y cómo controlarlo con Arduino."
+    "description": "El componente más sencillo para empezar: qué es un LED, cómo funciona, cómo se conecta y cómo controlarlo con Arduino.",
+    "slug": "/actuadores/led"
   }
 }

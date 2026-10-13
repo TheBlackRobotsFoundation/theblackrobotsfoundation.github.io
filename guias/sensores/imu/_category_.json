@@ -1,0 +1,13 @@
+{
+  "label": "IMU (MPU6050)",
+  "position": 9,
+  "customProps": {
+    "icon": "/img/guias/iconos/conceptos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "IMU: acelerómetro y giroscopio (MPU6050)",
+    "description": "El sentido del equilibrio de un robot: cómo mide aceleraciones y giros, cómo se combinan para obtener la inclinación y cómo leerla por I2C.",
+    "slug": "/sensores/imu"
+  }
+}

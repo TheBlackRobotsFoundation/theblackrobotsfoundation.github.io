@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 230" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<rect x="40" y="90" width="60" height="50" rx="3" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+<circle cx="70" cy="102" r="5" fill="#d9665b" stroke="none" stroke-width="0"/>
+<rect x="56" y="120" width="28" height="10" rx="1" fill="#101010" stroke="#777" stroke-width="1"/>
+<text x="70" y="80" fill="#909090" font-size="10.5" text-anchor="middle">láser</text>
+<text x="70" y="160" fill="#909090" font-size="10.5" text-anchor="middle">sensor de imagen</text>
+<line x1="75" y1="102" x2="360" y2="102" stroke="#d9665b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="360" y1="102" x2="72" y2="124" stroke="#d9665b" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+<rect x="360" y="70" width="8" height="64" rx="1" fill="#2a2a2a" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="364" y="160" fill="#909090" font-size="11" text-anchor="middle">cerca</text>
+<line x1="75" y1="102" x2="560" y2="102" stroke="#d9665b" stroke-width="1.5" stroke-linecap="round"/>
+<line x1="560" y1="102" x2="72" y2="124" stroke="#d9665b" stroke-width="1.2" stroke-linecap="round" stroke-dasharray="4 4"/>
+<rect x="560" y="70" width="8" height="64" rx="1" fill="#2a2a2a" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="564" y="160" fill="#909090" font-size="11" text-anchor="middle">lejos</text>
+<text x="40" y="200" fill="#909090" font-size="11" text-anchor="start">El ángulo con el que vuelve la luz cambia con la distancia: el sensor lo mide y calcula a cuánto está.</text>
+</svg>

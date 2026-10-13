@@ -1,0 +1,13 @@
+{
+  "label": "Robot esquiva-obstáculos",
+  "position": 5,
+  "customProps": {
+    "icon": "/img/guias/iconos/ejemplos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Proyecto: robot esquiva-obstáculos",
+    "description": "Tu primer robot móvil completo: un sensor de ultrasonidos, dos motores y un Arduino que decide por dónde ir. Junta todo lo aprendido en las guías de sensores y actuadores.",
+    "slug": "/proyecto-esquiva-obstaculos"
+  }
+}

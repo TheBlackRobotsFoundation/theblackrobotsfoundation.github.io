@@ -1,0 +1,13 @@
+{
+  "label": "Sensores",
+  "position": 3,
+  "customProps": {
+    "icon": "/img/guias/iconos/ejemplos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Sensores",
+    "description": "Los sentidos de un robot: pulsadores, luz, temperatura, distancia, líneas en el suelo, posición, orientación y LiDAR. Cada sensor con qué es, cómo funciona, cómo se conecta y su código.",
+    "slug": "/sensores"
+  }
+}

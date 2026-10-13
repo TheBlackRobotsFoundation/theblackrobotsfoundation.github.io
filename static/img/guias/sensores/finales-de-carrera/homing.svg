@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 170" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<defs><marker id="me3b341" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#e3b341"/></marker></defs>
+<rect x="40" y="100" width="560" height="10" rx="3" fill="#1c1c1c" stroke="#4a4a4a" stroke-width="1.5"/>
+<rect x="300" y="66" width="90" height="34" rx="3" fill="#141414" stroke="#d0d0d0" stroke-width="1.5"/>
+<text x="345" y="88" fill="#909090" font-size="11" text-anchor="middle">carro</text>
+<line x1="290" y1="83" x2="150" y2="83" stroke="#e3b341" stroke-width="2" stroke-linecap="round" marker-end="url(#me3b341)"/>
+<g transform="translate(40 52) rotate(0) scale(0.7)">
+<path d="M 10 6 L 92 -10" fill="none" stroke="#bdbdbd" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92" cy="-10" r="6" fill="#2a2a2a" stroke="#bdbdbd" stroke-width="1.5"/>
+<rect x="0" y="6" width="100" height="46" rx="3" fill="#1d1d1d" stroke="#4a4a4a" stroke-width="1.5"/>
+<rect x="36" y="2" width="12" height="6" rx="1" fill="#c33" stroke="none" stroke-width="0"/>
+<circle cx="16" cy="30" r="4" fill="#0a0a0a" stroke="#4a4a4a" stroke-width="1"/>
+<circle cx="84" cy="30" r="4" fill="#0a0a0a" stroke="#4a4a4a" stroke-width="1"/>
+<rect x="14" y="52" width="8" height="18" rx="1" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<rect x="46" y="52" width="8" height="18" rx="1" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<rect x="78" y="52" width="8" height="18" rx="1" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<text x="18" y="46" fill="#909090" font-size="8" text-anchor="middle">COM</text>
+<text x="50" y="46" fill="#909090" font-size="8" text-anchor="middle">NC</text>
+<text x="82" y="46" fill="#909090" font-size="8" text-anchor="middle">NO</text>
+</g>
+<text x="40" y="30" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">Final de carrera</text>
+<text x="40" y="144" fill="#909090" font-size="11" text-anchor="start">1. el carro se mueve despacio hacia el final de carrera</text>
+<text x="40" y="162" fill="#909090" font-size="11" text-anchor="start">2. al pulsarse, se para: esa posición pasa a ser el cero</text>
+</svg>

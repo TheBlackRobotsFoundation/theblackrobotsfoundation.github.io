@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 250" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<g transform="translate(70 50) rotate(0) scale(2.2)">
+<path d="M 10 6 L 92 -10" fill="none" stroke="#bdbdbd" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="92" cy="-10" r="6" fill="#2a2a2a" stroke="#bdbdbd" stroke-width="1.5"/>
+<rect x="0" y="6" width="100" height="46" rx="3" fill="#1d1d1d" stroke="#4a4a4a" stroke-width="1.5"/>
+<rect x="36" y="2" width="12" height="6" rx="1" fill="#c33" stroke="none" stroke-width="0"/>
+<circle cx="16" cy="30" r="4" fill="#0a0a0a" stroke="#4a4a4a" stroke-width="1"/>
+<circle cx="84" cy="30" r="4" fill="#0a0a0a" stroke="#4a4a4a" stroke-width="1"/>
+<rect x="14" y="52" width="8" height="18" rx="1" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<rect x="46" y="52" width="8" height="18" rx="1" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<rect x="78" y="52" width="8" height="18" rx="1" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<text x="18" y="46" fill="#909090" font-size="8" text-anchor="middle">COM</text>
+<text x="50" y="46" fill="#909090" font-size="8" text-anchor="middle">NC</text>
+<text x="82" y="46" fill="#909090" font-size="8" text-anchor="middle">NO</text>
+</g>
+<line x1="262" y1="28" x2="400" y2="30" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="262" cy="28" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="406" y="34" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">Palanca</text>
+<text x="406" y="50" fill="#909090" font-size="10.5" text-anchor="start">la pieza que empuja la máquina</text>
+<line x1="175" y1="55" x2="400" y2="100" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="175" cy="55" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="406" y="104" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">Botón interno</text>
+<text x="406" y="120" fill="#909090" font-size="10.5" text-anchor="start">hace clic al llegar al tope</text>
+<line x1="180" y1="205" x2="400" y2="180" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="180" cy="205" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="406" y="184" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">3 terminales</text>
+<text x="406" y="200" fill="#909090" font-size="10.5" text-anchor="start">COM, NC y NO</text>
+</svg>

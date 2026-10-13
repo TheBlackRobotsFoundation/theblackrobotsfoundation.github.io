@@ -1,0 +1,13 @@
+{
+  "label": "Potenciómetro",
+  "position": 2,
+  "customProps": {
+    "icon": "/img/guias/iconos/configuracion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Potenciómetro",
+    "description": "Tu primera entrada analógica: un mando que gira y que el Arduino lee como un número de 0 a 1023.",
+    "slug": "/sensores/potenciometro"
+  }
+}

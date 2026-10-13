@@ -1,0 +1,13 @@
+{
+  "label": "LDR (luz)",
+  "position": 3,
+  "customProps": {
+    "icon": "/img/guias/iconos/conceptos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Fotorresistencia (LDR)",
+    "description": "Un sensor de luz sencillo y barato: cómo cambia su resistencia, cómo leerlo con un divisor de tensión y cómo hacer que algo reaccione a la oscuridad.",
+    "slug": "/sensores/ldr"
+  }
+}

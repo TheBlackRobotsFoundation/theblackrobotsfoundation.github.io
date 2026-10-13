@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<g transform="translate(40 60) rotate(0) scale(1.9)">
+<rect x="0" y="0" width="180" height="100" rx="4" fill="#14202b" stroke="#3e5466" stroke-width="1.5"/>
+<circle cx="42" cy="42" r="31" fill="#bdbdbd" stroke="#8a8a8a" stroke-width="1.5"/>
+<circle cx="42" cy="42" r="25" fill="#2a2a2a" stroke="#6a6a6a" stroke-width="1"/>
+<circle cx="42" cy="42" r="8" fill="none" stroke="#444" stroke-width="1"/>
+<circle cx="42" cy="42" r="14" fill="none" stroke="#444" stroke-width="1"/>
+<circle cx="42" cy="42" r="20" fill="none" stroke="#444" stroke-width="1"/>
+<circle cx="138" cy="42" r="31" fill="#bdbdbd" stroke="#8a8a8a" stroke-width="1.5"/>
+<circle cx="138" cy="42" r="25" fill="#2a2a2a" stroke="#6a6a6a" stroke-width="1"/>
+<circle cx="138" cy="42" r="8" fill="none" stroke="#444" stroke-width="1"/>
+<circle cx="138" cy="42" r="14" fill="none" stroke="#444" stroke-width="1"/>
+<circle cx="138" cy="42" r="20" fill="none" stroke="#444" stroke-width="1"/>
+<rect x="78" y="32" width="24" height="14" rx="6" fill="#d4d4d4" stroke="#8a8a8a" stroke-width="1.5"/>
+<text x="60" y="92" fill="#9fb3c8" font-size="7.5" text-anchor="middle">VCC</text>
+<text x="80" y="92" fill="#9fb3c8" font-size="7.5" text-anchor="middle">Trig</text>
+<text x="100" y="92" fill="#9fb3c8" font-size="7.5" text-anchor="middle">Echo</text>
+<text x="120" y="92" fill="#9fb3c8" font-size="7.5" text-anchor="middle">GND</text>
+<line x1="60" y1="100" x2="60" y2="114" stroke="#bdbdbd" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="80" y1="100" x2="80" y2="114" stroke="#bdbdbd" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="100" y1="100" x2="100" y2="114" stroke="#bdbdbd" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="120" y1="100" x2="120" y2="114" stroke="#bdbdbd" stroke-width="2.2" stroke-linecap="round"/>
+<rect x="56" y="110" width="8" height="8" rx="1" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<rect x="76" y="110" width="8" height="8" rx="1" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<rect x="96" y="110" width="8" height="8" rx="1" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<rect x="116" y="110" width="8" height="8" rx="1" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+</g>
+<line x1="120" y1="140" x2="120" y2="30" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="120" cy="140" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="126" y="34" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">Emisor (T)</text>
+<line x1="302" y1="140" x2="302" y2="30" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="302" cy="140" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="308" y="34" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">Receptor (R)</text>
+<line x1="238" y1="120" x2="430" y2="60" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="238" cy="120" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="436" y="64" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">Cristal</text>
+<text x="436" y="80" fill="#909090" font-size="10.5" text-anchor="start">marca el ritmo del circuito</text>
+<line x1="230" y1="276" x2="430" y2="230" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="230" cy="276" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="436" y="234" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">4 pines</text>
+<text x="436" y="250" fill="#909090" font-size="10.5" text-anchor="start">VCC, Trig, Echo y GND</text>
+</svg>

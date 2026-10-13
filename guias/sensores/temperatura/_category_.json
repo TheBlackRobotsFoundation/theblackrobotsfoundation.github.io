@@ -1,0 +1,13 @@
+{
+  "label": "Temperatura",
+  "position": 4,
+  "customProps": {
+    "icon": "/img/guias/iconos/requisitos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Temperatura y humedad (DHT22)",
+    "description": "Mide la temperatura y la humedad del aire con un solo cable de datos y una librería.",
+    "slug": "/sensores/temperatura"
+  }
+}

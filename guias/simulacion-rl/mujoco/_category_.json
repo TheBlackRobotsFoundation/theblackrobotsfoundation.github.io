@@ -7,6 +7,7 @@
   "link": {
     "type": "generated-index",
     "title": "MuJoCo: el simulador de física",
-    "description": "MuJoCo simula la física de un robot: gravedad, contactos, fuerzas y articulaciones. Es el escenario donde el robot se mueve antes de existir de verdad."
+    "description": "MuJoCo simula la física de un robot: gravedad, contactos, fuerzas y articulaciones. Es el escenario donde el robot se mueve antes de existir de verdad.",
+    "slug": "/simulacion-rl/mujoco"
   }
 }

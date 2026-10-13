@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<line x1="40" y1="68" x2="440" y2="68" stroke="#4a4a4a" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="30" x2="440" y2="30" stroke="#242424" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 40 68 L 40.0 68 L 40.0 30 L 90.0 30 L 90.0 68 L 140.0 68 L 140.0 30 L 190.0 30 L 190.0 68 L 240.0 68 L 240.0 30 L 290.0 30 L 290.0 68 L 340.0 68 L 340.0 30 L 390.0 30 L 390.0 68 L 440 68" fill="none" stroke="#e3b341" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="470" y="48" fill="#ffffff" font-size="13" text-anchor="start" font-weight="600">La4 · 440 Hz</text>
+<text x="470" y="66" fill="#909090" font-size="11" text-anchor="start">grave</text>
+<line x1="40" y1="144" x2="440" y2="144" stroke="#4a4a4a" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="106" x2="440" y2="106" stroke="#242424" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 40 144 L 40.0 144 L 40.0 106 L 65.0 106 L 65.0 144 L 90.0 144 L 90.0 106 L 115.0 106 L 115.0 144 L 140.0 144 L 140.0 106 L 165.0 106 L 165.0 144 L 190.0 144 L 190.0 106 L 215.0 106 L 215.0 144 L 240.0 144 L 240.0 106 L 265.0 106 L 265.0 144 L 290.0 144 L 290.0 106 L 315.0 106 L 315.0 144 L 340.0 144 L 340.0 106 L 365.0 106 L 365.0 144 L 390.0 144 L 390.0 106 L 415.0 106 L 415.0 144 L 440 144" fill="none" stroke="#e3b341" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="470" y="124" fill="#ffffff" font-size="13" text-anchor="start" font-weight="600">La5 · 880 Hz</text>
+<text x="470" y="142" fill="#909090" font-size="11" text-anchor="start">una octava más aguda</text>
+<line x1="40" y1="220" x2="440" y2="220" stroke="#4a4a4a" stroke-width="1" stroke-linecap="round"/>
+<line x1="40" y1="182" x2="440" y2="182" stroke="#242424" stroke-width="1" stroke-linecap="round" stroke-dasharray="3 4"/>
+<path d="M 40 220 L 40.0 220 L 40.0 182 L 56.7 182 L 56.7 220 L 73.3 220 L 73.3 182 L 90.0 182 L 90.0 220 L 106.7 220 L 106.7 182 L 123.3 182 L 123.3 220 L 140.0 220 L 140.0 182 L 156.7 182 L 156.7 220 L 173.3 220 L 173.3 182 L 190.0 182 L 190.0 220 L 206.7 220 L 206.7 182 L 223.3 182 L 223.3 220 L 240.0 220 L 240.0 182 L 256.7 182 L 256.7 220 L 273.3 220 L 273.3 182 L 290.0 182 L 290.0 220 L 306.7 220 L 306.7 182 L 323.3 182 L 323.3 220 L 340.0 220 L 340.0 182 L 356.7 182 L 356.7 220 L 373.3 220 L 373.3 182 L 390.0 182 L 390.0 220 L 406.7 220 L 406.7 182 L 423.3 182 L 423.3 220 L 440 220" fill="none" stroke="#e3b341" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="470" y="200" fill="#ffffff" font-size="13" text-anchor="start" font-weight="600">Mi6 · 1319 Hz</text>
+<text x="470" y="218" fill="#909090" font-size="11" text-anchor="start">aguda</text>
+<text x="40" y="252" fill="#5a5a5a" font-size="11" text-anchor="start">más pulsos por segundo = nota más aguda</text>
+</svg>

@@ -1,0 +1,13 @@
+{
+  "label": "Encoders",
+  "position": 8,
+  "customProps": {
+    "icon": "/img/guias/iconos/configuracion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Encoders",
+    "description": "Cuánto y hacia dónde gira un eje: el sensor que permite a un robot saber cuánto ha avanzado y a qué velocidad van sus ruedas.",
+    "slug": "/sensores/encoders"
+  }
+}

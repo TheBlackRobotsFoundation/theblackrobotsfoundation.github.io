@@ -1,0 +1,13 @@
+{
+  "label": "LED RGB y tiras",
+  "position": 3,
+  "customProps": {
+    "icon": "/img/guias/iconos/conceptos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "LED RGB y tiras de LEDs",
+    "description": "Cualquier color con tres LEDs en uno, y tiras de LEDs direccionables (NeoPixel) que se controlan una a una con un solo cable.",
+    "slug": "/actuadores/led-rgb"
+  }
+}

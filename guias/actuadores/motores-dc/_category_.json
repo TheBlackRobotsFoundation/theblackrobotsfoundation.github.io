@@ -1,0 +1,13 @@
+{
+  "label": "Motores DC",
+  "position": 5,
+  "customProps": {
+    "icon": "/img/guias/iconos/configuracion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Motores DC y puente H (L298N)",
+    "description": "El motor que mueve las ruedas de casi cualquier robot pequeño: cómo funciona, por qué necesita un driver y cómo controlar su sentido y su velocidad.",
+    "slug": "/actuadores/motores-dc"
+  }
+}

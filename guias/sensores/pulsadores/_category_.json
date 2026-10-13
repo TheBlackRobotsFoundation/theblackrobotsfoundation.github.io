@@ -1,0 +1,13 @@
+{
+  "label": "Pulsadores",
+  "position": 1,
+  "customProps": {
+    "icon": "/img/guias/iconos/inicio.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Pulsadores",
+    "description": "La entrada más sencilla: qué es un pulsador, por qué necesita una resistencia pull-up, cómo evitar los rebotes y cómo leerlo con Arduino.",
+    "slug": "/sensores/pulsadores"
+  }
+}

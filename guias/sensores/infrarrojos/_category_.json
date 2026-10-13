@@ -1,0 +1,13 @@
+{
+  "label": "Sigue-líneas",
+  "position": 6,
+  "customProps": {
+    "icon": "/img/guias/iconos/ejemplos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Sensor infrarrojo sigue-líneas (TCRT5000)",
+    "description": "Distingue el blanco del negro con luz infrarroja: la base de cualquier robot sigue-líneas.",
+    "slug": "/sensores/infrarrojos"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "label": "Brushless y ESC",
+  "position": 8,
+  "customProps": {
+    "icon": "/img/guias/iconos/configuracion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Motores brushless y ESC",
+    "description": "Los motores de los drones: muy rápidos, muy potentes y controlados por un variador electrónico (ESC) con la misma señal que un servo.",
+    "slug": "/actuadores/brushless"
+  }
+}
