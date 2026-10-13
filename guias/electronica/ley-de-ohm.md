@@ -20,7 +20,7 @@ Tres magnitudes explican casi todo lo que pasa en un circuito. Entenderlas bien 
 
 Las tres se relacionan con una sola fórmula:
 
-![Ley de Ohm: una pila, una resistencia y la corriente que circula](/img/guias/electronica/ley-de-ohm.svg)
+<img src="/img/guias/electronica/ley-de-ohm.svg" alt="Ley de Ohm: una pila, una resistencia y la corriente que circula" />
 
 Despejando, obtienes la que necesites en cada momento:
 

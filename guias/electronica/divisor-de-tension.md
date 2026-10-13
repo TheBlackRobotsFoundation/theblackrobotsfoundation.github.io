@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 Dos resistencias en serie reparten la tensión entre ellas. En el punto donde se unen aparece una tensión **proporcional** a sus valores. Es uno de los circuitos más útiles que existen.
 
-![Divisor de tensión con dos resistencias y la fórmula de la salida](/img/guias/electronica/divisor-de-tension.svg)
+<img src="/img/guias/electronica/divisor-de-tension.svg" alt="Divisor de tensión con dos resistencias y la fórmula de la salida" />
 
 ## La fórmula
 

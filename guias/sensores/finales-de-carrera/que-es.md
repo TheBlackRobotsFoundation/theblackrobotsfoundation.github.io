@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 Un **final de carrera** (*limit switch*, o *endstop* en impresoras 3D) es un interruptor pensado para que lo active **una pieza de la máquina** al llegar a un punto. Le dice al controlador: "aquí se acaba el recorrido".
 
-![Microinterruptor con palanca, botón interno y tres terminales](/img/guias/sensores/finales-de-carrera/anatomia.svg)
+<img src="/img/guias/sensores/finales-de-carrera/anatomia.svg" alt="Microinterruptor con palanca, botón interno y tres terminales" />
 
 ## Cómo es
 

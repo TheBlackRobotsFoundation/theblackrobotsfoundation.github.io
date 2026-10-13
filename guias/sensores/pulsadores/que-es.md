@@ -11,7 +11,7 @@ Un **pulsador** es un interruptor que conecta dos puntos de un circuito **mientr
 
 Es la forma más directa de que una persona le diga algo a un robot: arrancar, parar, cambiar de modo.
 
-![Pulsador táctil de 4 patas y su conexión interna](/img/guias/sensores/pulsadores/anatomia.svg)
+<img src="/img/guias/sensores/pulsadores/anatomia.svg" alt="Pulsador táctil de 4 patas y su conexión interna" />
 
 ## El pulsador táctil de 4 patas
 

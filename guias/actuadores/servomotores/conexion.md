@@ -19,7 +19,7 @@ Tres cables: alimentación, GND y señal.
 
 ## Esquema de conexión
 
-![Esquema: servo SG90 con marrón a GND, rojo a 5 V y naranja al pin 9](/img/guias/actuadores/servomotores/conexion.svg)
+<img src="/img/guias/actuadores/servomotores/conexion.svg" alt="Esquema: servo SG90 con marrón a GND, rojo a 5 V y naranja al pin 9" />
 
 | Servo | Arduino |
 |---|---|

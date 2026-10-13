@@ -103,7 +103,7 @@ int centro    = mirar(90);
 int derecha   = mirar(30);
 ```
 
-Es una mejora muy habitual del [robot esquiva-obstáculos](/guias/proyecto-esquiva-obstaculos/mejoras).
+Así el robot gira siempre hacia el lado con más espacio.
 
 ## ¿Y ahora qué?
 

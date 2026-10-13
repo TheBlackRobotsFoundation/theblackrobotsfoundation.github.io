@@ -20,7 +20,7 @@ El DHT22 usa un protocolo propio de **un solo cable** (*single-wire*):
 1. El Arduino pone la línea a LOW un momento para decirle "mide"
 2. El sensor contesta con **40 bits**, codificados según lo largo de cada pulso
 
-![Trama de 40 bits del DHT22: humedad, temperatura y control](/img/guias/sensores/temperatura/trama.svg)
+<img src="/img/guias/sensores/temperatura/trama.svg" alt="Trama de 40 bits del DHT22: humedad, temperatura y control" />
 
 Los últimos 8 bits son una **suma de comprobación**: si no cuadra con el resto, el dato llegó mal y se descarta. La librería hace todo este trabajo por ti.
 

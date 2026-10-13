@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 Dentro del relé hay una **bobina**: un hilo enrollado alrededor de un núcleo de hierro. Al pasar corriente, la bobina se convierte en un **electroimán** que atrae una palanca metálica. La palanca está unida a **COM** y salta de un contacto a otro.
 
-![Relé en reposo, con COM unido a NC, y activado, con COM unido a NO](/img/guias/actuadores/reles/por-dentro.svg)
+<img src="/img/guias/actuadores/reles/por-dentro.svg" alt="Relé en reposo, con COM unido a NC, y activado, con COM unido a NO" />
 
 - **Bobina sin corriente**: un muelle mantiene la palanca arriba, tocando **NC**
 - **Bobina con corriente**: el electroimán baja la palanca, que pasa a tocar **NO**

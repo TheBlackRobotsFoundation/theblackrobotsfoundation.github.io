@@ -11,7 +11,7 @@ sidebar_custom_props:
 
 El RPLIDAR A1 mide por **triangulación láser**. El emisor lanza un punto de luz; un pequeño sensor de imagen, colocado a unos centímetros, lo ve rebotar en el objeto. Según lo lejos que esté, la luz vuelve con un **ángulo distinto** y cae en un punto distinto del sensor:
 
-![El ángulo con el que vuelve la luz cambia con la distancia al objeto](/img/guias/sensores/lidar/triangulacion.svg)
+<img src="/img/guias/sensores/lidar/triangulacion.svg" alt="El ángulo con el que vuelve la luz cambia con la distancia al objeto" />
 
 El chip del LiDAR convierte esa posición en una distancia. Lo hace miles de veces por segundo.
 
@@ -23,7 +23,7 @@ Los LiDAR de más alcance (como los RPLIDAR de la serie S) miden por **tiempo de
 
 Mientras la cabeza gira, el LiDAR toma medidas continuamente. Cada una es una pareja **(ángulo, distancia)**. Al terminar una vuelta tienes unos cientos de puntos que dibujan el contorno de todo lo que rodea al robot:
 
-![Habitación vista desde arriba con los puntos que mide el LiDAR en una vuelta](/img/guias/sensores/lidar/barrido.svg)
+<img src="/img/guias/sensores/lidar/barrido.svg" alt="Habitación vista desde arriba con los puntos que mide el LiDAR en una vuelta" />
 
 Fíjate en la **sombra** detrás de la caja: el láser no atraviesa objetos, así que lo que queda detrás de un obstáculo no aparece en esa vuelta. El robot lo descubrirá cuando se mueva.
 

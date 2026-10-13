@@ -13,7 +13,7 @@ Si ya conoces el [LED](/guias/actuadores/led), aquí das el siguiente paso: **el
 
 Un **LED RGB** lleva tres LEDs dentro de la misma cápsula: uno **rojo** (*Red*), uno **verde** (*Green*) y uno **azul** (*Blue*). Encendiendo cada uno con más o menos brillo, mezclas cualquier color.
 
-![LED RGB de cátodo común con sus cuatro patas](/img/guias/actuadores/led-rgb/anatomia.svg)
+<img src="/img/guias/actuadores/led-rgb/anatomia.svg" alt="LED RGB de cátodo común con sus cuatro patas" />
 
 Tiene **4 patas**: una por color y una **común**, que es la más larga.
 
@@ -32,7 +32,7 @@ El de **cátodo común** es el más habitual y el que usaremos.
 
 Una **tira WS2812** (las famosas **NeoPixel**) es una fila de LEDs RGB en la que **cada LED lleva su propio chip**. Así se controlan uno a uno, cada cual con su color, usando **un solo pin** del Arduino.
 
-![Tira de LEDs WS2812 con la entrada, el sentido de los datos y las marcas de corte](/img/guias/actuadores/led-rgb/tira.svg)
+<img src="/img/guias/actuadores/led-rgb/tira.svg" alt="Tira de LEDs WS2812 con la entrada, el sentido de los datos y las marcas de corte" />
 
 - **3 conexiones**: 5V, GND y DIN (entrada de datos)
 - **Sentido de los datos**: una flecha impresa indica hacia dónde viajan. Se conecta siempre por el extremo **de entrada**

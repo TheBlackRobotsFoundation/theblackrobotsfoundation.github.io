@@ -16,7 +16,7 @@ El **MPU6050** es la IMU más popular para empezar. Junta dos sensores en un sol
 
 Por eso se le llama IMU de **6 ejes** (o 6 DoF, grados de libertad).
 
-![Módulo GY-521 con el chip MPU6050, los ejes y los pines](/img/guias/sensores/imu/anatomia.svg)
+<img src="/img/guias/sensores/imu/anatomia.svg" alt="Módulo GY-521 con el chip MPU6050, los ejes y los pines" />
 
 ## El módulo GY-521
 

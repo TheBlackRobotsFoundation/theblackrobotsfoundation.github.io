@@ -11,7 +11,7 @@ El **TCRT5000** es un sensor que lanza **luz infrarroja** hacia una superficie y
 
 Se vende montado en un pequeño módulo que da la respuesta lista para el Arduino.
 
-![Módulo TCRT5000 con su emisor, su receptor, el potenciómetro y los pines](/img/guias/sensores/infrarrojos/anatomia.svg)
+<img src="/img/guias/sensores/infrarrojos/anatomia.svg" alt="Módulo TCRT5000 con su emisor, su receptor, el potenciómetro y los pines" />
 
 ## Sus partes
 

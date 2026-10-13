@@ -11,7 +11,7 @@ Un **encoder** es un sensor que mide **cuánto gira un eje y en qué sentido**. 
 
 Es lo que convierte un motor "a ciegas" en uno que sabe exactamente lo que está haciendo.
 
-![Motorreductor con encoder magnético en la parte trasera](/img/guias/sensores/encoders/anatomia.svg)
+<img src="/img/guias/sensores/encoders/anatomia.svg" alt="Motorreductor con encoder magnético en la parte trasera" />
 
 ## Un motor con encoder
 

@@ -11,7 +11,7 @@ El **DHT22** (también llamado **AM2302**) es un sensor que mide **temperatura**
 
 Es tu primer sensor "inteligente": lleva un pequeño chip dentro que hace las medidas y te las entrega como números. Tú solo tienes que pedírselas.
 
-![Módulo DHT22 con su rejilla, su placa y sus tres pines](/img/guias/sensores/temperatura/anatomia.svg)
+<img src="/img/guias/sensores/temperatura/anatomia.svg" alt="Módulo DHT22 con su rejilla, su placa y sus tres pines" />
 
 ## Sensor suelto o módulo
 

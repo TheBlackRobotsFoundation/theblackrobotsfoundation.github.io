@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 El emisor ilumina la superficie con luz infrarroja. Lo que pasa después depende del color:
 
-![Una superficie blanca refleja la luz hacia el receptor; una línea negra la absorbe](/img/guias/sensores/infrarrojos/reflexion.svg)
+<img src="/img/guias/sensores/infrarrojos/reflexion.svg" alt="Una superficie blanca refleja la luz hacia el receptor; una línea negra la absorbe" />
 
 - **Superficie blanca o clara**: refleja mucha luz, el receptor la capta
 - **Línea negra**: absorbe casi toda la luz, al receptor llega muy poca

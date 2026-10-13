@@ -10,7 +10,7 @@ sidebar_custom_props:
 
 Todo lo que entra y sale de un Arduino es una **señal eléctrica**: una tensión que cambia con el tiempo. Hay dos formas de leerla o generarla.
 
-![Comparación entre una señal digital y una analógica](/img/guias/electronica/digital-analogico.svg)
+<img src="/img/guias/electronica/digital-analogico.svg" alt="Comparación entre una señal digital y una analógica" />
 
 ## Digital: encendido o apagado
 
@@ -41,7 +41,7 @@ Una señal analógica puede tomar **cualquier valor** entre 0 y 5 V. Así se com
 
 El Arduino la lee con los pines **A0 a A5** y un conversor interno (ADC) de **10 bits**, que la traduce a un número entre **0 y 1023**:
 
-![El conversor analógico-digital traduce de 0 a 5 V en un número de 0 a 1023](/img/guias/electronica/conversion-adc.svg)
+<img src="/img/guias/electronica/conversion-adc.svg" alt="El conversor analógico-digital traduce de 0 a 5 V en un número de 0 a 1023" />
 
 ```cpp
 int valor = analogRead(A0);              // 0 … 1023

@@ -16,7 +16,7 @@ Dentro de la carcasa hay cuatro piezas que trabajan juntas:
 - Un **potenciómetro** unido al eje de salida, que mide su ángulo real (como el [potenciómetro](/guias/sensores/potenciometro/como-funciona) de las guías de sensores)
 - Un **circuito de control**, que lo coordina todo
 
-![Bucle de control del servo: la señal, el circuito, el motor, el eje y el potenciómetro que mide el ángulo real](/img/guias/actuadores/servomotores/por-dentro.svg)
+<img src="/img/guias/actuadores/servomotores/por-dentro.svg" alt="Bucle de control del servo: la señal, el circuito, el motor, el eje y el potenciómetro que mide el ángulo real" />
 
 El circuito compara constantemente **el ángulo que le pides** con **el que mide el potenciómetro**. Si no coinciden, mueve el motor hacia el lado correcto; cuando coinciden, lo para. Esto se llama **control en lazo cerrado**, y es la misma idea que usan robots mucho más grandes.
 
@@ -26,7 +26,7 @@ Por eso el servo **aguanta su posición**: si empujas el brazo, el potenciómetr
 
 El servo recibe un pulso cada **20 milisegundos** (50 veces por segundo). Lo que cuenta es **cuánto dura** ese pulso:
 
-![Pulsos de 1, 1,5 y 2 ms y los ángulos de 0, 90 y 180 grados](/img/guias/actuadores/servomotores/pulsos.svg)
+<img src="/img/guias/actuadores/servomotores/pulsos.svg" alt="Pulsos de 1, 1,5 y 2 ms y los ángulos de 0, 90 y 180 grados" />
 
 | Duración del pulso | Ángulo |
 |---|---|

@@ -20,7 +20,7 @@ Los cuatro cables del encoder van al Arduino. Los dos del motor van a su driver,
 
 ## Esquema de conexión
 
-![Esquema: encoder con VCC a 5 V, GND, A al pin 2 y B al pin 3](/img/guias/sensores/encoders/conexion.svg)
+<img src="/img/guias/sensores/encoders/conexion.svg" alt="Esquema: encoder con VCC a 5 V, GND, A al pin 2 y B al pin 3" />
 
 | Encoder | Arduino |
 |---|---|

@@ -16,7 +16,7 @@ El sonido es aire que vibra. El zumbador lleva dentro una **lámina** que se mue
 
 Cada vez que la señal pasa de LOW a HIGH, la lámina da un empujón. El número de empujones por segundo es la **frecuencia**, en hercios (Hz), y decide la **nota**:
 
-![Ondas cuadradas de distinta frecuencia: más pulsos por segundo dan una nota más aguda](/img/guias/actuadores/zumbador/frecuencia.svg)
+<img src="/img/guias/actuadores/zumbador/frecuencia.svg" alt="Ondas cuadradas de distinta frecuencia: más pulsos por segundo dan una nota más aguda" />
 
 - **Pocos pulsos por segundo** → sonido grave
 - **Muchos pulsos por segundo** → sonido agudo

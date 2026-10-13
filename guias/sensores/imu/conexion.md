@@ -19,7 +19,7 @@ Cuatro cables: alimentación y los dos del bus [I2C](/guias/electronica/comunica
 
 ## Esquema de conexión
 
-![Esquema: MPU6050 con VCC a 5 V, GND, SDA a A4 y SCL a A5](/img/guias/sensores/imu/conexion.svg)
+<img src="/img/guias/sensores/imu/conexion.svg" alt="Esquema: MPU6050 con VCC a 5 V, GND, SDA a A4 y SCL a A5" />
 
 | MPU6050 | Arduino UNO |
 |---|---|

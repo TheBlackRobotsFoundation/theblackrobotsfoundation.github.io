@@ -11,7 +11,7 @@ Una **fotorresistencia** o **LDR** (*Light Dependent Resistor*, resistencia depe
 
 Es el sensor de luz más sencillo y barato que existe, y el que encontrarás en casi cualquier kit.
 
-![Fotorresistencia con su pista fotosensible y sus dos patas](/img/guias/sensores/ldr/anatomia.svg)
+<img src="/img/guias/sensores/ldr/anatomia.svg" alt="Fotorresistencia con su pista fotosensible y sus dos patas" />
 
 ## Cómo es
 

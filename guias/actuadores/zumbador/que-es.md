@@ -13,7 +13,7 @@ Un **zumbador** (*buzzer*) es un pequeño altavoz que produce sonido cuando reci
 
 Hay dos tipos que por fuera parecen iguales. Se distinguen mirando por debajo:
 
-![Zumbador activo, sellado por debajo, y pasivo, con la placa verde visible](/img/guias/actuadores/zumbador/tipos.svg)
+<img src="/img/guias/actuadores/zumbador/tipos.svg" alt="Zumbador activo, sellado por debajo, y pasivo, con la placa verde visible" />
 
 | | Activo | Pasivo |
 |---|---|---|

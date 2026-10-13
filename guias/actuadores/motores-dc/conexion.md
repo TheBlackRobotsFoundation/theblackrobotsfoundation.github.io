@@ -21,7 +21,7 @@ El montaje tiene tres partes: el **motor** al driver, la **batería** al driver 
 
 ## Esquema de conexión
 
-![Esquema: motor en OUT1 y OUT2, batería en 12V y GND, y ENA, IN1 e IN2 a los pines 11, 10 y 9](/img/guias/actuadores/motores-dc/conexion.svg)
+<img src="/img/guias/actuadores/motores-dc/conexion.svg" alt="Esquema: motor en OUT1 y OUT2, batería en 12V y GND, y ENA, IN1 e IN2 a los pines 11, 10 y 9" />
 
 ### Motor
 
@@ -70,6 +70,6 @@ Igual que el primero, en el otro lado del módulo:
 | `IN3` | pin **8** |
 | `IN4` | pin **7** |
 
-Es justo el montaje del [robot esquiva-obstáculos](/guias/proyecto-esquiva-obstaculos).
+Con los dos motores conectados ya tienes la base de un robot de dos ruedas.
 
 Con todo conectado, pasa al [código básico](./codigo-basico).

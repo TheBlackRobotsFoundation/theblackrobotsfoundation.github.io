@@ -21,7 +21,7 @@ Hay dos circuitos separados: el de **control** (Arduino y módulo) y el de **pot
 
 ## Esquema de conexión
 
-![Esquema: módulo de relé al Arduino y ventilador de 12 V conmutado por COM y NO](/img/guias/actuadores/reles/conexion.svg)
+<img src="/img/guias/actuadores/reles/conexion.svg" alt="Esquema: módulo de relé al Arduino y ventilador de 12 V conmutado por COM y NO" />
 
 ### Control
 

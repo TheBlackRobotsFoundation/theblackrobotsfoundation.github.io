@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 El material de la pista libera más electrones cuanta más luz recibe. Más electrones libres significa que la corriente pasa con más facilidad, es decir, **menos resistencia**.
 
-![Curva de resistencia de la LDR según la luz y divisor de tensión para leerla](/img/guias/sensores/ldr/como-funciona.svg)
+<img src="/img/guias/sensores/ldr/como-funciona.svg" alt="Curva de resistencia de la LDR según la luz y divisor de tensión para leerla" />
 
 ## De resistencia a tensión
 

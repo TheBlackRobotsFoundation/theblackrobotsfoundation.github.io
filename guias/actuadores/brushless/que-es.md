@@ -11,7 +11,7 @@ Un **motor brushless** (sin escobillas) es un motor eléctrico muy eficiente y p
 
 Para funcionar necesita un **ESC** (*Electronic Speed Controller*, variador electrónico de velocidad), que convierte la corriente de la batería en la secuencia de pulsos que hace girar el motor.
 
-![Motor brushless con su campana, el eje y los tres cables, y un ESC con sus conexiones](/img/guias/actuadores/brushless/anatomia.svg)
+<img src="/img/guias/actuadores/brushless/anatomia.svg" alt="Motor brushless con su campana, el eje y los tres cables, y un ESC con sus conexiones" />
 
 ## El motor
 

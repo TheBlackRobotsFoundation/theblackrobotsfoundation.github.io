@@ -20,7 +20,7 @@ Dos cables, con una resistencia pequeña en serie para proteger el pin.
 
 ## Esquema de conexión
 
-![Esquema: zumbador con su + al pin 8 a través de 100 Ω y su − a GND](/img/guias/actuadores/zumbador/conexion.svg)
+<img src="/img/guias/actuadores/zumbador/conexion.svg" alt="Esquema: zumbador con su + al pin 8 a través de 100 Ω y su − a GND" />
 
 | Zumbador | Arduino |
 |---|---|

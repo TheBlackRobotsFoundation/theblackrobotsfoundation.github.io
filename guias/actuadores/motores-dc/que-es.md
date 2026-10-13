@@ -11,7 +11,7 @@ Un **motor DC** (de corriente continua) es el motor más sencillo: le das tensi�
 
 Es el motor de los juguetes, los ventiladores pequeños y las ruedas de la mayoría de robots móviles.
 
-![Motor DC con su eje, la carcasa y los dos terminales](/img/guias/actuadores/motores-dc/motor.svg)
+<img src="/img/guias/actuadores/motores-dc/motor.svg" alt="Motor DC con su eje, la carcasa y los dos terminales" />
 
 ## Motorreductores
 
@@ -35,7 +35,7 @@ La solución es un **driver de motores**: el Arduino le manda órdenes con sus p
 
 El **L298N** es el driver de motores más extendido en kits de robótica. Controla **dos motores DC** a la vez, cada uno con su sentido y su velocidad.
 
-![Módulo L298N con su disipador, las bornas de los motores, la alimentación y los pines de control](/img/guias/actuadores/motores-dc/l298n.svg)
+<img src="/img/guias/actuadores/motores-dc/l298n.svg" alt="Módulo L298N con su disipador, las bornas de los motores, la alimentación y los pines de control" />
 
 | | L298N |
 |---|---|

@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 Todo se basa en una idea: el sonido viaja a una **velocidad conocida**. Si mides cuánto tarda en ir y volver, sabes la distancia.
 
-![El sensor emite un pulso, el objeto lo refleja y el pin Echo marca la duración del viaje](/img/guias/sensores/ultrasonidos/eco.svg)
+<img src="/img/guias/sensores/ultrasonidos/eco.svg" alt="El sensor emite un pulso, el objeto lo refleja y el pin Echo marca la duración del viaje" />
 
 ## Paso a paso
 

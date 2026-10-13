@@ -19,7 +19,7 @@ El RPLIDAR A1 viene con todo lo necesario: el cable y un adaptador UART-USB. Se 
 
 ## Esquema de conexión
 
-![Esquema: RPLIDAR A1, adaptador UART-USB y ordenador](/img/guias/sensores/lidar/conexion.svg)
+<img src="/img/guias/sensores/lidar/conexion.svg" alt="Esquema: RPLIDAR A1, adaptador UART-USB y ordenador" />
 
 1. Conecta el cable del LiDAR al **adaptador**
 2. Conecta el adaptador al **ordenador** con el cable micro-USB

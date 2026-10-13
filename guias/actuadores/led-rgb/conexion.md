@@ -16,7 +16,7 @@ sidebar_custom_props:
 | Resistencias de 220 Ω (rojo, rojo, marrón) | 3 |
 | Protoboard y cables | — |
 
-![Esquema: LED RGB con R al pin 11, G al 10, B al 9 a través de 220 Ω y la pata común a GND](/img/guias/actuadores/led-rgb/conexion-rgb.svg)
+<img src="/img/guias/actuadores/led-rgb/conexion-rgb.svg" alt="Esquema: LED RGB con R al pin 11, G al 10, B al 9 a través de 220 Ω y la pata común a GND" />
 
 | LED RGB | Arduino |
 |---|---|
@@ -38,7 +38,7 @@ Si tu LED es de ánodo común, conecta la pata larga a **5V** en lugar de GND. E
 | Resistencia de 330 Ω (naranja, naranja, marrón) | 1 |
 | Condensador electrolítico de 1000 µF, 6,3 V o más | recomendado |
 
-![Esquema: tira WS2812 con 5 V, GND y la entrada de datos al pin 6 a través de 330 Ω](/img/guias/actuadores/led-rgb/conexion-tira.svg)
+<img src="/img/guias/actuadores/led-rgb/conexion-tira.svg" alt="Esquema: tira WS2812 con 5 V, GND y la entrada de datos al pin 6 a través de 330 Ω" />
 
 | Tira | Arduino |
 |---|---|

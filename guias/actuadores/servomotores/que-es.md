@@ -11,7 +11,7 @@ Un **servomotor** (o simplemente **servo**) es un motor al que le dices **un án
 
 Mientras un [motor DC](/guias/actuadores/motores-dc) gira sin parar y un [paso a paso](/guias/actuadores/motores-paso-a-paso) avanza contando pasos, el servo **va directo a una posición**.
 
-![Micro servo SG90 con su brazo, el eje, las orejas y el cable de tres hilos](/img/guias/actuadores/servomotores/anatomia.svg)
+<img src="/img/guias/actuadores/servomotores/anatomia.svg" alt="Micro servo SG90 con su brazo, el eje, las orejas y el cable de tres hilos" />
 
 ## Sus partes
 

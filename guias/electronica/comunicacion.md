@@ -38,7 +38,7 @@ Dos cables compartidos por **muchos dispositivos** a la vez:
 - **SDA**: los datos
 - **SCL**: el reloj que marca el ritmo
 
-![Bus I2C con un Arduino y tres dispositivos conectados a SDA y SCL](/img/guias/electronica/bus-i2c.svg)
+<img src="/img/guias/electronica/bus-i2c.svg" alt="Bus I2C con un Arduino y tres dispositivos conectados a SDA y SCL" />
 
 Cada dispositivo tiene una **dirección** (un número como `0x68`) y solo responde cuando le llaman por ella. En el UNO, SDA es **A4** y SCL es **A5** (también están duplicados junto al pin AREF).
 

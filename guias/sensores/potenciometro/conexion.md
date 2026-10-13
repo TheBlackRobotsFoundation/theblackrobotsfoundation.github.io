@@ -20,7 +20,7 @@ Tres cables: los extremos a la alimentación y el cursor a un pin analógico.
 
 ## Esquema de conexión
 
-![Esquema: potenciómetro conectado a 5 V, A0 y GND](/img/guias/sensores/potenciometro/conexion.svg)
+<img src="/img/guias/sensores/potenciometro/conexion.svg" alt="Esquema: potenciómetro conectado a 5 V, A0 y GND" />
 
 | Potenciómetro | Arduino |
 |---|---|

@@ -11,7 +11,7 @@ Un **potenciómetro** es una resistencia variable con un mando giratorio. Es el 
 
 Para un Arduino es la manera más directa de **leer una entrada analógica**: un valor que puede estar en cualquier punto entre el mínimo y el máximo.
 
-![Potenciómetro rotativo con su eje y sus tres patas](/img/guias/sensores/potenciometro/anatomia.svg)
+<img src="/img/guias/sensores/potenciometro/anatomia.svg" alt="Potenciómetro rotativo con su eje y sus tres patas" />
 
 ## Sus tres patas
 

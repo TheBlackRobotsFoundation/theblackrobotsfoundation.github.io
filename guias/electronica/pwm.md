@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 **PWM** (*Pulse Width Modulation*, modulación por ancho de pulso) consiste en encender y apagar un pin cientos de veces por segundo. Variando **cuánto tiempo está encendido** en cada ciclo, el componente recibe de media una tensión intermedia.
 
-![Tres señales PWM con ciclos de trabajo del 25, 50 y 75 por ciento](/img/guias/electronica/pwm.svg)
+<img src="/img/guias/electronica/pwm.svg" alt="Tres señales PWM con ciclos de trabajo del 25, 50 y 75 por ciento" />
 
 ## El ciclo de trabajo
 

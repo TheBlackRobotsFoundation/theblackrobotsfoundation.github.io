@@ -21,7 +21,7 @@ La LDR y una resistencia de 10 kΩ forman un divisor de tensión. El punto donde
 
 ## Esquema de conexión
 
-![Esquema: LDR y resistencia de 10 kΩ formando un divisor conectado a A0](/img/guias/sensores/ldr/conexion.svg)
+<img src="/img/guias/sensores/ldr/conexion.svg" alt="Esquema: LDR y resistencia de 10 kΩ formando un divisor conectado a A0" />
 
 El recorrido es:
 

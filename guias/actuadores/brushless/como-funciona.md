@@ -11,7 +11,7 @@ sidebar_custom_props:
 
 En un motor DC las bobinas giran y unas escobillas cambian su corriente en cada vuelta. En un brushless es al revés: las **bobinas están fijas** en el estator y los **imanes giran** con la campana. La corriente de las bobinas se cambia **electrónicamente**, sin piezas que rocen.
 
-![Estator con las bobinas de las tres fases y la campana con los imanes alrededor](/img/guias/actuadores/brushless/por-dentro.svg)
+<img src="/img/guias/actuadores/brushless/por-dentro.svg" alt="Estator con las bobinas de las tres fases y la campana con los imanes alrededor" />
 
 Las bobinas se agrupan en **tres fases** (A, B y C), una por cada cable. El ESC activa las fases por turnos, de dos en dos: A-B, A-C, B-C, B-A, C-A, C-B... Cada combinación crea un campo magnético en una dirección distinta, y los imanes de la campana lo persiguen. Al ir rotando la secuencia, la campana gira.
 

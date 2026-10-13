@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 El disco tiene **imanes con los polos alternados** (norte, sur, norte, sur...). Al girar, cada sensor Hall ve pasar los polos uno tras otro y su salida cambia entre HIGH y LOW.
 
-![Disco magnético con polos alternados y los sensores A y B](/img/guias/sensores/encoders/disco.svg)
+<img src="/img/guias/sensores/encoders/disco.svg" alt="Disco magnético con polos alternados y los sensores A y B" />
 
 Cada cambio es un **pulso**. Contándolos sabes cuánto ha girado el eje.
 
@@ -17,7 +17,7 @@ Cada cambio es un **pulso**. Contándolos sabes cuánto ha girado el eje.
 
 Con un solo sensor sabrías cuánto gira, pero no hacia dónde. Por eso hay dos, **A** y **B**, colocados de forma que sus señales quedan desplazadas un cuarto de ciclo (**90°**). Es lo que se llama **encoder de cuadratura**:
 
-![Señales A y B desfasadas: el orden en que cambian indica el sentido de giro](/img/guias/sensores/encoders/cuadratura.svg)
+<img src="/img/guias/sensores/encoders/cuadratura.svg" alt="Señales A y B desfasadas: el orden en que cambian indica el sentido de giro" />
 
 - Si **A cambia antes que B**, gira en un sentido
 - Si **B cambia antes que A**, gira en el otro

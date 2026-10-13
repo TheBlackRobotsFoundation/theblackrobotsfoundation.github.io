@@ -81,7 +81,7 @@ for vuelta in lidar.iter_scans():
         print(f'Obstáculo delante a {min(delante):.0f} mm')
 ```
 
-Filtra los puntos de los ±20° de delante y mira el más cercano: es el [robot esquiva-obstáculos](/guias/proyecto-esquiva-obstaculos), en versión LiDAR.
+Filtra los puntos de los ±20° de delante y mira el más cercano: es la base para esquivar obstáculos con un LiDAR.
 
 ## Con ROS 2
 

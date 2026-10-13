@@ -9,7 +9,7 @@ sidebar_custom_props:
 
 Dentro del potenciómetro hay una **pista resistiva** en forma de arco, con un extremo en cada pata exterior. Sobre ella desliza un contacto metálico, el **cursor**, unido al eje y a la pata central.
 
-![Pista resistiva del potenciómetro con el cursor](/img/guias/sensores/potenciometro/pista.svg)
+<img src="/img/guias/sensores/potenciometro/pista.svg" alt="Pista resistiva del potenciómetro con el cursor" />
 
 ## Un divisor de tensión que gira
 

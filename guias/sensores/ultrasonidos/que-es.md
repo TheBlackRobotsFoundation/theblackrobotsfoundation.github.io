@@ -11,7 +11,7 @@ El **HC-SR04** mide la **distancia** hasta un objeto usando sonido. Emite un pit
 
 Es el mismo principio que usan los murciélagos y los sensores de aparcamiento de los coches.
 
-![Sensor HC-SR04 con su emisor, su receptor y sus cuatro pines](/img/guias/sensores/ultrasonidos/anatomia.svg)
+<img src="/img/guias/sensores/ultrasonidos/anatomia.svg" alt="Sensor HC-SR04 con su emisor, su receptor y sus cuatro pines" />
 
 ## Sus partes
 
@@ -32,7 +32,7 @@ Es el mismo principio que usan los murciélagos y los sensores de aparcamiento d
 
 ## En robótica
 
-- **Esquivar obstáculos**: el uso estrella. El robot mide qué tiene delante y gira antes de chocar. Lo montarás en el [proyecto del robot esquiva-obstáculos](/guias/proyecto-esquiva-obstaculos)
+- **Esquivar obstáculos**: el uso estrella. El robot mide qué tiene delante y gira antes de chocar.
 - **Mantener una distancia**: seguir a una persona o una pared a 20 cm
 - **Medir niveles**: el nivel de agua de un depósito, mirando desde arriba
 

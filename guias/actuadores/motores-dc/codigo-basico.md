@@ -84,7 +84,7 @@ void loop() {
 
 ## 4. Dos motores: las funciones de un robot
 
-Con el segundo motor conectado (ENB en el 6, IN3 en el 8, IN4 en el 7), estas funciones mueven un robot de dos ruedas. Son las que usan el [sigue-líneas](/guias/sensores/infrarrojos/codigo-basico) y el [robot esquiva-obstáculos](/guias/proyecto-esquiva-obstaculos):
+Con el segundo motor conectado (ENB en el 6, IN3 en el 8, IN4 en el 7), estas funciones mueven un robot de dos ruedas. Son las que usan el [sigue-líneas](/guias/sensores/infrarrojos/codigo-basico):
 
 ```cpp
 #define ENA 11
@@ -134,4 +134,4 @@ Si el robot va hacia atrás cuando le dices `avanzar()`, o gira al revés, inter
 
 ## ¿Y ahora qué?
 
-Ya tienes todo lo necesario para montar tu primer robot móvil: el [robot esquiva-obstáculos](/guias/proyecto-esquiva-obstaculos).
+Con un [sensor de ultrasonidos](/guias/sensores/ultrasonidos) delante y estas funciones, ya tienes la base de un robot móvil que esquiva obstáculos.

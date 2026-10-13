@@ -20,7 +20,7 @@ Gracias a la pull-up interna del Arduino, un pulsador necesita solo **dos cables
 
 ## Esquema de conexión
 
-![Esquema: pulsador conectado al pin 2 y a GND del Arduino](/img/guias/sensores/pulsadores/conexion.svg)
+<img src="/img/guias/sensores/pulsadores/conexion.svg" alt="Esquema: pulsador conectado al pin 2 y a GND del Arduino" />
 
 | Pulsador | Arduino |
 |---|---|

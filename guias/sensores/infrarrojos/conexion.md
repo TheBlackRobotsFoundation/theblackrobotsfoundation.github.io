@@ -20,7 +20,7 @@ Puedes usar solo la salida digital, solo la analógica o las dos. En el esquema 
 
 ## Esquema de conexión
 
-![Esquema: TCRT5000 conectado a 5 V, GND, pin 2 y A0](/img/guias/sensores/infrarrojos/conexion.svg)
+<img src="/img/guias/sensores/infrarrojos/conexion.svg" alt="Esquema: TCRT5000 conectado a 5 V, GND, pin 2 y A0" />
 
 | TCRT5000 | Arduino |
 |---|---|

@@ -19,7 +19,7 @@ sidebar_custom_props:
 
 ## Esquema de conexión
 
-![Esquema: batería LiPo al ESC, ESC al motor y cable de servo al Arduino](/img/guias/actuadores/brushless/conexion.svg)
+<img src="/img/guias/actuadores/brushless/conexion.svg" alt="Esquema: batería LiPo al ESC, ESC al motor y cable de servo al Arduino" />
 
 ### Potencia
 

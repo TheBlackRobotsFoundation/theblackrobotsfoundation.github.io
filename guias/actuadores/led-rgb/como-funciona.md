@@ -11,7 +11,7 @@ sidebar_custom_props:
 
 La luz se mezcla de forma **aditiva**: sumando colores obtienes otros más claros, y los tres a la vez dan **blanco**.
 
-![Mezcla aditiva de rojo, verde y azul y los valores de algunos colores](/img/guias/actuadores/led-rgb/mezcla.svg)
+<img src="/img/guias/actuadores/led-rgb/mezcla.svg" alt="Mezcla aditiva de rojo, verde y azul y los valores de algunos colores" />
 
 Cada canal va de **0** (apagado) a **255** (máximo brillo), igual que el [PWM](/guias/electronica/pwm) de `analogWrite()`. Con tres canales hay más de **16 millones** de combinaciones (256 × 256 × 256).
 

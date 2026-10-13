@@ -11,7 +11,7 @@ Un **LiDAR** (*Light Detection and Ranging*, detección y medida por luz) mide d
 
 El resultado es un "mapa" plano del entorno, actualizado varias veces por segundo. Es el sensor con el que los robots aspiradora, los robots de almacén y el [Rover](/proyectos/rover-web/guides/getting-started/hardware-setup) saben dónde están las paredes y los obstáculos.
 
-![RPLIDAR A1 visto desde arriba, con su cabeza giratoria, el motor, la base y el conector](/img/guias/sensores/lidar/anatomia.svg)
+<img src="/img/guias/sensores/lidar/anatomia.svg" alt="RPLIDAR A1 visto desde arriba, con su cabeza giratoria, el motor, la base y el conector" />
 
 ## El RPLIDAR A1
 

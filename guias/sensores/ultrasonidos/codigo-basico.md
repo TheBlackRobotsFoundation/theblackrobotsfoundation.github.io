@@ -114,4 +114,4 @@ La librería **NewPing** (Administrar Bibliotecas) simplifica todo esto a una l�
 
 ## ¿Y ahora qué?
 
-Con este sensor, dos [motores DC](/guias/actuadores/motores-dc) y un driver ya tienes lo necesario para el [robot esquiva-obstáculos](/guias/proyecto-esquiva-obstaculos).
+Con este sensor, dos [motores DC](/guias/actuadores/motores-dc) y un driver ya tienes lo necesario para un robot que esquiva obstáculos.

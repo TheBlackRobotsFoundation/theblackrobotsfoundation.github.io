@@ -19,7 +19,7 @@ Con el módulo de 3 pines, la conexión es directa: alimentación, datos y GND.
 
 ## Esquema de conexión
 
-![Esquema: módulo DHT22 conectado a 5 V, pin 2 y GND](/img/guias/sensores/temperatura/conexion.svg)
+<img src="/img/guias/sensores/temperatura/conexion.svg" alt="Esquema: módulo DHT22 conectado a 5 V, pin 2 y GND" />
 
 | DHT22 | Arduino |
 |---|---|

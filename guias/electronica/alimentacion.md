@@ -32,7 +32,7 @@ Un motor arrancando consume picos de corriente muy altos. Si sale del Arduino, l
 
 Cuando usas dos fuentes, **une sus GND**. La tensión siempre se mide respecto a una referencia, y si cada parte tiene la suya, las señales llegan sin sentido.
 
-![Arduino, driver y fuente de motores con todas las masas unidas](/img/guias/electronica/gnd-comun.svg)
+<img src="/img/guias/electronica/gnd-comun.svg" alt="Arduino, driver y fuente de motores con todas las masas unidas" />
 
 :::caution
 Une las **masas (GND)**, y solo las masas. El positivo de la fuente de motores va únicamente al driver.

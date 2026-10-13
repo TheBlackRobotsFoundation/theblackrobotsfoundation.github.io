@@ -15,7 +15,7 @@ Cuando el pulsador está suelto, el pin se queda **desconectado de todo**. Un pi
 
 La solución es una resistencia que lleve el pin a un valor conocido mientras el pulsador está suelto.
 
-![Circuitos pull-up y pull-down](/img/guias/sensores/pulsadores/pull-up-pull-down.svg)
+<img src="/img/guias/sensores/pulsadores/pull-up-pull-down.svg" alt="Circuitos pull-up y pull-down" />
 
 ### Pull-up
 
@@ -43,7 +43,7 @@ Con `INPUT_PULLUP`, **pulsado = LOW** y **suelto = HIGH**. Al principio despista
 
 Los contactos de un pulsador son dos láminas de metal. Al cerrarse, **rebotan** unas cuantas veces durante unos milisegundos antes de quedarse quietas:
 
-![Señal de un pulsador con rebotes al pulsar](/img/guias/sensores/pulsadores/rebote.svg)
+<img src="/img/guias/sensores/pulsadores/rebote.svg" alt="Señal de un pulsador con rebotes al pulsar" />
 
 El Arduino es tan rápido que ve cada rebote como una pulsación distinta. Si cuentas pulsaciones, una sola puede sumar 3 o 4.
 

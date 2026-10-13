@@ -22,7 +22,7 @@ Dos reglas que usarás todo el rato:
 
 Para invertir la polaridad sin tocar cables se usa un circuito llamado **puente H**: cuatro interruptores (transistores) colocados en forma de H, con el motor en el centro.
 
-![Puente H: cerrando S1 y S4 gira hacia delante; cerrando S2 y S3, hacia atrás](/img/guias/actuadores/motores-dc/puente-h.svg)
+<img src="/img/guias/actuadores/motores-dc/puente-h.svg" alt="Puente H: cerrando S1 y S4 gira hacia delante; cerrando S2 y S3, hacia atrás" />
 
 - Cerrando **S1 y S4**, la corriente cruza el motor de izquierda a derecha
 - Cerrando **S2 y S3**, lo cruza al revés

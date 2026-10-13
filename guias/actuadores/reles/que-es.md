@@ -11,7 +11,7 @@ Un **relé** es un **interruptor que se acciona con electricidad**. Una señal p
 
 Los dos circuitos quedan **separados**: el Arduino solo controla el interruptor; la corriente de la carga pasa por los contactos del relé.
 
-![Módulo de relé con el relé, el LED, las bornas de potencia y los pines de control](/img/guias/actuadores/reles/anatomia.svg)
+<img src="/img/guias/actuadores/reles/anatomia.svg" alt="Módulo de relé con el relé, el LED, las bornas de potencia y los pines de control" />
 
 ## El módulo de relé
 

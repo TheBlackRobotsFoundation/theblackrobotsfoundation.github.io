@@ -19,7 +19,7 @@ Dos cables, igual que un pulsador: **COM** a GND y **NO** a un pin digital.
 
 ## Esquema de conexión
 
-![Esquema: final de carrera con COM a GND y NO al pin 2](/img/guias/sensores/finales-de-carrera/conexion.svg)
+<img src="/img/guias/sensores/finales-de-carrera/conexion.svg" alt="Esquema: final de carrera con COM a GND y NO al pin 2" />
 
 | Final de carrera | Arduino |
 |---|---|

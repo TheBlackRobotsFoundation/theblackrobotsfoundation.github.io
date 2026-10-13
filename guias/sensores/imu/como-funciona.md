@@ -11,7 +11,7 @@ Dentro del chip hay estructuras microscópicas de silicio (tecnología **MEMS**)
 
 ## Los tres ejes y los tres giros
 
-![Ejes X, Y y Z del sensor y los giros roll, pitch y yaw](/img/guias/sensores/imu/ejes.svg)
+<img src="/img/guias/sensores/imu/ejes.svg" alt="Ejes X, Y y Z del sensor y los giros roll, pitch y yaw" />
 
 Cada sensor mide en los tres ejes. Para los giros se usan los nombres de la aviación:
 
@@ -43,7 +43,7 @@ El giroscopio mide **velocidad de giro**, en grados por segundo. Para saber el �
 
 ## La fusión: lo mejor de cada uno
 
-![Con el sensor quieto, el acelerómetro da ruido, el giroscopio deriva y la fusión se mantiene estable](/img/guias/sensores/imu/fusion.svg)
+<img src="/img/guias/sensores/imu/fusion.svg" alt="Con el sensor quieto, el acelerómetro da ruido, el giroscopio deriva y la fusión se mantiene estable" />
 
 Combinándolos se obtiene una medida suave **y** estable. La forma más sencilla es el **filtro complementario**:
 

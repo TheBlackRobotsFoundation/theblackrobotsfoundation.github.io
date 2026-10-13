@@ -19,7 +19,7 @@ Cuatro cables: dos de alimentación y dos de señal.
 
 ## Esquema de conexión
 
-![Esquema: HC-SR04 conectado a 5 V, pines 10 y 9 y GND](/img/guias/sensores/ultrasonidos/conexion.svg)
+<img src="/img/guias/sensores/ultrasonidos/conexion.svg" alt="Esquema: HC-SR04 conectado a 5 V, pines 10 y 9 y GND" />
 
 | HC-SR04 | Arduino |
 |---|---|
