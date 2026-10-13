@@ -17,6 +17,8 @@ Los topics son un flujo continuo de mensajes. Para lo demás, ROS 2 tiene otras 
 | Cuándo | datos continuos: sensores, velocidades | órdenes puntuales: pausar, reiniciar | tareas largas: navegar a un punto |
 | Ejemplo | `/scan`, `/cmd_vel` | `/pausa` | `navigate_to_pose` de Nav2 |
 
+Las acciones tienen su propia sección: [acciones](./acciones).
+
 ## Probar servicios de turtlesim
 
 Con `turtlesim_node` en marcha:

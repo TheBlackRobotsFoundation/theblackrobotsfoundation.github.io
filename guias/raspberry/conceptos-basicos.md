@@ -109,9 +109,17 @@ pip install nombre-de-la-libreria
 
 `--system-site-packages` le permite usar también las librerías del sistema, como `gpiozero`.
 
-## Programar desde tu ordenador
+## Editores para programar
 
-La extensión **Remote - SSH** de Visual Studio Code abre las carpetas de la Raspberry en el editor de tu ordenador, con su terminal integrada. Programar así es mucho más cómodo que con `nano`.
+| Editor | Cuándo |
+|---|---|
+| **Thonny** | con pantalla. Viene instalado, ejecuta con un botón y muestra las variables |
+| **Visual Studio Code** | con pantalla (se instala con `sudo apt install code`) o desde tu ordenador con la extensión **Remote - SSH**, que abre las carpetas de la Raspberry como si fueran tuyas |
+| **nano** | por SSH, para cambios rápidos en la terminal |
+
+## Ver su escritorio desde tu ordenador
+
+Con **Raspberry Pi Connect** ves y controlas el escritorio de la Raspberry desde el navegador de tu ordenador, sin pantalla conectada a ella. Viene con Raspberry Pi OS: actívalo desde el icono de la barra superior e inicia sesión con una cuenta de Raspberry Pi.
 
 ## ¿Y ahora qué?
 

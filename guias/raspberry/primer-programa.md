@@ -26,11 +26,10 @@ Los pines de la Raspberry trabajan a **3,3 V**. Conectarles 5 V los daña. Un LE
 
 ## 1. Hacer parpadear el LED
 
-Crea el archivo con el editor `nano`:
+Abre un editor y crea el archivo `parpadeo.py`:
 
-```bash
-nano parpadeo.py
-```
+- **Con pantalla**: abre **Thonny** desde el menú de programación
+- **Por SSH**: usa el editor de la terminal, con `nano parpadeo.py`
 
 Escribe el programa:
 
@@ -47,13 +46,13 @@ while True:
     sleep(1)
 ```
 
-Guarda con **Ctrl+O** y **Enter**, sal con **Ctrl+X** y ejecútalo:
+En Thonny, pulsa **Run** (el botón verde). En `nano`, guarda con **Ctrl+O** y **Enter**, sal con **Ctrl+X** y ejecútalo:
 
 ```bash
 python3 parpadeo.py
 ```
 
-El LED parpadea cada segundo. Para pararlo, pulsa **Ctrl+C**.
+El LED parpadea cada segundo. Para pararlo, pulsa **Stop** en Thonny o **Ctrl+C** en la terminal.
 
 - `gpiozero` es la librería de Python para los pines de la Raspberry. Viene instalada en Raspberry Pi OS. En Ubuntu se instala con `sudo apt install python3-gpiozero python3-lgpio`
 - `LED(18)` prepara el GPIO18 como salida
@@ -102,5 +101,5 @@ while True:
 | Lenguaje | C++ | Python |
 | Dónde corre | directamente en el chip | dentro de Linux, como un programa más |
 | Subir el programa | compilar y enviar por USB | guardar el archivo y ejecutarlo |
-| Parar | desenchufar o subir otro | Ctrl+C |
+| Parar | desenchufar o subir otro | Stop o Ctrl+C |
 | Varios programas a la vez | uno | todos los que quieras |

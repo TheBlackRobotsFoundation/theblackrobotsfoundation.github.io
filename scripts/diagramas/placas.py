@@ -113,7 +113,7 @@ class CabeceraRPi:
     pin(n) devuelve el centro del pin físico n.
     """
 
-    def __init__(self, fig, x, y, used=(), paso=18, ancho=None):
+    def __init__(self, fig, x, y, used=(), paso=18, ancho=None, etiquetas=True):
         self.f, self.x, self.y, self.p = fig, x, y, paso
         self.used = set(used)
         self.pins = {}
@@ -132,7 +132,7 @@ class CabeceraRPi:
                 f.rect(px - 5, py - 5, 10, 10, fill=col if hot else '#2e2e2e', stroke=col, sw=1.2, rx=1.5)
                 self.pins[n] = (px, py)
                 lab = GPIO40[n].replace('GPIO', '')
-                if hot:
+                if hot and etiquetas:
                     ly = y + 46 + 2 * paso + 14
                     f.text(px + 3.5, ly, f'{n} · {GPIO40[n]}', size=9, weight=600, anchor='end', rotate=-90, fill=C['text'])
         f.text(hx - 12, y + 46 + 2 + paso * 1.5 + 4, '1', size=9, fill=C['muted'], anchor='end')
@@ -140,3 +140,36 @@ class CabeceraRPi:
 
     def pin(self, n):
         return self.pins[n]
+
+
+def mpu6050_girado(fig):
+    """GY-521 girado 180 grados: pines arriba, en orden inverso (INT ... VCC)."""
+    PCB, EDGE = '#14202b', '#3e5466'
+    fig.rect(0, 0, 112, 84, fill=PCB, stroke=EDGE, rx=4)
+    for cx in (10, 102):
+        fig.circle(cx, 74, 4, fill=C['dark'], stroke=EDGE, sw=1)
+    fig.rect(42, 40, 28, 28, fill='#101010', stroke='#5a5a5a', rx=2)
+    fig.circle(65, 63, 1.6, fill='#666', stroke='none', sw=0)
+    fig.rect(12, 26, 12, 8, fill='#101010', stroke='#555', sw=1, rx=1)
+    fig.text(90, 62, 'MPU6050', size=7, fill='#9fb3c8', anchor='middle')
+    names = ['INT', 'AD0', 'XCL', 'XDA', 'SDA', 'SCL', 'GND', 'VCC']
+    out = {}
+    for i, n in enumerate(names):
+        x = 7 + i * 14
+        fig.text(x, 18, n, size=5.6, fill='#9fb3c8', anchor='middle')
+        fig.line(x, 0, x, -12, stroke=METAL, sw=2.2)
+        fig.rect(x - 4, -16, 8, 8, fill=C['accent'], stroke='none', sw=0, rx=1)
+        out[n] = (x, -12)
+    return out
+
+
+def camara_rpi(fig):
+    """Camera Module 3 (60x56) con su cable plano saliendo por abajo."""
+    fig.rect(0, 0, 60, 56, fill='#14301f', stroke='#3f6b4f', rx=3)
+    for cx, cy in ((6, 6), (54, 6), (6, 30), (54, 30)):
+        fig.circle(cx, cy, 2.4, fill=C['dark'], stroke='#c9a24a', sw=1)
+    fig.rect(18, 8, 24, 24, fill='#1a1a1a', stroke='#555', rx=2)
+    fig.circle(30, 20, 9, fill='#0d0d0d', stroke='#777', sw=1.5)
+    fig.circle(30, 20, 4, fill='#2a3a5a', stroke='none', sw=0)
+    fig.rect(14, 46, 32, 10, fill='#e8e8e8', stroke='#999', rx=1)
+    return {'cable': (30, 56)}

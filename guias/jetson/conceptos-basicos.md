@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 5
 title: Conceptos básicos
 sidebar_custom_props:
   icon: /img/guias/iconos/conceptos.svg

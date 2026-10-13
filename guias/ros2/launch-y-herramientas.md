@@ -1,5 +1,5 @@
 ---
-sidebar_position: 6
+sidebar_position: 8
 title: Launch y herramientas
 sidebar_custom_props:
   icon: /img/guias/iconos/requisitos.svg
@@ -110,7 +110,7 @@ Abre una ventana en la que añades complementos desde el menú **Plugins**:
 rviz2
 ```
 
-Con **Add** se añaden visualizaciones. En la guía de [URDF](/guias/urdf) lo usarás para ver el modelo de tu propio robot.
+Con **Add** se añaden visualizaciones. En [tu robot en RViz](./robot-en-rviz) lo usarás para ver y mover el modelo de tu propio robot.
 
 ## Varios ordenadores en la misma red
 

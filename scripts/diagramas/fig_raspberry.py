@@ -36,30 +36,79 @@ f.text(680, 292, 'más potencia de cálculo', size=10.5, fill=C['dim'], anchor='
 f.save(D + 'tres-cerebros.svg')
 
 # --- instalación -------------------------------------------------------------
-f = Fig(680, 230)
-def paso(x, n, t, sub):
-    f.circle(x, 34, 13, fill=C['body2'], stroke=C['accent'], sw=1.5)
-    f.text(x, 39, str(n), size=12, weight=600, anchor='middle')
-    f.text(x, 196, t, size=13, weight=600, anchor='middle')
-    f.text(x, 214, sub, size=10.5, fill=C['muted'], anchor='middle')
-place(f, ordenador, 30, 70, s=0.75)
-paso(90, 1, 'Raspberry Pi Imager', 'graba el sistema')
-# microSD
-f.path('M 268 80 L 302 80 L 312 90 L 312 140 L 268 140 Z', fill='#1d1d1d', stroke=C['accent'], sw=1.5)
+def monitor(f, x, y, w=120, h=80):
+    f.rect(x, y, w, h, fill='#141414', stroke=C['edge'], rx=5)
+    f.rect(x + 7, y + 7, w - 14, h - 14, fill='#0d0d0d', stroke='#2e2e2e', rx=2)
+    f.rect(x + w / 2 - 8, y + h, 16, 12, fill='#1c1c1c', stroke=C['edge'], sw=1)
+    f.rect(x + w / 2 - 30, y + h + 12, 60, 6, fill='#1c1c1c', stroke=C['edge'], sw=1, rx=2)
+
+
+def teclado(f, x, y, w=120):
+    f.rect(x, y, w, 34, fill='#161616', stroke=C['edge'], rx=4)
+    for r in range(3):
+        for c in range(int((w - 12) / 11)):
+            f.rect(x + 6 + c * 11, y + 5 + r * 9, 8, 6, fill='#2a2a2a', stroke='none', sw=0, rx=1)
+
+
+def raton(f, x, y):
+    f.rect(x, y, 24, 36, fill='#161616', stroke=C['edge'], rx=12)
+    f.line(x + 12, y + 2, x + 12, y + 14, stroke=C['edge'], sw=1)
+
+
+f = Fig(680, 400)
+def paso(x, y, n, t, sub):
+    f.circle(x, y, 13, fill=C['body2'], stroke=C['accent'], sw=1.5)
+    f.text(x, y + 5, str(n), size=12, weight=600, anchor='middle')
+    f.text(x, y + 150, t, size=13, weight=600, anchor='middle')
+    f.text(x, y + 168, sub, size=10.5, fill=C['muted'], anchor='middle')
+place(f, ordenador, 40, 60, s=0.75)
+paso(100, 30, 1, 'Raspberry Pi Imager', 'graba el sistema')
+f.path('M 318 70 L 352 70 L 362 80 L 362 130 L 318 130 Z', fill='#1d1d1d', stroke=C['accent'], sw=1.5)
 for i in range(5):
-    f.rect(272 + i * 7, 84, 4, 12, fill='#c9a24a', stroke='none', sw=0)
-f.text(290, 126, 'SD', size=11, fill=C['muted'], anchor='middle')
-paso(290, 2, 'microSD', 'con Wi-Fi y SSH ya configurados')
-place(f, raspberry, 400, 74, s=0.35)
-paso(460, 3, 'Primer arranque', 'se conecta solo a tu red')
-f.rect(570, 76, 92, 64, fill=C['body'], stroke=C['edge'], rx=4)
-f.text(580, 98, '$ ssh', size=11, mono=True, fill=WIRE['c'])
-f.text(580, 116, 'pi@robot', size=11, mono=True, fill=C['accent'])
-f.text(580, 132, '.local', size=11, mono=True, fill=C['accent'])
-paso(616, 4, 'SSH', 'la controlas desde tu PC')
-for x0, x1 in ((158, 256), (326, 390), (530, 562)):
-    f.line(x0, 110, x1, 110, stroke=C['dim'], sw=1.5, arrow='end')
+    f.rect(322 + i * 7, 74, 4, 12, fill='#c9a24a', stroke='none', sw=0)
+f.text(340, 116, 'SD', size=11, fill=C['muted'], anchor='middle')
+paso(340, 30, 2, 'microSD', 'se la pones a la Raspberry')
+place(f, raspberry, 500, 62, s=0.4)
+paso(568, 30, 3, 'Primer arranque', 'el sistema termina de prepararse')
+for x0, x1 in ((168, 304), (376, 490)):
+    f.line(x0, 100, x1, 100, stroke=C['dim'], sw=1.5, arrow='end')
+# bifurcación
+f.path('M 568 216 L 568 236 L 180 236 L 180 256', stroke=C['dim'], sw=1.5, arrow='end')
+f.path('M 568 236 L 500 236 L 500 256', stroke=C['dim'], sw=1.5, arrow='end')
+f.text(340, 228, 'y la usas como prefieras', size=10.5, fill=C['dim'], anchor='middle')
+monitor(f, 60, 262, w=110, h=62)
+teclado(f, 180, 300, w=86)
+raton(f, 274, 298)
+f.text(180, 372, 'Con pantalla, teclado y ratón', size=13, weight=600, anchor='middle')
+f.text(180, 390, 'como un ordenador de escritorio', size=10.5, fill=C['muted'], anchor='middle')
+f.rect(440, 266, 120, 64, fill=C['body'], stroke=C['edge'], rx=4)
+f.text(452, 290, '$ ssh', size=11, mono=True, fill=WIRE['c'])
+f.text(452, 308, 'usuario@robot', size=11, mono=True, fill=C['accent'])
+f.text(500, 372, 'A distancia, por SSH', size=13, weight=600, anchor='middle')
+f.text(500, 390, 'desde la terminal de tu ordenador', size=10.5, fill=C['muted'], anchor='middle')
 f.save(D + 'instalacion.svg')
+
+# --- conexiones para usarla con pantalla ----------------------------------------
+f = Fig(680, 380)
+pi = place(f, raspberry, 230, 110, s=0.75)
+monitor(f, 20, 20, w=160, h=104)
+teclado(f, 490, 40, w=150)
+raton(f, 600, 100)
+# alimentación (USB-C, el conector de la izquierda)
+uc = (230 + 39 * 0.75, 110 + 230 * 0.75)
+f.wire([uc, (uc[0], 306), (200, 306)], 'vcc', sw=4)
+f.rect(110, 290, 90, 32, fill='#1f1f1f', stroke=C['edge'], rx=4)
+f.text(155, 311, '5 V · 5 A', size=11, weight=600, anchor='middle')
+f.text(155, 282, 'USB-C', size=11, fill=C['muted'], anchor='middle')
+# micro-HDMI -> pantalla
+hd = (230 + 89 * 0.75, 110 + 230 * 0.75)
+f.wire([hd, (hd[0], 346), (100, 346), (100, 160)], '#8a8a8a', sw=4)
+f.text(200, 366, 'micro-HDMI → HDMI', size=11, fill=C['muted'], anchor='middle')
+# USB -> teclado y ratón
+f.wire([(230 + 350 * 0.75, 110 + 30 * 0.75), (565, 132), (565, 76)], '#8a8a8a', sw=4)
+f.wire([(230 + 350 * 0.75, 110 + 50 * 0.75), (612, 148), (612, 138)], '#8a8a8a', sw=4)
+f.text(600, 176, 'USB', size=11, fill=C['muted'], anchor='middle')
+f.save(D + 'escritorio.svg')
 
 # --- pinout ------------------------------------------------------------------
 f = Fig(640, 560)

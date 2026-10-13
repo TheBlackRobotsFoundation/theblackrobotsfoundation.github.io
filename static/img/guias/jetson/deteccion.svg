@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 330" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<rect x="20" y="20" width="440" height="290" rx="4" fill="#101418" stroke="#4a4a4a" stroke-width="1.5"/>
+<rect x="20" y="220" width="440" height="90" rx="2" fill="#151a1e" stroke="none" stroke-width="0"/>
+<circle cx="120" cy="112" r="22" fill="#3a4450" stroke="none" stroke-width="0"/>
+<rect x="92" y="138" width="56" height="110" rx="14" fill="#3a4450" stroke="none" stroke-width="0"/>
+<rect x="250" y="200" width="160" height="10" rx="2" fill="#2a3036" stroke="none" stroke-width="0"/>
+<rect x="300" y="168" width="30" height="32" rx="4" fill="#4a5560" stroke="none" stroke-width="0"/>
+<path d="M 330 176 Q 344 184 330 192" fill="none" stroke="#4a5560" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="250" y="248" width="90" height="40" rx="14" fill="#3f3a34" stroke="none" stroke-width="0"/>
+<circle cx="345" cy="246" r="16" fill="#3f3a34" stroke="none" stroke-width="0"/>
+<rect x="262" y="280" width="10" height="22" rx="3" fill="#3f3a34" stroke="none" stroke-width="0"/>
+<rect x="320" y="280" width="10" height="22" rx="3" fill="#3f3a34" stroke="none" stroke-width="0"/>
+<rect x="84" y="84" width="74" height="170" rx="2" fill="none" stroke="#6cc08b" stroke-width="2.2"/>
+<rect x="83" y="66" width="94" height="18" rx="2" fill="#6cc08b" stroke="none" stroke-width="0"/>
+<text x="88" y="79" fill="#0a0a0a" font-size="11" text-anchor="start" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">persona 0.91</text>
+<rect x="294" y="162" width="54" height="42" rx="2" fill="none" stroke="#e3b341" stroke-width="2.2"/>
+<rect x="293" y="144" width="73" height="18" rx="2" fill="#e3b341" stroke="none" stroke-width="0"/>
+<text x="298" y="157" fill="#0a0a0a" font-size="11" text-anchor="start" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">taza 0.84</text>
+<rect x="240" y="226" width="128" height="80" rx="2" fill="none" stroke="#5fa8d3" stroke-width="2.2"/>
+<rect x="239" y="208" width="80" height="18" rx="2" fill="#5fa8d3" stroke="none" stroke-width="0"/>
+<text x="244" y="221" fill="#0a0a0a" font-size="11" text-anchor="start" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">perro 0.88</text>
+<text x="490" y="60" fill="#ffffff" font-size="14" text-anchor="start" font-weight="600">Cada fotograma</text>
+<text x="490" y="82" fill="#909090" font-size="12" text-anchor="start">pasa por la red neuronal</text>
+<text x="490" y="100" fill="#909090" font-size="12" text-anchor="start">y sale con una lista:</text>
+<circle cx="496" cy="132" r="3.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="508" y="136" fill="#ffffff" font-size="12" text-anchor="start">qué es</text>
+<circle cx="496" cy="158" r="3.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="508" y="162" fill="#ffffff" font-size="12" text-anchor="start">dónde está</text>
+<circle cx="496" cy="184" r="3.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="508" y="188" fill="#ffffff" font-size="12" text-anchor="start">con qué seguridad</text>
+<text x="490" y="240" fill="#5a5a5a" font-size="11" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">yolo11n en una Jetson</text>
+<text x="490" y="258" fill="#5a5a5a" font-size="11" text-anchor="start">decenas de fotogramas</text>
+<text x="490" y="274" fill="#5a5a5a" font-size="11" text-anchor="start">por segundo</text>
+</svg>

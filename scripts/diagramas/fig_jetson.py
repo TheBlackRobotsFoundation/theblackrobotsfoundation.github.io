@@ -50,3 +50,39 @@ for i, (t, sub, col, bg) in enumerate(capas):
 f.path('M 100 76 L 92 76 L 92 250 L 100 250', stroke=C['dim'], sw=1.5)
 f.text(84, 168, 'JetPack', size=12, weight=600, anchor='middle', rotate=-90, fill='#76b900')
 f.save(D + 'jetpack.svg')
+
+# --- detección de objetos --------------------------------------------------------
+f = Fig(680, 330)
+f.rect(20, 20, 440, 290, fill='#101418', stroke=C['edge'], rx=4)
+# suelo y pared
+f.rect(20, 220, 440, 90, fill='#151a1e', stroke='none', sw=0)
+# persona
+f.circle(120, 112, 22, fill='#3a4450', stroke='none', sw=0)
+f.rect(92, 138, 56, 110, fill='#3a4450', stroke='none', sw=0, rx=14)
+# taza sobre una mesa
+f.rect(250, 200, 160, 10, fill='#2a3036', stroke='none', sw=0, rx=2)
+f.rect(300, 168, 30, 32, fill='#4a5560', stroke='none', sw=0, rx=4)
+f.path('M 330 176 Q 344 184 330 192', stroke='#4a5560', sw=5)
+# perro
+f.rect(250, 248, 90, 40, fill='#3f3a34', stroke='none', sw=0, rx=14)
+f.circle(345, 246, 16, fill='#3f3a34', stroke='none', sw=0)
+for x in (262, 320):
+    f.rect(x, 280, 10, 22, fill='#3f3a34', stroke='none', sw=0, rx=3)
+def caja(x, y, w, h, t, k):
+    f.rect(x, y, w, h, fill='none', stroke=WIRE[k], sw=2.2, rx=2)
+    f.rect(x - 1, y - 18, len(t) * 7 + 10, 18, fill=WIRE[k], stroke='none', sw=0, rx=2)
+    f.text(x + 4, y - 5, t, size=11, weight=600, fill=C['dark'], mono=True)
+caja(84, 84, 74, 170, 'persona 0.91', 'c')
+caja(294, 162, 54, 42, 'taza 0.84', 'a')
+caja(240, 226, 128, 80, 'perro 0.88', 'b')
+f.text(490, 60, 'Cada fotograma', size=14, weight=600)
+f.text(490, 82, 'pasa por la red neuronal', size=12, fill=C['muted'])
+f.text(490, 100, 'y sale con una lista:', size=12, fill=C['muted'])
+for i, (t, k) in enumerate((('qué es', 'c'), ('dónde está', 'a'), ('con qué seguridad', 'b'))):
+    y = 136 + i * 26
+    f.circle(496, y - 4, 3.5, fill=C['accent'], stroke='none', sw=0)
+    f.text(508, y, t, size=12)
+f.text(490, 240, 'yolo11n en una Jetson', size=11, fill=C['dim'], mono=True)
+f.text(490, 258, 'decenas de fotogramas', size=11, fill=C['dim'])
+f.text(490, 274, 'por segundo', size=11, fill=C['dim'])
+f.save(D + 'deteccion.svg')

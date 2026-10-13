@@ -1,5 +1,5 @@
 ---
-sidebar_position: 7
+sidebar_position: 12
 title: ROS 2 y Arduino
 sidebar_custom_props:
   icon: /img/guias/iconos/conexion.svg

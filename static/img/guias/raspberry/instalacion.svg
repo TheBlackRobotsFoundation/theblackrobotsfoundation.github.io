@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 230" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 400" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
 <defs><marker id="m5a5a5a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5a5a5a"/></marker></defs>
-<g transform="translate(30 70) rotate(0) scale(0.75)">
+<g transform="translate(40 60) rotate(0) scale(0.75)">
 <rect x="10" y="0" width="140" height="90" rx="5" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
 <rect x="18" y="8" width="124" height="74" rx="2" fill="#0d0d0d" stroke="#2e2e2e" stroke-width="1.5"/>
 <circle cx="105.21389388127568" cy="45.0" r="1.1" fill="#d0d0d0" stroke="none" stroke-width="0"/>
@@ -66,22 +66,22 @@
 <circle cx="80" cy="45" r="2.5" fill="#d9665b" stroke="none" stroke-width="0"/>
 <path d="M 0 98 L 160 98 L 150 90 L 10 90 Z" fill="#1c1c1c" stroke="#4a4a4a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
 </g>
-<circle cx="90" cy="34" r="13" fill="#1c1c1c" stroke="#d0d0d0" stroke-width="1.5"/>
-<text x="90" y="39" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">1</text>
-<text x="90" y="196" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">Raspberry Pi Imager</text>
-<text x="90" y="214" fill="#909090" font-size="10.5" text-anchor="middle">graba el sistema</text>
-<path d="M 268 80 L 302 80 L 312 90 L 312 140 L 268 140 Z" fill="#1d1d1d" stroke="#d0d0d0" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
-<rect x="272" y="84" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
-<rect x="279" y="84" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
-<rect x="286" y="84" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
-<rect x="293" y="84" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
-<rect x="300" y="84" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
-<text x="290" y="126" fill="#909090" font-size="11" text-anchor="middle">SD</text>
-<circle cx="290" cy="34" r="13" fill="#1c1c1c" stroke="#d0d0d0" stroke-width="1.5"/>
-<text x="290" y="39" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">2</text>
-<text x="290" y="196" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">microSD</text>
-<text x="290" y="214" fill="#909090" font-size="10.5" text-anchor="middle">con Wi-Fi y SSH ya configurados</text>
-<g transform="translate(400 74) rotate(0) scale(0.35)">
+<circle cx="100" cy="30" r="13" fill="#1c1c1c" stroke="#d0d0d0" stroke-width="1.5"/>
+<text x="100" y="35" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">1</text>
+<text x="100" y="180" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">Raspberry Pi Imager</text>
+<text x="100" y="198" fill="#909090" font-size="10.5" text-anchor="middle">graba el sistema</text>
+<path d="M 318 70 L 352 70 L 362 80 L 362 130 L 318 130 Z" fill="#1d1d1d" stroke="#d0d0d0" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+<rect x="322" y="74" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
+<rect x="329" y="74" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
+<rect x="336" y="74" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
+<rect x="343" y="74" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
+<rect x="350" y="74" width="4" height="12" rx="2" fill="#c9a24a" stroke="none" stroke-width="0"/>
+<text x="340" y="116" fill="#909090" font-size="11" text-anchor="middle">SD</text>
+<circle cx="340" cy="30" r="13" fill="#1c1c1c" stroke="#d0d0d0" stroke-width="1.5"/>
+<text x="340" y="35" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">2</text>
+<text x="340" y="180" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">microSD</text>
+<text x="340" y="198" fill="#909090" font-size="10.5" text-anchor="middle">se la pones a la Raspberry</text>
+<g transform="translate(500 62) rotate(0) scale(0.4)">
 <rect x="0" y="0" width="340" height="224" rx="10" fill="#14301f" stroke="#3f6b4f" stroke-width="1.5"/>
 <circle cx="14" cy="14" r="6" fill="#0a0a0a" stroke="#c9a24a" stroke-width="1.5"/>
 <circle cx="14" cy="210" r="6" fill="#0a0a0a" stroke="#c9a24a" stroke-width="1.5"/>
@@ -147,19 +147,45 @@
 <rect x="196" y="196" width="26" height="22" rx="1" fill="#e8e8e8" stroke="#999" stroke-width="1.5"/>
 <text x="140" y="168" fill="#cfe3d6" font-size="11" text-anchor="middle" font-weight="600">Raspberry Pi 5</text>
 </g>
-<circle cx="460" cy="34" r="13" fill="#1c1c1c" stroke="#d0d0d0" stroke-width="1.5"/>
-<text x="460" y="39" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">3</text>
-<text x="460" y="196" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">Primer arranque</text>
-<text x="460" y="214" fill="#909090" font-size="10.5" text-anchor="middle">se conecta solo a tu red</text>
-<rect x="570" y="76" width="92" height="64" rx="4" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
-<text x="580" y="98" fill="#6cc08b" font-size="11" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ ssh</text>
-<text x="580" y="116" fill="#d0d0d0" font-size="11" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">pi@robot</text>
-<text x="580" y="132" fill="#d0d0d0" font-size="11" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">.local</text>
-<circle cx="616" cy="34" r="13" fill="#1c1c1c" stroke="#d0d0d0" stroke-width="1.5"/>
-<text x="616" y="39" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">4</text>
-<text x="616" y="196" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">SSH</text>
-<text x="616" y="214" fill="#909090" font-size="10.5" text-anchor="middle">la controlas desde tu PC</text>
-<line x1="158" y1="110" x2="256" y2="110" stroke="#5a5a5a" stroke-width="1.5" stroke-linecap="round" marker-end="url(#m5a5a5a)"/>
-<line x1="326" y1="110" x2="390" y2="110" stroke="#5a5a5a" stroke-width="1.5" stroke-linecap="round" marker-end="url(#m5a5a5a)"/>
-<line x1="530" y1="110" x2="562" y2="110" stroke="#5a5a5a" stroke-width="1.5" stroke-linecap="round" marker-end="url(#m5a5a5a)"/>
+<circle cx="568" cy="30" r="13" fill="#1c1c1c" stroke="#d0d0d0" stroke-width="1.5"/>
+<text x="568" y="35" fill="#ffffff" font-size="12" text-anchor="middle" font-weight="600">3</text>
+<text x="568" y="180" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">Primer arranque</text>
+<text x="568" y="198" fill="#909090" font-size="10.5" text-anchor="middle">el sistema termina de prepararse</text>
+<line x1="168" y1="100" x2="304" y2="100" stroke="#5a5a5a" stroke-width="1.5" stroke-linecap="round" marker-end="url(#m5a5a5a)"/>
+<line x1="376" y1="100" x2="490" y2="100" stroke="#5a5a5a" stroke-width="1.5" stroke-linecap="round" marker-end="url(#m5a5a5a)"/>
+<path d="M 568 216 L 568 236 L 180 236 L 180 256" fill="none" stroke="#5a5a5a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m5a5a5a)"/>
+<path d="M 568 236 L 500 236 L 500 256" fill="none" stroke="#5a5a5a" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m5a5a5a)"/>
+<text x="340" y="228" fill="#5a5a5a" font-size="10.5" text-anchor="middle">y la usas como prefieras</text>
+<rect x="60" y="262" width="110" height="62" rx="5" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+<rect x="67" y="269" width="96" height="48" rx="2" fill="#0d0d0d" stroke="#2e2e2e" stroke-width="1.5"/>
+<rect x="107.0" y="324" width="16" height="12" rx="2" fill="#1c1c1c" stroke="#4a4a4a" stroke-width="1"/>
+<rect x="85.0" y="336" width="60" height="6" rx="2" fill="#1c1c1c" stroke="#4a4a4a" stroke-width="1"/>
+<rect x="180" y="300" width="86" height="34" rx="4" fill="#161616" stroke="#4a4a4a" stroke-width="1.5"/>
+<rect x="186" y="305" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="197" y="305" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="208" y="305" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="219" y="305" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="230" y="305" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="241" y="305" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="186" y="314" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="197" y="314" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="208" y="314" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="219" y="314" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="230" y="314" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="241" y="314" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="186" y="323" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="197" y="323" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="208" y="323" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="219" y="323" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="230" y="323" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="241" y="323" width="8" height="6" rx="1" fill="#2a2a2a" stroke="none" stroke-width="0"/>
+<rect x="274" y="298" width="24" height="36" rx="12" fill="#161616" stroke="#4a4a4a" stroke-width="1.5"/>
+<line x1="286" y1="300" x2="286" y2="312" stroke="#4a4a4a" stroke-width="1" stroke-linecap="round"/>
+<text x="180" y="372" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">Con pantalla, teclado y ratón</text>
+<text x="180" y="390" fill="#909090" font-size="10.5" text-anchor="middle">como un ordenador de escritorio</text>
+<rect x="440" y="266" width="120" height="64" rx="4" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="452" y="290" fill="#6cc08b" font-size="11" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">$ ssh</text>
+<text x="452" y="308" fill="#d0d0d0" font-size="11" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">usuario@robot</text>
+<text x="500" y="372" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">A distancia, por SSH</text>
+<text x="500" y="390" fill="#909090" font-size="10.5" text-anchor="middle">desde la terminal de tu ordenador</text>
 </svg>

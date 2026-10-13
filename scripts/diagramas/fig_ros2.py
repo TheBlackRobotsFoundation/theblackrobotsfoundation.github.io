@@ -123,3 +123,50 @@ f.text(454, 96, '/distancia', size=11, mono=True, fill=WIRE['b'], anchor='middle
 f.text(454, 124, 'sensor_msgs/Range', size=9.5, mono=True, fill=C['dim'], anchor='middle')
 f.text(20, 210, 'el puente lee el puerto serie y publica cada medida en ROS 2', size=11, fill=C['dim'])
 f.save(D + 'arduino-ros.svg')
+
+# --- TF: sistemas de coordenadas ------------------------------------------------
+f = Fig(680, 330)
+def ejes(f, x, y, ang=0, l=34, nombre=None, k='e'):
+    import math
+    a = math.radians(ang)
+    f.line(x, y, x + l * math.cos(a), y - l * math.sin(a), stroke='#d9665b', sw=2.2, arrow='end')
+    f.line(x, y, x - l * math.sin(a), y - l * math.cos(a), stroke='#6cc08b', sw=2.2, arrow='end')
+    f.circle(x, y, 3.5, fill=C['accent'], stroke='none', sw=0)
+    if nombre:
+        f.text(x + 8, y + 18, nombre, size=11, mono=True, fill=C['accent'])
+# robot visto desde arriba, girado 30 grados
+f.rect(20, 20, 330, 290, fill='none', stroke=C['frame'], sw=1)
+f.text(36, 46, 'map', size=11, mono=True, fill=C['muted'])
+ejes(f, 50, 280, 0, l=40)
+f.text(60, 300, 'origen del mapa', size=10, fill=C['dim'])
+f.add('<g transform="rotate(-30 210 170)">')
+f.rect(150, 130, 120, 80, fill=C['body2'], stroke=C['edge'], rx=10)
+f.rect(160, 118, 36, 12, fill='#2a2a2a', stroke='none', sw=0, rx=3)
+f.rect(160, 210, 36, 12, fill='#2a2a2a', stroke='none', sw=0, rx=3)
+f.circle(250, 170, 14, fill='#121212', stroke=C['accent'], sw=1.5)
+f.add('</g>')
+ejes(f, 210, 170, 30, l=46)
+f.text(160, 240, 'base_link', size=11, mono=True, fill=C['accent'])
+import math
+lx, ly = 210 + 40 * math.cos(math.radians(30)), 170 - 40 * math.sin(math.radians(30))
+f.text(lx + 22, ly - 24, 'laser', size=11, mono=True, fill=WIRE['b'])
+f.circle(lx, ly, 4, fill=WIRE['b'], stroke='none', sw=0)
+f.line(lx + 4, ly - 4, lx + 20, ly - 20, stroke=C['dim'], sw=1)
+# árbol
+def nodo_tf(x, y, t, k=None):
+    w = len(t) * 8 + 26
+    f.rect(x - w / 2, y - 15, w, 30, fill=C['body'], stroke=WIRE[k] if k else C['edge'], sw=1.5, rx=15)
+    f.text(x, y + 4, t, size=12, mono=True, anchor='middle', fill=WIRE[k] if k else C['text'])
+nodo_tf(470, 50, 'map')
+nodo_tf(470, 120, 'odom')
+nodo_tf(470, 190, 'base_link', 'e')
+nodo_tf(390, 270, 'laser', 'b')
+nodo_tf(470, 270, 'imu', 'c')
+nodo_tf(560, 270, 'camara', 'a')
+for (x1, y1, x2, y2) in ((470, 65, 470, 104), (470, 135, 470, 174), (455, 205, 400, 254), (470, 205, 470, 254), (485, 205, 550, 254)):
+    f.line(x1, y1, x2, y2, stroke=C['dim'], sw=1.5, arrow='end')
+f.text(510, 54, 'el mapa', size=10.5, fill=C['muted'])
+f.text(510, 124, 'donde empezó a moverse', size=10.5, fill=C['muted'])
+f.text(535, 194, 'el centro del robot', size=10.5, fill=C['muted'])
+f.text(470, 316, 'los sensores, fijos al robot', size=10.5, fill=C['muted'], anchor='middle')
+f.save(D + 'tf.svg')

@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 8
 title: Raspberry Pi y Arduino
 sidebar_custom_props:
   icon: /img/guias/iconos/conexion.svg
