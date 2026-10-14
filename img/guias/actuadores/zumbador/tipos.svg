@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 270" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<rect x="10" y="10" width="300" height="250" rx="2" fill="none" stroke="#242424" stroke-width="1"/>
+<text x="28" y="38" fill="#ffffff" font-size="15" text-anchor="start" font-weight="600">Activo</text>
+<text x="28" y="56" fill="#909090" font-size="12" text-anchor="start">pita solo al darle 5 V</text>
+<circle cx="95" cy="150" r="46" fill="#121212" stroke="#4a4a4a" stroke-width="1.5"/>
+<circle cx="95" cy="150" r="36" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+<circle cx="95" cy="150" r="7" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
+<text x="73" y="128" fill="#909090" font-size="13" text-anchor="middle">+</text>
+<text x="95" y="222" fill="#909090" font-size="10.5" text-anchor="middle">arriba</text>
+<circle cx="225" cy="150" r="46" fill="#0d0d0d" stroke="#4a4a4a" stroke-width="1.5"/>
+<circle cx="225" cy="150" r="30" fill="#151515" stroke="none" stroke-width="0"/>
+<circle cx="215" cy="150" r="3.5" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<circle cx="235" cy="150" r="3.5" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<text x="225" y="222" fill="#909090" font-size="10.5" text-anchor="middle">abajo: sellado en negro</text>
+<rect x="330" y="10" width="300" height="250" rx="2" fill="none" stroke="#242424" stroke-width="1"/>
+<text x="348" y="38" fill="#ffffff" font-size="15" text-anchor="start" font-weight="600">Pasivo</text>
+<text x="348" y="56" fill="#909090" font-size="12" text-anchor="start">suena a la frecuencia que le mandes</text>
+<circle cx="415" cy="150" r="46" fill="#121212" stroke="#4a4a4a" stroke-width="1.5"/>
+<circle cx="415" cy="150" r="36" fill="none" stroke="#2a2a2a" stroke-width="1"/>
+<circle cx="415" cy="150" r="7" fill="#0a0a0a" stroke="#444" stroke-width="1"/>
+<text x="393" y="128" fill="#909090" font-size="13" text-anchor="middle">+</text>
+<text x="415" y="222" fill="#909090" font-size="10.5" text-anchor="middle">arriba</text>
+<circle cx="545" cy="150" r="46" fill="#1f4d2e" stroke="#3f7a52" stroke-width="1.5"/>
+<path d="M 523 130 Q 545 116 563 140" fill="none" stroke="#c9a24a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 527 168 Q 549 180 569 156" fill="none" stroke="#c9a24a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="535" cy="150" r="3.5" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<circle cx="555" cy="150" r="3.5" fill="#bdbdbd" stroke="none" stroke-width="0"/>
+<text x="545" y="222" fill="#909090" font-size="10.5" text-anchor="middle">abajo: placa verde visible</text>
+</svg>
