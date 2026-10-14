@@ -1,0 +1,13 @@
+{
+  "label": "Zumbador",
+  "position": 2,
+  "customProps": {
+    "icon": "/img/guias/iconos/dudas.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Zumbador",
+    "description": "Dale voz a tu robot: pitidos de aviso, alarmas y melodías con un componente diminuto y una sola función.",
+    "slug": "/actuadores/zumbador"
+  }
+}

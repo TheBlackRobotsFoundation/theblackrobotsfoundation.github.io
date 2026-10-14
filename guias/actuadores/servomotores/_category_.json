@@ -1,0 +1,13 @@
+{
+  "label": "Servomotores",
+  "position": 4,
+  "customProps": {
+    "icon": "/img/guias/iconos/configuracion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Servomotores",
+    "description": "Un motor que va al ángulo que le pidas y se queda ahí. La pieza básica de brazos robóticos, pinzas y direcciones.",
+    "slug": "/actuadores/servomotores"
+  }
+}

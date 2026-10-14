@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 280" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<g style="mix-blend-mode:screen">
+<circle cx="180" cy="110" r="62" fill="#ff3b3b" opacity="0.85"/>
+<circle cx="240" cy="110" r="62" fill="#3bff5a" opacity="0.85"/>
+<circle cx="210" cy="162" r="62" fill="#3b6bff" opacity="0.85"/>
+</g>
+<circle cx="380" cy="42" r="8" fill="#ff3b3b" stroke="none" stroke-width="0"/>
+<text x="400" y="46" fill="#d0d0d0" font-size="12" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">255, 0, 0</text>
+<text x="520" y="46" fill="#909090" font-size="12" text-anchor="start">rojo</text>
+<circle cx="380" cy="72" r="8" fill="#3bff5a" stroke="none" stroke-width="0"/>
+<text x="400" y="76" fill="#d0d0d0" font-size="12" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0, 255, 0</text>
+<text x="520" y="76" fill="#909090" font-size="12" text-anchor="start">verde</text>
+<circle cx="380" cy="102" r="8" fill="#3b6bff" stroke="none" stroke-width="0"/>
+<text x="400" y="106" fill="#d0d0d0" font-size="12" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0, 0, 255</text>
+<text x="520" y="106" fill="#909090" font-size="12" text-anchor="start">azul</text>
+<circle cx="380" cy="132" r="8" fill="#ffff3b" stroke="none" stroke-width="0"/>
+<text x="400" y="136" fill="#d0d0d0" font-size="12" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">255, 255, 0</text>
+<text x="520" y="136" fill="#909090" font-size="12" text-anchor="start">amarillo</text>
+<circle cx="380" cy="162" r="8" fill="#3bffff" stroke="none" stroke-width="0"/>
+<text x="400" y="166" fill="#d0d0d0" font-size="12" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">0, 255, 255</text>
+<text x="520" y="166" fill="#909090" font-size="12" text-anchor="start">cian</text>
+<circle cx="380" cy="192" r="8" fill="#ff3bff" stroke="none" stroke-width="0"/>
+<text x="400" y="196" fill="#d0d0d0" font-size="12" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">255, 0, 255</text>
+<text x="520" y="196" fill="#909090" font-size="12" text-anchor="start">magenta</text>
+<circle cx="380" cy="222" r="8" fill="#ffffff" stroke="none" stroke-width="0"/>
+<text x="400" y="226" fill="#d0d0d0" font-size="12" text-anchor="start" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">255, 255, 255</text>
+<text x="520" y="226" fill="#909090" font-size="12" text-anchor="start">blanco</text>
+<text x="380" y="270" fill="#5a5a5a" font-size="10.5" text-anchor="start">valores de rojo, verde y azul (0 – 255)</text>
+</svg>

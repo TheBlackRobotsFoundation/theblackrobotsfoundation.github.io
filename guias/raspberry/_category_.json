@@ -1,0 +1,13 @@
+{
+  "label": "Raspberry Pi",
+  "position": 5,
+  "customProps": {
+    "icon": "/img/guias/iconos/documentacion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Guía de Raspberry Pi",
+    "description": "Un ordenador completo del tamaño de una tarjeta: qué es, cómo instalarlo, tus primeros programas en Python con sus pines y cómo convertirlo en el cerebro de un robot junto a un Arduino.",
+    "slug": "/raspberry"
+  }
+}

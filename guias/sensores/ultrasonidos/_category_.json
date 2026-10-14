@@ -1,0 +1,13 @@
+{
+  "label": "Ultrasonidos",
+  "position": 5,
+  "customProps": {
+    "icon": "/img/guias/iconos/conexion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Sensor de ultrasonidos (HC-SR04)",
+    "description": "Mide distancias como un murciélago: un pulso de sonido, su eco y una cuenta sencilla. El sensor de obstáculos más usado en robots pequeños.",
+    "slug": "/sensores/ultrasonidos"
+  }
+}

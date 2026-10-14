@@ -7,6 +7,7 @@
   "link": {
     "type": "generated-index",
     "title": "Aprendizaje por refuerzo",
-    "description": "Enseñar a un robot a base de premios y castigos, sin decirle cómo hacerlo. De la intuición a un humanoide que aprende a andar, pasando por Q-learning y Stable-Baselines3."
+    "description": "Enseñar a un robot a base de premios y castigos, sin decirle cómo hacerlo. De la intuición a un humanoide que aprende a andar, pasando por Q-learning y Stable-Baselines3.",
+    "slug": "/simulacion-rl/aprendizaje-por-refuerzo"
   }
 }

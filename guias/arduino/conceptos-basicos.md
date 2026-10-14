@@ -45,4 +45,4 @@ Librerías útiles para empezar:
 
 ## ¿Y ahora qué?
 
-Con esto ya tienes la base. Los siguientes pasos naturales son aprender a leer sensores, controlar motores y comunicar el Arduino con el ordenador. Todo eso lo verás aplicado en los proyectos de Black Robots.
+Con esto ya tienes la base. Los siguientes pasos naturales son aprender a leer [sensores](/guias/sensores), controlar [motores](/guias/actuadores) y comunicar el Arduino con un ordenador como la [Raspberry Pi](/guias/raspberry/raspberry-y-arduino). Todo eso lo verás aplicado en los proyectos de Black Robots.

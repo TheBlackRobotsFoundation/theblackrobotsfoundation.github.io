@@ -1,0 +1,13 @@
+{
+  "label": "ROS 2",
+  "position": 7,
+  "customProps": {
+    "icon": "/img/guias/iconos/configuracion.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Guía de ROS 2",
+    "description": "El sistema con el que se programan los robots de verdad: qué es ROS 2, cómo instalarlo, nodos, topics, servicios, tu primer paquete y cómo conectarle un Arduino. Con turtlesim para practicar sin hardware.",
+    "slug": "/ros2"
+  }
+}

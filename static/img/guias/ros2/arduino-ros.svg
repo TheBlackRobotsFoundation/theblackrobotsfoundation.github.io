@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 220" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<defs><marker id="m5fa8d3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#5fa8d3"/></marker></defs>
+<rect x="20" y="70" width="130" height="70" rx="4" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="85" y="100" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">Arduino</text>
+<text x="85" y="118" fill="#909090" font-size="10.5" text-anchor="middle">HC-SR04</text>
+<line x1="152" y1="105" x2="226" y2="105" stroke="#8a8a8a" stroke-width="4" stroke-linecap="round"/>
+<text x="189" y="96" fill="#909090" font-size="10.5" text-anchor="middle">USB</text>
+<text x="189" y="124" fill="#5fa8d3" font-size="10.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">D 42.5</text>
+<rect x="232" y="30" width="430" height="150" rx="6" fill="none" stroke="#242424" stroke-width="1"/>
+<text x="244" y="50" fill="#909090" font-size="11" text-anchor="start">Raspberry Pi o Jetson · ROS 2</text>
+<rect x="245.0" y="79" width="150" height="52" rx="26" fill="#141414" stroke="#5fa8d3" stroke-width="1.5"/>
+<text x="320" y="110" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">puente_arduino</text>
+<rect x="515.0" y="79" width="130" height="52" rx="26" fill="#141414" stroke="#4a4a4a" stroke-width="1.5"/>
+<text x="580" y="110" fill="#ffffff" font-size="13" text-anchor="middle" font-weight="600">vigilante</text>
+<line x1="396" y1="105" x2="512" y2="105" stroke="#5fa8d3" stroke-width="2" stroke-linecap="round" marker-end="url(#m5fa8d3)"/>
+<text x="454" y="96" fill="#5fa8d3" font-size="11" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">/distancia</text>
+<text x="454" y="124" fill="#5a5a5a" font-size="9.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">sensor_msgs/Range</text>
+<text x="20" y="210" fill="#5a5a5a" font-size="11" text-anchor="start">el puente lee el puerto serie y publica cada medida en ROS 2</text>
+</svg>

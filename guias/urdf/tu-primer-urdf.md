@@ -109,3 +109,7 @@ Al cargar el robot en un visor 3D, la base gris y el brazo azul aparecen tal cua
 :::tip
 ¿El brazo aparece medio hundido en la base? Ajusta el `origin` del joint (la altura a la que cuelga) o el `origin` del visual del brazo. En URDF, colocar bien los orígenes es la mitad del trabajo.
 :::
+
+## Verlo en ROS 2
+
+Con ROS 2 instalado, puedes cargar este mismo robot en RViz y mover su brazo desde un nodo: lo tienes paso a paso en [tu robot en RViz](/guias/ros2/robot-en-rviz).

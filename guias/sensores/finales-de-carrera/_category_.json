@@ -1,0 +1,13 @@
+{
+  "label": "Finales de carrera",
+  "position": 7,
+  "customProps": {
+    "icon": "/img/guias/iconos/requisitos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Finales de carrera",
+    "description": "El interruptor que avisa de que una pieza ha llegado al tope. Imprescindible para que una máquina encuentre su posición de inicio.",
+    "slug": "/sensores/finales-de-carrera"
+  }
+}

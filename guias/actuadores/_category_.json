@@ -1,12 +1,13 @@
 {
   "label": "Actuadores",
-  "position": 2,
+  "position": 4,
   "customProps": {
     "icon": "/img/guias/iconos/configuracion.svg"
   },
   "link": {
     "type": "generated-index",
     "title": "Actuadores",
-    "description": "Todo sobre los componentes que hacen que un robot se mueva: motores, servos y más."
+    "description": "Todo lo que hace que un robot se mueva, suene o se ilumine: LEDs, zumbadores, servos, motores DC, motores paso a paso, relés y motores brushless.",
+    "slug": "/actuadores"
   }
 }

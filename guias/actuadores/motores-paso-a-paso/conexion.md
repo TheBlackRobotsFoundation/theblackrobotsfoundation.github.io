@@ -21,7 +21,7 @@ Usaremos el **A4988**, el driver más común para motores NEMA 17.
 
 ## Esquema de conexiones
 
-![Esquema: Arduino + A4988 + motor](/img/guias/motores/esquema-conexion.svg)
+<img src="/img/guias/motores/esquema-conexion.svg" alt="Esquema: Arduino + A4988 + motor" />
 
 ## Conexiones del A4988
 

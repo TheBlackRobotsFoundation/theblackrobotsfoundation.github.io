@@ -1,0 +1,13 @@
+{
+  "label": "Electrónica básica",
+  "position": 2,
+  "customProps": {
+    "icon": "/img/guias/iconos/conceptos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Electrónica básica",
+    "description": "Los conceptos que usarás en todas las demás guías: tensión, corriente, señales digitales y analógicas, PWM, divisores de tensión, protocolos de comunicación y cómo alimentar un robot.",
+    "slug": "/electronica"
+  }
+}

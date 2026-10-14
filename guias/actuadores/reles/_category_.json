@@ -1,0 +1,13 @@
+{
+  "label": "Relés",
+  "position": 7,
+  "customProps": {
+    "icon": "/img/guias/iconos/requisitos.svg"
+  },
+  "link": {
+    "type": "generated-index",
+    "title": "Relés",
+    "description": "Un interruptor que el Arduino acciona por ti: enciende ventiladores, bombas o luces que trabajan con su propia alimentación.",
+    "slug": "/actuadores/reles"
+  }
+}

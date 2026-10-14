@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+
+<g transform="translate(120 40) rotate(0) scale(3)">
+<line x1="14" y1="34" x2="14" y2="70" stroke="#bdbdbd" stroke-width="2.2" stroke-linecap="round"/>
+<line x1="30" y1="34" x2="30" y2="70" stroke="#bdbdbd" stroke-width="2.2" stroke-linecap="round"/>
+<circle cx="22" cy="22" r="17" fill="#2a2418" stroke="#4a4a4a" stroke-width="1.5"/>
+<path d="M 10 14 L 34 14.0 L 34 17.2 L 10 17.2 L 10 20.4 L 34 20.4 L 34 23.599999999999998 L 10 23.6 L 10 26.8 L 34 26.8 L 34 30.0 L 10 30.0 L 10 33.2" fill="none" stroke="#c9a24a" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<line x1="186" y1="80" x2="300" y2="60" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="186" cy="80" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="306" y="64" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">Pista fotosensible</text>
+<text x="306" y="80" fill="#909090" font-size="10.5" text-anchor="start">su resistencia baja con la luz</text>
+<line x1="162" y1="230" x2="300" y2="190" stroke="#5a5a5a" stroke-width="1" stroke-linecap="round"/>
+<circle cx="162" cy="230" r="2.5" fill="#d0d0d0" stroke="none" stroke-width="0"/>
+<text x="306" y="194" fill="#ffffff" font-size="12" text-anchor="start" font-weight="600">2 patas</text>
+<text x="306" y="210" fill="#909090" font-size="10.5" text-anchor="start">sin polaridad: da igual el sentido</text>
+</svg>

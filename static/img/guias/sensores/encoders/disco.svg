@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 260" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+<defs><marker id="m909090" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 L10 5 L0 10 z" fill="#909090"/></marker></defs>
+<path d="M 130 130 L 210.0 130.0 A 80 80 0 0 1 199.3 170.0 Z" fill="#1a1a1a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 199.3 170.0 A 80 80 0 0 1 170.0 199.3 Z" fill="#3a3a3a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 170.0 199.3 A 80 80 0 0 1 130.0 210.0 Z" fill="#1a1a1a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 130.0 210.0 A 80 80 0 0 1 90.0 199.3 Z" fill="#3a3a3a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 90.0 199.3 A 80 80 0 0 1 60.7 170.0 Z" fill="#1a1a1a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 60.7 170.0 A 80 80 0 0 1 50.0 130.0 Z" fill="#3a3a3a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 50.0 130.0 A 80 80 0 0 1 60.7 90.0 Z" fill="#1a1a1a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 60.7 90.0 A 80 80 0 0 1 90.0 60.7 Z" fill="#3a3a3a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 90.0 60.7 A 80 80 0 0 1 130.0 50.0 Z" fill="#1a1a1a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 130.0 50.0 A 80 80 0 0 1 170.0 60.7 Z" fill="#3a3a3a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 170.0 60.7 A 80 80 0 0 1 199.3 90.0 Z" fill="#1a1a1a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<path d="M 130 130 L 199.3 90.0 A 80 80 0 0 1 210.0 130.0 Z" fill="#3a3a3a" stroke="#4a4a4a" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="130" cy="130" r="22" fill="#0a0a0a" stroke="#4a4a4a" stroke-width="1.5"/>
+<path d="M 160 30 A 100 100 0 0 1 230 100" fill="none" stroke="#909090" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round" marker-end="url(#m909090)"/>
+<rect x="226" y="103" width="22" height="18" rx="2" fill="#141414" stroke="#e3b341" stroke-width="2"/>
+<text x="256" y="116" fill="#e3b341" font-size="13" text-anchor="start" font-weight="600">A</text>
+<rect x="222" y="155" width="22" height="18" rx="2" fill="#141414" stroke="#6cc08b" stroke-width="2"/>
+<text x="252" y="168" fill="#6cc08b" font-size="13" text-anchor="start" font-weight="600">B</text>
+<text x="130" y="245" fill="#909090" font-size="11" text-anchor="middle">imanes N y S alternados</text>
+<text x="330" y="70" fill="#ffffff" font-size="13" text-anchor="start" font-weight="600">Al girar, cada sensor ve pasar</text>
+<text x="330" y="90" fill="#ffffff" font-size="13" text-anchor="start" font-weight="600">los polos uno detrás de otro</text>
+<text x="330" y="120" fill="#909090" font-size="12" text-anchor="start">y da un pulso por cada cambio.</text>
+<text x="330" y="150" fill="#909090" font-size="12" text-anchor="start">Contando pulsos sabes cuánto</text>
+<text x="330" y="168" fill="#909090" font-size="12" text-anchor="start">ha girado el eje.</text>
+</svg>
